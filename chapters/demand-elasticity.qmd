@@ -47,7 +47,11 @@ Serving a subscriber costs HK$40 per month. Fixed costs stay the same. Compare c
 
 **Teaching source.** Week 2 covers consumer choice, substitutes, and the Slutsky decomposition. The subscription and cost schedules are new.
 
-::: {.route-nav}
-**Essentials 2 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← What can a price move tell us?](market-prices.html) · [Next · Is the project worth funding?](project-appraisal.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 2 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="market-prices.html" rel="prev">Previous · What can a price move tell us?</a>
+<a href="project-appraisal.html" rel="next">Next · Is the project worth funding?</a></div>
+</nav>
+```

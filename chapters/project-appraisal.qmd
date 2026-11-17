@@ -36,7 +36,11 @@ At 6%, accept under the stated assumptions. At 10%, decline. If a lender also ch
 
 **Teaching source.** Week 3 develops the two-period budget and discounting. The project, funding terms, and household figures are illustrative.
 
-::: {.route-nav}
-**Essentials 3 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Should the firm raise its price?](demand-elasticity.html) · [Next · What is full insurance worth?](risk-insurance.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 3 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="demand-elasticity.html" rel="prev">Previous · Should the firm raise its price?</a>
+<a href="risk-insurance.html" rel="next">Next · What is full insurance worth?</a></div>
+</nav>
+```

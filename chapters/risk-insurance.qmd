@@ -39,7 +39,11 @@ Give the same household an extra 69 before it chooses. Uninsured wealth is now 1
 
 **Teaching source.** Week 3 develops expected utility, certainty equivalents, and Arrow–Pratt risk aversion. The two wealth levels and insurance quotes are illustrative.
 
-::: {.route-nav}
-**Essentials 4 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Is the project worth funding?](project-appraisal.html) · [Next · Why is a recession payoff worth more?](state-prices.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 4 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="project-appraisal.html" rel="prev">Previous · Is the project worth funding?</a>
+<a href="state-prices.html" rel="next">Next · Why is a recession payoff worth more?</a></div>
+</nav>
+```

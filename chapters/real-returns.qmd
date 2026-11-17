@@ -36,7 +36,11 @@ GDP measures domestic value added over a period. A year-end stock of inventories
 
 **Teaching source.** Week 8 introduces national accounts, inflation, and the Fisher relation. Sales, deposit, and price series in this example are illustrative.
 
-::: {.route-nav}
-**Essentials 9 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Can the bank meet withdrawals?](bank-liquidity.html) · [Next · Why did shipments fall?](business-cycle-shocks.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 9 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="bank-liquidity.html" rel="prev">Previous · Can the bank meet withdrawals?</a>
+<a href="business-cycle-shocks.html" rel="next">Next · Why did shipments fall?</a></div>
+</nav>
+```

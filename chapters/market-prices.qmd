@@ -36,7 +36,10 @@ Suppose reported earnings rose from HK$8 to HK$9 per share. If the market expect
 
 **Teaching source.** Week 1 develops market clearing, financial institutions, and the efficient-market hypothesis. The results-day calculations are illustrative.
 
-::: {.route-nav}
-**Essentials 1 of 12**   
-[Essentials route](../curriculum.html#essentials) · [Next · Should the firm raise its price?](demand-elasticity.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 1 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="demand-elasticity.html" rel="next">Next · Should the firm raise its price?</a></div>
+</nav>
+```

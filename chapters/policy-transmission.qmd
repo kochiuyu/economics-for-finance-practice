@@ -37,7 +37,11 @@ A monetary tightening can raise reference rates. Credit reprices on contractual 
 
 **Teaching source.** Week 9 develops monetary and fiscal transmission using IS–LM and IS–MP. Loan terms, the coverage threshold, and EBIT scenarios are illustrative.
 
-::: {.route-nav}
-**Essentials 11 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Why did shipments fall?](business-cycle-shocks.html) · [Next · What does the currency link protect?](hong-kong-exchange-rate.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 11 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="business-cycle-shocks.html" rel="prev">Previous · Why did shipments fall?</a>
+<a href="hong-kong-exchange-rate.html" rel="next">Next · What does the currency link protect?</a></div>
+</nav>
+```

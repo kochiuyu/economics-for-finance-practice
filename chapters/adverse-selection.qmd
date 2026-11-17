@@ -60,7 +60,11 @@ A dealer also faces a selected group. A trader with favorable private informatio
 
 **Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.
 
-::: {.route-nav}
-**Essentials 6 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Why is a recession payoff worth more?](state-prices.html) · [Next · Quote the next trade](dealer-pricing.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 6 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="state-prices.html" rel="prev">Previous · Why is a recession payoff worth more?</a>
+<a href="dealer-pricing.html" rel="next">Next · Quote the next trade</a></div>
+</nav>
+```

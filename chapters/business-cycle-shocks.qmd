@@ -41,7 +41,11 @@ A firm can lose demand while the economy faces a supply disruption. Ask which bo
 
 **Teaching source.** Weeks 8–9 introduce aggregate demand, supply, and adjustment. The paired order books are new illustrative exhibits.
 
-::: {.route-nav}
-**Essentials 10 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Did purchasing power rise?](real-returns.html) · [Next · Can the borrower cover its interest?](policy-transmission.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 10 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="real-returns.html" rel="prev">Previous · Did purchasing power rise?</a>
+<a href="policy-transmission.html" rel="next">Next · Can the borrower cover its interest?</a></div>
+</nav>
+```

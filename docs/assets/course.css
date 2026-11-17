@@ -4,7 +4,9 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{background:white;color:black;font-size:11pt}.mast,.skip,.actions,.buttons,.controls,footer,.crumb,.home .quoteplate a{display:none}.frame{padding:0;max-width:none}.pagehead{margin:0}.panel,.decision,table,.quoteplate{break-inside:avoid}.hero{padding:0;gap:15pt}.tile,.quoteplate,.metric{color:black;background:white;box-shadow:none}.quoteplate *,.metric *{color:black!important}h1,.pagehead h1{font-size:30pt}h2{font-size:20pt}.frame>p,.frame>details,.frame>table{max-width:none}.print-answer{display:block}.kicker{color:black}details{border:none}.foot{display:none}}
 .route-nav{max-width:780px;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.93rem}
-.route-nav p{margin:.35rem 0}.route-nav strong{color:var(--muted)}
+.route-nav strong{color:var(--muted)}
+.route-nav div{display:flex;flex-wrap:wrap;gap:.25rem .8rem;margin-top:.4rem}.route-nav a{display:flex;align-items:center;max-width:100%;min-height:44px;padding:.45rem .65rem;border:1px solid var(--line);border-radius:3px;line-height:1.35}.route-nav a[rel="next"]{background:var(--light)}
+@media(max-width:760px){.route-nav div{display:grid;gap:.4rem}}
 .payoff-chart{max-width:600px}.payoff-chart>div{display:grid;grid-template-columns:5.6rem minmax(20px,1fr) 4rem;align-items:center;gap:.6rem;margin:.6rem 0;font-size:.9rem}
 .payoff-track{background:var(--light);height:1rem}.payoff-track i{display:block;background:var(--green);height:100%}#expansion-bar{background:var(--rust)}
 .payoff-chart b{text-align:right;font-family:var(--mono)}

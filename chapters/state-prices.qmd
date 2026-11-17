@@ -53,7 +53,11 @@ In the consumption model from the lecture, marginal utility is high when consump
 
 **Teaching source.** Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.
 
-::: {.route-nav}
-**Essentials 5 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← What is full insurance worth?](risk-insurance.html) · [Next · Who accepts the offer?](adverse-selection.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 5 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="risk-insurance.html" rel="prev">Previous · What is full insurance worth?</a>
+<a href="adverse-selection.html" rel="next">Next · Who accepts the offer?</a></div>
+</nav>
+```

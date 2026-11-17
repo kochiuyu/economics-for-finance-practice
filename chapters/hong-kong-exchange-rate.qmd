@@ -38,7 +38,10 @@ Write a three-sentence treasury note. State the currency and payment date of the
 
 **Teaching source.** Week 10 develops fixed and floating regimes, capital mobility, and Hong Kong’s currency board. The institutional description follows the HKMA. The importer and treasury calculations were created for this edition.
 
-::: {.route-nav}
-**Essentials 12 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Can the borrower cover its interest?](policy-transmission.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 12 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="policy-transmission.html" rel="prev">Previous · Can the borrower cover its interest?</a></div>
+</nav>
+```

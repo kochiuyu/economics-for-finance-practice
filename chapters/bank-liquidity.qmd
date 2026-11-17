@@ -52,7 +52,11 @@ Suppose a bank serves depositors in arrival order. If others wait, loans mature 
 
 **Teaching source.** Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.
 
-::: {.route-nav}
-**Essentials 8 of 12**   
-[Essentials route](../curriculum.html#essentials) · [← Quote the next trade](dealer-pricing.html) · [Next · Did purchasing power rise?](real-returns.html)
-:::
+```{=html}
+<nav class="route-nav" aria-label="Essentials chapter navigation">
+<strong>Essentials 8 of 12</strong>
+<div><a href="../curriculum.html#essentials">Essentials route</a>
+<a href="dealer-pricing.html" rel="prev">Previous · Quote the next trade</a>
+<a href="real-returns.html" rel="next">Next · Did purchasing power rise?</a></div>
+</nav>
+```
