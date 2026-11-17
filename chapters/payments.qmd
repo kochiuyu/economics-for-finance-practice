@@ -1,0 +1,27 @@
+---
+title: "Which payment actually leaves more cash?"
+summary: "Evaluate fees, settlement delays, and redemption risk on the same date."
+base: ..
+sectionname: Chapters
+kicker: Chapter 20
+---
+
+::: {.decision}
+**Your decision.** A merchant sells goods for HK$100,000. Service A settles in bank money today with a 1.5% fee. Service B charges 1% and delivers a redeemable digital balance in 30 days. Which offer has higher value today?
+:::
+
+## Build the comparison
+
+A delivers **HK$98,500** today. Assume the merchant values cash at simple annual interest of 6% on a 360-day basis. If B pays HK$99,000 at par on day 30, its value today is 99,000 / 1.005 = **HK$98,507.46**. The fee advantage just covers the wait.
+
+Suppose that in 1% of cases the redemption pays only 90% of the balance, and otherwise pays in full. Expected redemption becomes 99,000 × 0.999 = HK$98,901. Discounting gives **HK$98,408.96**. A risk-neutral merchant using this forecast prefers A. A merchant with payroll due tomorrow must also check whether it can borrow against the balance.
+
+## Change an assumption
+
+**How likely can the 10% redemption loss be before A becomes preferable?**
+
+<details><summary>Work through the decision</summary><p>Set 99,000 × (1 − 0.1p) = 98,500 × 1.005. The break-even probability is approximately 0.076%. Ask who owes redemption, when settlement is final, and what cash is available during a delay. The probabilities and terms are illustrative and describe no particular payment instrument.</p></details>
+
+**Teaching source.** Week 7 on payments and transaction incentives.
+
+[Return to platform participation](lending-platforms.html)

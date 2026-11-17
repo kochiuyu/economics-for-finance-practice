@@ -1,0 +1,27 @@
+---
+title: "Who absorbs the tariff on a supplier invoice?"
+summary: "Trace a hypothetical duty through the exporter’s quote, the importer’s margin, and the customer’s price."
+base: ..
+sectionname: Chapters
+kicker: Chapter 26
+---
+
+::: {.decision}
+**Your decision.** A Hong Kong treasury team sources 10,000 units for delivery into a hypothetical tariff-imposing market. The supplier quotes US$100 per unit, payable in 90 days. The importer sells at US$125. A 10% duty on invoice value is introduced. Does the importer have to raise its price by US$10?
+:::
+
+## Build the comparison
+
+Before the duty the US$1 million invoice leaves US$25 per unit before other costs. If the supplier holds at 100 and the customer price stays 125, duty of 10 reduces the importer’s unit margin to 15. Legal responsibility to remit the duty does not specify how prices adjust.
+
+Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.60 per unit. Landed cost is 105.60 and margin is 23.40. Relative to the baseline the exporter gives up 4, the customer pays 4 more, and the importer gives up 1.60 in margin. These changes sum to 9.60 for each unit still sold.
+
+## Change an assumption
+
+**Can the importer switch to a duty-free supplier quoting 103 per unit with a one-time qualification cost of 30,000?**
+
+<details><summary>Work through the decision</summary><p>At 10,000 units the alternative costs 1,060,000 versus 1,056,000 from the renegotiated incumbent. Stay for one shipment. At unchanged quotes and volumes the alternative saves 2.60 per unit before qualification, so switching pays above 11,538.46 cumulative units. Check quality, delivery, and repeat order volume before counting those savings.</p></details>
+
+**Teaching source.** Week 10 and the trade-war case. All duties and prices are hypothetical.
+
+[Work the trade seminar](../cases/trade-war.html) · [Hedge the baseline invoice](currency-hedging.html)

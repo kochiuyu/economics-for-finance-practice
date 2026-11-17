@@ -45,3 +45,5 @@ Write a three-sentence treasury note. State the currency and payment date of the
 <a href="policy-transmission.html" rel="prev">Previous · Can the borrower cover its interest?</a></div>
 </nav>
 ```
+
+[Size the importer’s hedge](currency-hedging.html) · [Test its dollar rollover](foreign-currency-debt.html)

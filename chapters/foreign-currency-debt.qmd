@@ -1,0 +1,27 @@
+---
+title: "Can the importer survive a failed rollover?"
+summary: "Separate the dollar amount coming due from the amount the bank agrees to refinance."
+base: ..
+sectionname: Chapters
+kicker: Chapter 29
+---
+
+::: {.decision}
+**Your decision.** The importer financed its baseline US$1 million invoice with a dollar loan. At maturity it has the US$300,000 customer receipt and HK$2 million in unrestricted cash. How much of the loan must its bank renew?
+:::
+
+## Build the comparison
+
+Assume interest has already been paid. A renewed dollar of principal removes one dollar from the amount due today and creates a future obligation. At 7.80, HK$2 million buys US$256,410. Together with receipts, this covers US$556,410. Minimum rollover is approximately **US$443,590**.
+
+If the bank renews 500,000, the importer buys 200,000 dollars and spends HK$1.56 million. With renewal cut to 400,000 and spot at 7.85, it must buy 300,000 dollars for HK$2.355 million. The cash deficit is **HK$355,000**. This is a funding stress scenario, independent of whether the business will eventually collect additional revenue.
+
+## Change an assumption
+
+**Would a forward at 7.81 for the required US$300,000 eliminate the deficit in the stressed scenario?**
+
+<details><summary>Work through the decision</summary><p>It fixes the HK-dollar payment at 2.343 million, leaving a deficit of 343,000. Treasury must also arrange funding or accelerate collections. A foreign lender cutting exposure can transmit a broader capital outflow into a single firm’s maturity schedule. To interpret a country’s aggregate flow, distinguish repayment of old claims from issuance of new ones.</p></details>
+
+**Teaching source.** Week 10 on capital flows, with a new illustrative funding schedule.
+
+[Review the invoice hedge](currency-hedging.html) · [Review bank liquidity](bank-liquidity.html)

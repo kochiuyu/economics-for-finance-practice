@@ -56,3 +56,5 @@ First compare allocation rules while holding price and delivery fixed. Next try 
 A scarce pack is rival and excludable. Providing one can still benefit people beyond its buyer. If a retailer wishes to count those spillovers, it needs a defensible estimate of their size. The exercise reports financial contribution and access separately so that readers can state which objective drives their recommendation.
 
 [See where the case fits in the course](../original-course/index.html#cases)
+
+[Compare welfare under a lottery and a queue](../chapters/rationing.html) · [Evaluate a waste-reduction policy](../chapters/externalities.html)

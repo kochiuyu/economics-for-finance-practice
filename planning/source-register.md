@@ -20,5 +20,7 @@ The teaching archive is the 2023–24 CUHK FINA 6282 folder maintained by Chiu Y
 | Growth and fixed income (22, 25) | Week 8 on growth, dated cash flows in Week 3, policy transmission in Week 9 | New supplier terminal-value audit and two-maturity repricing and refinancing exercises. |
 | Costs, entry, and Maruti Suzuki (3, 11 and seminar) | Week 2 pricing, Week 4 games, assigned case W18345 | Original plant, tooling, and policy-contingent entry exercises. Case figures are fictional. |
 | Incentives, financing, and IPOs (13, 14, 16) | Week 5 on contracts and signaling, financing references, original outline on auctions | Original effort contract, debt-overhang restructuring, and allocation-weighted subscription examples. |
+| Rationing, externalities, platforms and payments (4, 18–20) | Weeks 1–2, 6–7, waste-charging exam, Dianrong HBS 218043 | New allocation, waste, platform participation, payment settlement, and loan guarantee exercises. |
+| Trade and cross-border funding (26–29) | Week 10 and trade case HBS 719034 | Illustrative tariff, invoice hedge, rollover and supplier-choice scenarios. |
 
 The public project includes independently written pages and links to publisher records. The full case texts, teaching notes, private keys to assessments, and other instructors' materials remain in the teaching archive.

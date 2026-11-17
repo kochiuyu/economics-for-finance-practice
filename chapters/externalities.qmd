@@ -1,0 +1,27 @@
+---
+title: "Who benefits when a firm reduces waste?"
+summary: "Compare a private cost-saving decision with the benefits that accrue outside the firm."
+base: ..
+sectionname: Chapters
+kicker: Chapter 18
+---
+
+::: {.decision}
+**Your decision.** A retailer can prevent ten bags of waste each week at a total real cost of HK$180. It saves HK$12 in handling per bag. Neighbors avoid damage valued at HK$10 per bag. Would the retailer adopt the change voluntarily?
+:::
+
+## Build the comparison
+
+Private savings are 10 × 12 = HK$120, leaving a private loss of 60. Including avoided damage adds HK$100, so adoption creates **HK$40 of net social benefit**. Counting avoided damage requires evidence about how much waste is displaced and who experiences the improvement.
+
+Consider an illustrative disposal charge of HK$8 per bag. Prevention now saves the retailer HK$200 including avoided charges. It adopts and gains HK$20 privately. The authority forgoes HK$80 in charge revenue relative to collecting on the ten bags. In a welfare account the transfer cancels, leaving the same HK$40 resource gain before administration costs.
+
+## Change an assumption
+
+**What if measuring and collecting the charge costs HK$50 a week, while the ten prevented bags are the only behavioral change?**
+
+<details><summary>Work through the decision</summary><p>Relative to no intervention, the HK$40 resource gain falls to a net loss of HK$10. A fee can induce the desired action yet cost more to administer than the gain. Under a different policy, a shared public warning system could benefit many residents simultaneously and be difficult to restrict to payers. Waste bags and masks themselves are rival goods. A spillover from their disposal or use is enough to create an externality.</p></details>
+
+**Teaching source.** Week 6 and the historical Hong Kong waste-charging exam exercise. The charge is a hypothetical teaching instrument.
+
+[Compare access and contribution at HKTVmall](../cases/hktvmall.html)

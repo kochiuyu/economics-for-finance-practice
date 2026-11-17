@@ -41,3 +41,5 @@ The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-
 **Teaching source.** The original outline includes auctions and Week 5 discusses IPO signaling. The auction and allocation calculations are new hypothetical exercises.
 
 [Review the dealer’s order-flow inference](dealer-pricing.html) · [Explore the course map](../curriculum.html)
+
+[Continue the fintech route with platform participation](lending-platforms.html)

@@ -18,25 +18,25 @@ Follow twelve decisions in order. Each lesson includes a worked example and link
 | Stress-test a balance sheet | [17. Meet deposit withdrawals](chapters/bank-liquidity.html) · [21. Measure purchasing power](chapters/real-returns.html) |
 | Trace a macro shock | [23. Diagnose a fall in shipments](chapters/business-cycle-shocks.html) · [24. Test interest coverage](chapters/policy-transmission.html) · [28. Assess a Hong Kong importer's exposure](chapters/hong-kong-exchange-rate.html) |
 
-**Case seminars.** [Decide whether to commit to an electric-car launch](cases/maruti-suzuki.html), [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html).
+**Case seminars.** [Decide whether to commit to an electric-car launch](cases/maruti-suzuki.html), [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html). [Evaluate a lending guarantee](cases/dianrong.html) or [compare suppliers under a tariff](cases/trade-war.html).
 
 ## Professional reading routes
 
-Linked chapters are available. The remaining chapters and workshops are planned.
+All 29 subject chapters are available. The two evidence workshops are planned.
 
 | Route | Chapter sequence |
 | --- | --- |
 | Investment analysis | [5](chapters/project-appraisal.html) → [6](chapters/risk-insurance.html) → [7](chapters/state-prices.html) → [8](chapters/portfolio-choice.html) → [9](chapters/market-risk.html) → [10](chapters/behavioral-finance.html) → [22](chapters/long-run-valuation.html) → [25](chapters/yield-curves.html) |
-| Credit and banking | [12](chapters/adverse-selection.html) → [13](chapters/borrower-incentives.html) → [14](chapters/debt-equity.html) → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → [25](chapters/yield-curves.html) → 29 |
-| Corporate treasury in Hong Kong | [3](chapters/costs-capacity.html) → [5](chapters/project-appraisal.html) → [25](chapters/yield-curves.html) → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
-| Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → [16](chapters/ipo-auctions.html) → 19 → 20 |
+| Credit and banking | [12](chapters/adverse-selection.html) → [13](chapters/borrower-incentives.html) → [14](chapters/debt-equity.html) → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → [25](chapters/yield-curves.html) → [29](chapters/foreign-currency-debt.html) |
+| Corporate treasury in Hong Kong | [3](chapters/costs-capacity.html) → [5](chapters/project-appraisal.html) → [25](chapters/yield-curves.html) → [26](chapters/tariff-incidence.html) → [27](chapters/currency-hedging.html) → [28](chapters/hong-kong-exchange-rate.html) → [29](chapters/foreign-currency-debt.html) |
+| Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → [16](chapters/ipo-auctions.html) → [19](chapters/lending-platforms.html) → [20](chapters/payments.html) |
 
 ## Part I. Markets, firms, and prices
 
 - [1. What can a price move tell us?](chapters/market-prices.html)
 - [2. Demand, substitution, and elasticity](chapters/demand-elasticity.html)
 - [3. Costs, capacity, and market power](chapters/costs-capacity.html)
-- 4. Welfare, incidence, and rationing
+- [4. Welfare, incidence, and rationing](chapters/rationing.html)
 
 ## Part II. Risk, valuation, and investment
 
@@ -59,9 +59,9 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 ## Part IV. Banks, platforms, and public policy
 
 - [17. Banks, liquidity, and runs](chapters/bank-liquidity.html)
-- **18. Public goods, externalities, and corporate responses** · [Try the companion case](cases/hktvmall.html) · chapter in development
-- 19. Platform participation, reputation, and lending
-- 20. Payments, settlement, and digital money
+- [18. Public goods, externalities, and corporate responses](chapters/externalities.html) · [HKTVmall case](cases/hktvmall.html)
+- [19. Platform participation, reputation, and lending](chapters/lending-platforms.html)
+- [20. Payments, settlement, and digital money](chapters/payments.html)
 
 ## Part V. Macroeconomics and fixed income
 
@@ -73,10 +73,10 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 
 ## Part VI. Trade, currencies, and international finance
 
-- 26. Tariffs, pass-through, and supply chains
-- 27. Currency exposure and hedging
+- [26. Tariffs, pass-through, and supply chains](chapters/tariff-incidence.html)
+- [27. Currency exposure and hedging](chapters/currency-hedging.html)
 - [28. Exchange-rate regimes and Hong Kong](chapters/hong-kong-exchange-rate.html)
-- 29. Capital flows and foreign-currency debt
+- [29. Capital flows and foreign-currency debt](chapters/foreign-currency-debt.html)
 
 ## Evidence workshops
 

@@ -1,0 +1,27 @@
+---
+title: "Who gets the last unit?"
+summary: "Compare three ways to allocate two scarce units among four households."
+base: ..
+sectionname: Chapters
+kicker: Chapter 4
+---
+
+::: {.decision}
+**Your decision.** A shop has two generators for a one-day outage. Four households value a day of power at 120, 90, 60, and 30. Each unit costs 20 to supply. Should the shop raise the price, hold a lottery, or serve the queue?
+:::
+
+## Build the comparison
+
+At a price of 75, only the first two households buy. Their combined value is 210. Subtract 40 of supply cost to obtain total surplus of **170**. The shop earns 110 and consumers keep 60. The price splits the surplus between buyers and seller. Charging it consumes no generator capacity.
+
+At a price of 25 all four apply. An equal lottery without replacement gives each a one-half chance. Expected gross value is half of 300, or 150. Expected total surplus is **110** and the shop earns 10. Each household gets a chance, including the two who would decline at 75.
+
+## Change an assumption
+
+**Suppose the queue delivers the units to the 120 and 60 households, and all four spend time worth 10 each waiting. What changes?**
+
+<details><summary>Work through the decision</summary><p>Gross value is 180. Subtract supply cost of 40 and waiting cost of 40 to obtain surplus of 100. A one-unit purchase limit would prevent a household from taking both, but all households already want only one. To prioritize medical need, identify eligible households and explicitly measure reach. Willingness to pay also reflects purchasing power.</p></details>
+
+**Teaching source.** Weeks 1–2 on surplus and welfare.
+
+[Try the HKTVmall allocation exercise](../cases/hktvmall.html)
