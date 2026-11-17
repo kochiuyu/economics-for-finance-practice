@@ -35,6 +35,8 @@ The archive contains ten numbered lecture sources. The dated outline marked trad
 | [COVID-19: The Global Shutdown](https://store.hbr.org/product/covid-19-the-global-shutdown/320108) | How did demand, supply, and policy responses interact across economies? [Try the public credit exercise](../cases/global-shutdown.html) |
 | [The U.S.–China Trade War](https://store.hbr.org/product/the-u-s-china-trade-war/719034) | Which firms bear the costs of tariffs, and how might firms and governments respond? [Work the public exercise](../cases/trade-war.html) |
 
+The public edition also links to [additional Micro Cases by chapter](../cases/micro-cases.html).
+
 ## Assessment
 
 | Component | Weight | Format |
@@ -44,7 +46,7 @@ The archive contains ten numbered lecture sources. The dated outline marked trad
 | Group project | 30% | Case report, presentation, and discussion |
 | Final exam | 45% | Cumulative examination with multiple-choice questions and an applied micro case |
 
-The final exam used a Hong Kong waste-charging scenario. A separate sample exercise asked students to interpret co-movement in Shenzhen property prices and IPO activity. The public edition uses that second exercise as the starting point for its planned evidence workshops and capstone.
+The final exam used a Hong Kong waste-charging scenario. A separate sample exercise asked students to interpret co-movement in Shenzhen property prices and IPO activity. The public edition uses that second exercise as the starting point for its [evidence workshops and capstone](../cases/shenzhen-evidence.html).
 
 ## About this edition
 

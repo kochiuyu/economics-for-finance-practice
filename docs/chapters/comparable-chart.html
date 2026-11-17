@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build a comparable financial chart · Economics for Finance Practice</title>
+<meta name="description" content="Turn a statistical release and an exchange table into two reproducible exhibits.">
+<link rel="stylesheet" href="../assets/course.css">
+
+</head>
+<body class="">
+<a href="#main" class="skip">Skip to content</a>
+<header class="mast"><div class="bar"><a class="brand" href="../index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Economics for Finance Practice</a>
+<nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../index.html#activities">Activities</a><a href="../original-course/index.html">Course record</a></nav></div></header>
+<main id="main" class="frame" tabindex="-1">
+<div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Evidence workshops</div><header class="pagehead"><span class="kicker">Workshop 30 · Measurement</span><h1>Build a comparable financial chart</h1><p class="dek">Turn a statistical release and an exchange table into two reproducible exhibits.</p></header>
+<div class="decision">
+<p><strong>Your task.</strong> An analyst puts “Shenzhen IPOs” and “Shenzhen house prices” on one line chart. Before you show it to a client, identify the population, unit, and observation window for each series.</p>
+</div>
+<p>Use the <a href="../assets/shenzhen-2021-2023.csv">fixed 2021–23 CSV</a>. The IPO count is a flow of offerings on the Shenzhen exchange over each calendar year. The housing measure is the December price index for second-hand residential buildings in Shenzhen city, relative to the previous December. An index of 96.3 means prices fell 3.7%. It gives neither the price of a flat nor the number sold.</p>
+<h2 id="reproduce-the-exhibit">Reproduce the exhibit</h2>
+<p>Open the CSV in a spreadsheet. Put year on the horizontal axis. Plot column B as annual IPO counts. In D2 enter <code>=C2-100</code>, fill down, and plot D as percentage points on a separate chart with a visible zero line. Use numeric labels such as −3.7% for the resulting change. If applying a spreadsheet percentage format, use <code>=C2/100-1</code> instead. Both panels should use identical years.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="../assets/shenzhen-exhibit.png"></p>
+<figcaption>Annual Shenzhen exchange IPO counts of 233, 187 and 133 alongside December resale-price changes of +0.6%, −3.7% and −3.1%.</figcaption>
+</figure>
+</div>
+<details>
+<summary>
+Audit a misleading headline
+</summary>
+<p>
+“Shenzhen house prices recovered in 2023” confuses growth with level. The annual change improved from −3.7% to −3.1%, a 0.6 percentage-point improvement. The price level still fell. Starting from December 2021 = 100, the December 2023 level is 100 × 0.963 × 0.969 ≈ 93.31. IPO counts dropped by 54 between 2022 and 2023, about 28.9%.
+</p>
+</details>
+<p><strong>Source trail.</strong> The CSV transcribes the Shenzhen row, second-hand housing table, prior-year-month column from each NBS release, and the Shenzhen exchange counts from the PwC comparison. It fixes the release vintages for classroom replication. <a href="https://www.stats.gov.cn/english/PressRelease/202201/t20220117_1826410.html">NBS December 2021</a> · <a href="https://www.stats.gov.cn/english/PressRelease/202301/t20230116_1891673.html">December 2022</a> · <a href="https://www.stats.gov.cn/english/PressRelease/202401/t20240117_1946674.html">December 2023</a> · <a href="https://www.pwccn.com/en/ipo/china-ipo-watch-2023.pdf">PwC China IPO Watch 2023, Greater China exchange comparison</a></p>
+<p><a href="causal-evidence.html">Continue to causal evidence</a></p>
+</main>
+<footer><div class="foot"><span>Economics for Finance Practice <span aria-hidden="true">/</span> Chiu Yu Ko</span><a href="https://github.com/kochiuyu/economics-for-finance-practice">Project on GitHub ↗</a></div></footer>
+
+</body></html>

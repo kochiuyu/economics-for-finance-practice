@@ -37,6 +37,8 @@ Give the same household an extra 69 before it chooses. Uninsured wealth is now 1
 <p>For square-root utility, the Arrow–Pratt measure of absolute risk aversion is 1 / (2w), which decreases with wealth w. The example compares the same monetary loss at two wealth levels. Preferences with constant absolute risk aversion would produce the same risk premium for a fixed loss distribution at both wealth levels.</p>
 </details>
 
+**Apply the model.** How much loss does the buyer retain through repeated deductibles? [FIN-24 · A lower premium. How much risk stays here?](https://kochiuyu.github.io/micro-cases/lower-premium-repeated-deductible.html)
+
 **Teaching source.** Week 3 develops expected utility, certainty equivalents, and Arrow–Pratt risk aversion. The two wealth levels and insurance quotes are illustrative.
 
 ```{=html}

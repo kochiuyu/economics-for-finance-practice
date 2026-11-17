@@ -43,6 +43,8 @@ Imagine a two-factor model under which A’s market loading is still 0.4 and its
 
 **Analyst’s answer.** Under CAPM, prefer A at the stated forecasts. Before recommending it to the investment committee, show the choice of market proxy, estimation window, and evidence for the second exposure. An apparent excess return can reflect compensation for a risk excluded from the first benchmark.
 
+**Apply the model.** Which risks justify using different hurdle rates across projects? [FIN-15 · One company. One hurdle rate?](https://kochiuyu.github.io/micro-cases/one-company-one-hurdle.html)
+
 **Teaching source.** Week 3 introduces consumption-based pricing and market beta. The comparison and four-observation worksheet are new illustrations.
 
 [Return to portfolio choice](portfolio-choice.html) · [Next · Behavioral finance](behavioral-finance.html) · [Explore the course map](../curriculum.html)

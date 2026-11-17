@@ -22,6 +22,8 @@ Attracting lenders raises matches to 100 without expanding the application pool.
 
 <details><summary>Work through the decision</summary><p>Relative to the 80-match baseline, lost fees are 15 × 60 = 900 with the same screening bill. If lenders bear all defaults, their expected losses do not enter the platform’s current fee margin directly. They can still change future participation. A manager estimating lifetime profits needs cohort repayment and repeat-funding data.</p></details>
 
+**Apply the model.** Does adding participants create more completed matches? [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html)
+
 **Teaching source.** Week 7 on networks and reputation.
 
 [Make the Dianrong expansion decision](../cases/dianrong.html)

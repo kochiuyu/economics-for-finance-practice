@@ -1,0 +1,25 @@
+---
+title: Build a comparable financial chart
+summary: Turn a statistical release and an exchange table into two reproducible exhibits.
+base: ..
+sectionname: Evidence workshops
+kicker: Workshop 30 · Measurement
+---
+
+::: {.decision}
+**Your task.** An analyst puts “Shenzhen IPOs” and “Shenzhen house prices” on one line chart. Before you show it to a client, identify the population, unit, and observation window for each series.
+:::
+
+Use the [fixed 2021–23 CSV](../assets/shenzhen-2021-2023.csv). The IPO count is a flow of offerings on the Shenzhen exchange over each calendar year. The housing measure is the December price index for second-hand residential buildings in Shenzhen city, relative to the previous December. An index of 96.3 means prices fell 3.7%. It gives neither the price of a flat nor the number sold.
+
+## Reproduce the exhibit
+
+Open the CSV in a spreadsheet. Put year on the horizontal axis. Plot column B as annual IPO counts. In D2 enter `=C2-100`, fill down, and plot D as percentage points on a separate chart with a visible zero line. Use numeric labels such as −3.7% for the resulting change. If applying a spreadsheet percentage format, use `=C2/100-1` instead. Both panels should use identical years.
+
+![Annual Shenzhen exchange IPO counts of 233, 187 and 133 alongside December resale-price changes of +0.6%, −3.7% and −3.1%.](../assets/shenzhen-exhibit.png)
+
+<details><summary>Audit a misleading headline</summary><p>“Shenzhen house prices recovered in 2023” confuses growth with level. The annual change improved from −3.7% to −3.1%, a 0.6 percentage-point improvement. The price level still fell. Starting from December 2021 = 100, the December 2023 level is 100 × 0.963 × 0.969 ≈ 93.31. IPO counts dropped by 54 between 2022 and 2023, about 28.9%.</p></details>
+
+**Source trail.** The CSV transcribes the Shenzhen row, second-hand housing table, prior-year-month column from each NBS release, and the Shenzhen exchange counts from the PwC comparison. It fixes the release vintages for classroom replication. [NBS December 2021](https://www.stats.gov.cn/english/PressRelease/202201/t20220117_1826410.html) · [December 2022](https://www.stats.gov.cn/english/PressRelease/202301/t20230116_1891673.html) · [December 2023](https://www.stats.gov.cn/english/PressRelease/202401/t20240117_1946674.html) · [PwC China IPO Watch 2023, Greater China exchange comparison](https://www.pwccn.com/en/ipo/china-ipo-watch-2023.pdf)
+
+[Continue to causal evidence](causal-evidence.html)

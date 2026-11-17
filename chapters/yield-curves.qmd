@@ -36,6 +36,8 @@ Assume each obligation stays outstanding until maturity. There are no coupons. A
 
 **Committee answer.** Flag the five-year claim for market-value sensitivity and the one-year claim for near-term funding risk. For an actual issuer, request the maturity ladder, floating-rate reset dates, available cash, and the spread lenders would charge at renewal.
 
+**Apply the model.** Which instrument loses more value after the same change in yield? [FIN-21 · Same yield. Same interest-rate risk?](https://kochiuyu.github.io/micro-cases/same-yield-different-duration.html)
+
 **Teaching source.** This new fixed-income application extends the dated-cash-flow and monetary-transmission lessons. All rates and repayment schedules are illustrative.
 
 [Previous · Long-run valuation](long-run-valuation.html) · [Return to the course map](../curriculum.html)

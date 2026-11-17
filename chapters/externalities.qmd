@@ -22,6 +22,8 @@ Consider an illustrative disposal charge of HK$8 per bag. Prevention now saves t
 
 <details><summary>Work through the decision</summary><p>Relative to no intervention, the HK$40 resource gain falls to a net loss of HK$10. A fee can induce the desired action yet cost more to administer than the gain. Under a different policy, a shared public warning system could benefit many residents simultaneously and be difficult to restrict to payers. Waste bags and masks themselves are rival goods. A spillover from their disposal or use is enough to create an externality.</p></details>
 
+**Apply the model.** Which cost falls on someone outside the agreement? [ECO-30 · A better private deal. A cost outside the contract?](https://kochiuyu.github.io/micro-cases/outside-the-quiet-deal.html)
+
 **Teaching source.** Week 6 and the historical Hong Kong waste-charging exam exercise. The charge is a hypothetical teaching instrument.
 
 [Compare access and contribution at HKTVmall](../cases/hktvmall.html)

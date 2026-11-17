@@ -1,0 +1,29 @@
+---
+title: Did fewer IPOs deepen Shenzhen’s housing slowdown?
+summary: Write a one-page credit committee memo using a fixed public-data exhibit and a proposed test.
+base: ..
+sectionname: Capstone
+kicker: Shenzhen · Evidence memo
+---
+
+::: {.decision}
+**Committee request.** A colleague wants to cite weaker IPO activity as a cause of falling collateral values. Decide what wording you would approve and which evidence would justify a stronger claim.
+:::
+
+| Year | Shenzhen exchange IPOs | Shenzhen city resale prices, December year-on-year |
+| --- | ---: | ---: |
+| 2021 | 233 | +0.6% |
+| 2022 | 187 | −3.7% |
+| 2023 | 133 | −3.1% |
+
+[Download the data](../assets/shenzhen-2021-2023.csv) · [Reproduce the chart and verify its sources](../chapters/comparable-chart.html)
+
+## Submit a one-page analyst memo
+
+Attach the two-panel exhibit. Lead with one sentence the committee can quote. Quantify one comparison, explain how changes in IPO activity could reach local households, and give one competing explanation. Close by naming a dataset, a comparison group, and a result that would make you revise your view.
+
+<details><summary>Compare with a worked committee note</summary><p>Approve the wording “Exchange IPO activity weakened as Shenzhen resale prices fell in 2022 and 2023.” The number of offerings fell from 233 to 133 over two years. Housing growth fell sharply in 2022 and improved by 0.6 percentage points in 2023 even as IPO activity fell further. This three-observation exhibit establishes neither the magnitude nor the direction of a causal effect.</p><p>A listing delay could reduce liquid employee wealth, but the trading venue alone tells us little about where employees live. Tighter credit conditions could affect both series. Before applying an IPO-related collateral haircut, request employer-level exposure, lockup dates, and neighborhood transactions. Compare previously similar areas with different pre-existing exposure. Similar movements around nonlocal listings, or diverging trends well before the local event, would weaken the proposed explanation.</p></details>
+
+**Self-check.** Can another analyst reproduce both series? Does the memo distinguish a price decline from a slowdown in the decline? Could the proposed test yield an answer that contradicts the recommendation?
+
+Adapted from the original course’s Shenzhen housing and IPO question with a newly compiled public exhibit. [Study the comparison design](../chapters/causal-evidence.html)

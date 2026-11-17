@@ -22,6 +22,8 @@ A million-dollar forward costs HK$7,810,000. After paying the invoice, the firm 
 
 <details><summary>Work through the decision</summary><p>Assuming the same US$300,000 receipt, the net invoice exposure becomes US$660,000. The previous 700,000 forward overhedges by 40,000. Track any duty payable separately by currency and settlement date. If the receipt arrives late, a matched net hedge still leaves a temporary dollar funding need.</p></details>
 
+**Apply the model.** Which receipts and payments offset the invoice before a hedge is sized? [FIN-04 · The invoice is not the exposure](https://kochiuyu.github.io/micro-cases/invoice-exposure.html)
+
 **Teaching source.** Week 10 and the original treasury outline.
 
 [Compare Hong Kong funding and exchange-rate exposure](hong-kong-exchange-rate.html) · [Stress-test rollover](foreign-currency-debt.html)

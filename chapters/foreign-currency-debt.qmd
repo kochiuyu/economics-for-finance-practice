@@ -22,6 +22,8 @@ If the bank renews 500,000, the importer buys 200,000 dollars and spends HK$1.56
 
 <details><summary>Work through the decision</summary><p>It fixes the HK-dollar payment at 2.343 million, leaving a deficit of 343,000. Treasury must also arrange funding or accelerate collections. A foreign lender cutting exposure can transmit a broader capital outflow into a single firm’s maturity schedule. To interpret a country’s aggregate flow, distinguish repayment of old claims from issuance of new ones.</p></details>
 
+**Apply the model.** Where will the cash to repay principal come from at maturity? [FIN-30 · Affordable interest. A repayable principal?](https://kochiuyu.github.io/micro-cases/interest-paid-principal-due.html)
+
 **Teaching source.** Week 10 on capital flows, with a new illustrative funding schedule.
 
 [Review the invoice hedge](currency-hedging.html) · [Review bank liquidity](bank-liquidity.html)

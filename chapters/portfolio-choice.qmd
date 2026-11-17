@@ -31,6 +31,8 @@ For equity weight w, the bond weight is 1 − w. Portfolio variance equals the t
 
 At correlation 0.8, the unconstrained minimum calls for approximately **−33.3% equities and 133.3% bonds**. A short equity position partly offsets bond fluctuations. A long-only account cannot implement it, so its minimum occurs at zero equities. The illustration assumes no trading fees, borrowing costs, or margin constraints. Before acting on an estimated minimum, test plausible correlations and check the client’s mandate.
 
+**Apply the model.** How much protection does a second income stream provide in a bad month? [FIN-16 · Two income streams. One bad month?](https://kochiuyu.github.io/micro-cases/cash-moves-together.html)
+
 **Teaching source.** The original combined slides and early outline motivate mean–variance choice. Fund assumptions are illustrative.
 
 [Review state prices](state-prices.html) · [Continue to market risk](market-risk.html)

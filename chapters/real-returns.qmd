@@ -34,6 +34,8 @@ A household places HK$10,000 in a one-year deposit paying 4%. A basket costs HK$
 
 GDP measures domestic value added over a period. A year-end stock of inventories and a year’s production have different units of time. When using GDP to justify a sales forecast, first identify the economy, period, and price basis. Then ask whether the retailer serves the same customers and sells the same mix as the aggregate. A macro volume forecast of 2% is a starting comparison. Moving it into a firm forecast requires a view on the firm’s market share and prices.
 
+[Apply the index calculation to Shenzhen resale prices](comparable-chart.html)
+
 **Teaching source.** Week 8 introduces national accounts, inflation, and the Fisher relation. Sales, deposit, and price series in this example are illustrative.
 
 ```{=html}

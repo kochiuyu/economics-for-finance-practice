@@ -18,11 +18,13 @@ Follow twelve decisions in order. Each lesson includes a worked example and link
 | Stress-test a balance sheet | [17. Meet deposit withdrawals](chapters/bank-liquidity.html) · [21. Measure purchasing power](chapters/real-returns.html) |
 | Trace a macro shock | [23. Diagnose a fall in shipments](chapters/business-cycle-shocks.html) · [24. Test interest coverage](chapters/policy-transmission.html) · [28. Assess a Hong Kong importer's exposure](chapters/hong-kong-exchange-rate.html) |
 
+[Find a Micro Case by chapter](cases/micro-cases.html) for additional classroom decisions.
+
 **Case seminars.** [Decide whether to commit to an electric-car launch](cases/maruti-suzuki.html), [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html). [Evaluate a lending guarantee](cases/dianrong.html) or [compare suppliers under a tariff](cases/trade-war.html).
 
 ## Professional reading routes
 
-All 29 subject chapters are available. The two evidence workshops are planned.
+All 29 subject chapters are available. The two evidence workshops culminate in a Shenzhen credit committee memo.
 
 | Route | Chapter sequence |
 | --- | --- |
@@ -80,7 +82,8 @@ All 29 subject chapters are available. The two evidence workshops are planned.
 
 ## Evidence workshops
 
-- 30. From financial releases to a comparable chart
-- 31. From co-movement to a defensible claim
+- [30. From financial releases to a comparable chart](chapters/comparable-chart.html)
+- [31. From co-movement to a defensible claim](chapters/causal-evidence.html)
+- [Capstone · Shenzhen housing and IPOs](cases/shenzhen-evidence.html)
 
 [See the original syllabus and the five assigned cases](original-course/index.html)

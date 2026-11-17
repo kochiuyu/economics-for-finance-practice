@@ -22,6 +22,8 @@ At a price of 25 all four apply. An equal lottery without replacement gives each
 
 <details><summary>Work through the decision</summary><p>Gross value is 180. Subtract supply cost of 40 and waiting cost of 40 to obtain surplus of 100. A one-unit purchase limit would prevent a household from taking both, but all households already want only one. To prioritize medical need, identify eligible households and explicitly measure reach. Willingness to pay also reflects purchasing power.</p></details>
 
+**Apply the model.** Who receives the scarce units when a price ceiling binds? [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html)
+
 **Teaching source.** Weeks 1–2 on surplus and welfare.
 
 [Try the HKTVmall allocation exercise](../cases/hktvmall.html)

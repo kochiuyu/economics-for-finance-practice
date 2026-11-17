@@ -1,0 +1,27 @@
+---
+title: What evidence would change your conclusion?
+summary: Design a comparison that can distinguish a local IPO wealth effect from a common economic shock.
+base: ..
+sectionname: Evidence workshops
+kicker: Workshop 31 · Causal evidence
+---
+
+::: {.decision}
+**Your task.** Both series weakened between 2021 and 2022. Would you advise a lender to use the exchange-wide number of IPOs to forecast the price of homes near Shenzhen technology employers?
+:::
+
+**Mechanism one.** An IPO can affect employee wealth or hiring. If gains reach local households, purchasing demand may increase near their homes. Identify employer locations, residential catchments, and when employees can actually sell shares. An issuer listed in Shenzhen may employ its workers elsewhere.
+
+**Mechanism two.** A change in financing conditions can simultaneously depress valuations, postpone listings, and reduce mortgage demand. In that account the IPO count is an indicator of a common shock. Increasing the count alone need not change housing demand.
+
+## Build a comparison
+
+Compare neighborhoods with high pre-event employment exposure to prospective local issuers against similar neighborhoods with low exposure. Fix exposure before observing completions. Align dates to filing, listing, or lockup expiry according to the mechanism. Examine several periods before the event and check housing supply, mortgage changes, and differences in employer growth.
+
+As a separate **illustrative** exercise, suppose prices fall 4% in exposed neighborhoods and 2% in comparison neighborhoods following a listing delay. Before the delay their changes were −1% and 0%. **What is the change in the exposed-minus-comparison growth gap?**
+
+<details><summary>Calculate and interpret the comparison</summary><p>The gap changes from −1 to −2 percentage points, a further deterioration of 1 point. Interpreting that difference as an effect requires that the gap would have stayed stable without the delay. A local factory closure concentrated in exposed areas would undermine that assumption. Investor anticipation could shift the timing before the formal event.</p></details>
+
+**Falsification check.** Repeat the analysis around listings by firms with little local employment. An equally strong neighborhood pattern weakens the local employee-wealth explanation. A three-year exchange-level chart alone cannot perform this test.
+
+[Review the data exhibit](comparable-chart.html) · [Write the Shenzhen capstone memo](../cases/shenzhen-evidence.html)

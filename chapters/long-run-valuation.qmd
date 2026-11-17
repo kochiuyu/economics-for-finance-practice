@@ -38,6 +38,8 @@ Suppose instead that year-six after-tax operating profit is fixed at HK$125 mill
 
 **Decision.** Incorporate the machine’s level gain once its cost and useful life are established. Keep the perpetual growth assumption separate until the analyst can explain continuing productivity gains, competitive entry, and the return on the capital needed to sustain them.
 
+**Apply the model.** How much of the valuation depends on cash flows beyond the explicit forecast? [FIN-26 · Cash flows continue. How much is the ending worth?](https://kochiuyu.github.io/micro-cases/cash-flows-continue-ending-worth.html)
+
 **Teaching source.** Week 8 develops productivity and growth. The supplier and terminal-value exhibit are illustrative.
 
 [Previous · Behavioral finance](behavioral-finance.html) · [Next · Yield curves and refinancing](yield-curves.html)

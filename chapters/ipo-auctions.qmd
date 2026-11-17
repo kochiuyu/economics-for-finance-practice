@@ -38,6 +38,8 @@ The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-
 
 **Decision.** Decline the subscription under the stated terms. A discount to the unconditional average is insufficient here. For an actual offer, the question for the analyst is how fills co-vary with eventual value and what evidence supports that estimate.
 
+**Apply the model.** What information about the asset does winning the bid reveal? [ECO-12 · The highest estimate. The best bid?](https://kochiuyu.github.io/micro-cases/winning-is-information.html)
+
 **Teaching source.** The original outline includes auctions and Week 5 discusses IPO signaling. The auction and allocation calculations are new hypothetical exercises.
 
 [Review the dealer’s order-flow inference](dealer-pricing.html) · [Explore the course map](../curriculum.html)

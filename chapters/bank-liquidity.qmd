@@ -50,6 +50,8 @@ Try withdrawals of **60**. The bank sells 40 / 0.75 = 53.33 of loan principal. I
 
 Suppose a bank serves depositors in arrival order. If others wait, loans mature and there is enough to repay everyone. If others withdraw, forced sales destroy value and a late depositor might receive less. A depositor who could otherwise wait may therefore withdraw after expecting others to do the same. This feedback connects the balance sheet to the strategic bank-run game in the lecture.
 
+**Apply the model.** When can a protected balance still leave the depositor short of cash? [FIN-09 · One bank. Two kinds of safety.](https://kochiuyu.github.io/micro-cases/protected-and-available.html)
+
 **Teaching source.** Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.
 
 ```{=html}
