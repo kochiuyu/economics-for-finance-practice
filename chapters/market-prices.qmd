@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 1 · Price discovery"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** At yesterday’s close a share traded at HK$100. This morning the firm announces higher earnings. The first post-announcement price is HK$105. A colleague writes, “The market raised its cash-flow forecast by 5%.” Would you sign that sentence?
 :::
@@ -21,6 +24,18 @@ Imagine a one-year claim with a single future payment and no interim dividends. 
 | B. Cheaper capital | 110.00 | 4.76% (rounded) | 105.00 |
 
 Account A might fit a firm that won an unexpected contract. Account B might fit a day when comparable risky claims also rose in price as investors accepted lower returns. Both changes could occur together. The last trade tells us the price at which someone bought and someone sold. One price change cannot identify two revisions.
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="market-prices">
+<figcaption><strong>Read two explanations from one price</strong></figcaption>
+<p>Each line holds the share price fixed. Points on a line pair an expected one-year payment with a required return.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> If the expected payment stays at HK$110, where must the required return move to explain HK$105?</p>
+<details><summary>Check your reading</summary><p>Follow the HK$110 level to the HK$105 line. The required return falls to about 4.76%. At the original 10% return, the expected payment would instead need to rise to HK$115.50. The share price alone leaves both explanations open.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+```
 
 ## Read the surprise
 

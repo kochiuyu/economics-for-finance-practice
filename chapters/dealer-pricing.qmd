@@ -7,6 +7,9 @@ kicker: Chapter 15 · Market microstructure
 activity: dealer
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>
 
@@ -29,6 +32,14 @@ A dealer **buys at the bid** when a trader sells and **sells at the ask** when a
 <noscript><p>The worked example below follows the same desk through a buy and a sell.</p></noscript>
 
 <button type="button" class="lab-reset">Reset scenario</button>
+<figure class="ess-figure" data-essentials-figure="dealer-pricing">
+<figcaption><strong>Trace quotes through the order history</strong></figcaption>
+<p>Use the trading desk above. The chart begins at zero orders and adds the new bid, ask, and probability after each trade.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> With half the traders informed, compare two buys with a buy followed by a sell. Which sequence returns the desk to its opening quotes?</p>
+<details><summary>Check your reading</summary><p>A buy followed by a sell cancels the evidence in this model. The estimated probability returns to 0.50 and the next bid and ask return to 0.25 and 0.75. A second buy pushes both quotes higher.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
 <details class="lab-comparison"><summary>Compare scenarios</summary>
 <button type="button">Keep for comparison</button>
 <p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>

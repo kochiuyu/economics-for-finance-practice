@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 5 · Intertemporal choice"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>
 
@@ -37,6 +40,18 @@ Suppose a household starts with 100 units of income today and 50 next year. It c
 <p>The budget line bends where consumption today equals current income. Consuming 80 today now leaves 50 + 20 × 1.04 = 70.8 next year. Consuming 120 leaves 50 − 20 × 1.10 = 28. A firm with HK$100,000 idle that would otherwise earn 4% gains HK$4,000 at maturity from the project. A firm financing the same project entirely at 10% loses HK$2,000. The source of the marginal dollar changes the decision.</p>
 </details>
 
+
+<details class="ess-optional"><summary>See the household budget line</summary>
+<figure class="ess-figure" data-essentials-figure="budget-line">
+<figcaption><strong>Compare borrowing and saving on the household budget line</strong></figcaption>
+<p>Each line shows affordable combinations of consumption today and next year. The kink is where the household consumes its current income and neither borrows nor saves.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Why does one extra unit of consumption today cost more next year to a borrower than to a saver?</p>
+<details><summary>Check your reading</summary><p>Borrowing costs 10%, so an extra unit today costs 1.10 next year. Saving earns 4%, so using a unit of savings today costs 1.04 next year.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+</details>
+
 ## Make the financing recommendation
 
 At 6%, accept under the stated assumptions. At 10%, decline. If a lender also charges an up-front fee, deduct it from today’s net present value. A HK$2,000 fee paid from cash today would turn the 6% decision negative. This is why an analyst asks for the drawdown, fee, and repayment dates before comparing two term sheets.
@@ -54,6 +69,14 @@ At 6%, accept under the stated assumptions. At 10%, decline. If a lender also ch
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
 
+<figure class="ess-figure" data-essentials-figure="project-appraisal">
+<figcaption><strong>Find the financing rate that exhausts NPV</strong></figcaption>
+<p>Compare the before-fee curve with the curve using the fee amount and date selected above. The horizontal zero line separates positive from negative NPV.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> At a 6% financing rate and HK$2,000 fee, what changes if the fee moves from maturity to today?</p>
+<details><summary>Check your reading</summary><p>At maturity the fee uses up the HK$2,000 project surplus. Paid today, it costs HK$2,120 in maturity-date dollars, leaving a shortfall of HK$120 at maturity.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
 <details class="lab-comparison"><summary>Compare scenarios</summary>
 <button type="button">Keep for comparison</button>
 <p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>

@@ -8,6 +8,8 @@
 <script src="../assets/reading.js" defer></script>
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -66,6 +68,14 @@
 <p id="bank-result" role="status">All requests are paid. The equity cushion is exhausted.</p>
 
 <button type="button" class="lab-reset">Reset scenario</button>
+<figure class="ess-figure" data-essentials-figure="bank-liquidity">
+<figcaption><strong>Find two different withdrawal thresholds</strong></figcaption>
+<p>Both plots share the withdrawal axis and track the bank lab settings above. Equity is measured using the maturity value of retained loans. The lower plot measures requests the bank cannot pay today.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> With HK$20 million in opening cash and a loan-sale price of 0.75, can the bank pay HK$60 million today? What happens to the remaining depositors?</p>
+<details><summary>Check your reading</summary><p>Yes. At HK$60 million the unpaid amount is zero, but remaining equity is about −HK$3.33 million. Equity reaches zero at HK$50 million of requests. Cash and loan sale proceeds run out at HK$87.5 million.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
 <details class="lab-comparison"><summary>Compare scenarios</summary>
 <button type="button">Keep for comparison</button>
 <p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>

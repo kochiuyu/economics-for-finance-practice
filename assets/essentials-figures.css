@@ -1,0 +1,9 @@
+.ess-figure {margin:1.35rem 0;padding:clamp(.65rem,2vw,1.15rem);border:1px solid #cdd6d0;border-left:4px solid #17634e;background:#fffefa;min-width:0;}
+.ess-figure figcaption {color:#19372c;font-size:1.11rem;}
+.ess-figure p {margin:.6rem 0;}
+.ess-chart canvas {display:block;max-width:100%;margin:.4rem 0 0;}
+.ess-chart-legend {list-style:none;display:flex;gap:.25rem 1.1rem;flex-wrap:wrap;padding:0;margin:0 0 .7rem;font-size:.88rem;line-height:1.4;}
+.ess-chart-symbol {display:inline-block;min-width:1.3rem;font-weight:bold;}
+.ess-chart-panel + .ess-chart-panel {border-top:1px solid #cdd6d0;margin-top:.65rem;padding-top:.65rem;}
+.ess-figure label {display:block;margin:.7rem 0;}
+.ess-figure input[type=range] {display:block;width:min(100%,26rem);}

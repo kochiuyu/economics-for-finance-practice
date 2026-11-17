@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 23 · Demand and supply shocks"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** Two manufacturers each shipped 100 units last month and 80 this month. One wants a sales campaign. The other wants to qualify an alternative supplier. Which response fits each firm?
 :::
@@ -24,6 +27,18 @@ Use these illustrative operating records. An order is net of cancellations. Unfi
 | Orders carried forward | 0 | 35 |
 
 Firm A has idle capacity, fewer orders, and a lower price. A fall in demand fits the joint pattern. Firm B has a full plant at its reduced capacity, a backlog, and a higher price. A loss of supply fits this evidence. In a simple market diagram, a leftward demand shift lowers both quantity and price. A leftward supply shift lowers quantity and raises price. Administered prices, inventories, and simultaneous shifts make the price sign alone a weak diagnostic.
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="business-cycle-shocks">
+<figcaption><strong>Diagnose the same fall in shipments</strong></figcaption>
+<p>Both panels start at 100 units and HK$100 per unit. The illustrative curves reproduce the two price–quantity outcomes. The order books provide independent evidence about what binds.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Both firms ship 80 units. Where would a sales campaign help, and where would a supplier qualification help?</p>
+<details><summary>Check your reading</summary><p>Firm A’s lower price and idle capacity point to weak demand. A campaign could bring in orders. Firm B has a higher price and 35 backlogged orders, so more usable capacity would address its bottleneck.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+```
 
 ## Calculate the cash consequences
 

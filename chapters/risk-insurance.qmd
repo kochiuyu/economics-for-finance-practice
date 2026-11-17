@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 6 · Risk and insurance"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A household has wealth of 100, measured in thousands of Hong Kong dollars. With probability one-half it loses 64. An insurer offers full cover for a certain premium of 34. Would the household buy?
 :::
@@ -20,6 +23,18 @@ The household values final wealth using square-root utility. A utility number ra
 | Loss | 0.5 | 36 | 6 |
 
 Expected wealth is **68**. Expected utility is (10 + 6) / 2 = **8**. Certain wealth of **64** delivers the same utility because its square root is 8. That 64 is the **certainty equivalent**. The household would give up 68 − 64 = **4** in expected wealth to avoid the uncertainty. The loss of a dollar matters more when the household has only 36 left.
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="risk-insurance">
+<figcaption><strong>Read the price of certainty</strong></figcaption>
+<p>The curved line shows the utility of a certain outcome. The midpoint of the straight chord gives the expected utility of the uninsured gamble.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Why does the household accept a premium of HK$34,000 when the expected loss is HK$32,000?</p>
+<details><summary>Check your reading</summary><p>At expected utility 8, the curve gives certain wealth of HK$64,000. The quoted policy leaves certain wealth of HK$66,000. The household is willing to pay up to HK$36,000 to remove the gamble.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+```
 
 ## Set the reservation premium
 

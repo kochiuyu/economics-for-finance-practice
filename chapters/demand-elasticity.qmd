@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 2 · Demand and substitution"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>
 
@@ -28,6 +31,18 @@ Monthly revenue is price times subscribers. The current plan brings in **HK$100,
 | Revenue at HK$110 | HK$103,400 | HK$94,600 |
 
 The rival changes what customers can do when the price rises. With the existing alternatives, revenue rises HK$3,400. With the close rival, it falls HK$5,400. The question for the sales team is how many customers have a credible substitute at the time of renewal.
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="demand-elasticity">
+<figcaption><strong>Read the loss of subscribers at the new price</strong></figcaption>
+<p>Both forecasts start at 1,000 subscribers and HK$100. Each segment links two forecast points. The example supplies no estimates at intermediate prices.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> With a close rival, does HK$110 clear the sales and contribution thresholds?</p>
+<details><summary>Check your reading</summary><p>The forecast is 860 renewals. It clears the 858 contribution threshold but falls short of the 910 revenue threshold. The contribution gain at 860 is HK$200 before any extra retention spending.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+```
 
 ## Measure the response in comparable units
 

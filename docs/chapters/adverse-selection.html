@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -43,6 +45,17 @@
 <h2 id="make-an-offer-when-quality-is-private">Make an offer when quality is private</h2>
 <p>Across all cars, the average buyer valuation is (100 + 20) / 2 = <strong>60</strong>. Before paying 60, check which owners will accept. A good-car owner can keep a car worth 90. A poor-car owner can give up a car worth 10 and receive 60. Every accepting seller has a poor car, so a buyer paying 60 expects an asset worth <strong>20</strong> and loses <strong>40</strong>.</p>
 <p>The price affects participation, and participation determines the quality buyers receive. At a competitive price of 20, poor-car owners sell, good-car owners keep their cars, and buyers break even. The 10 units of potential surplus from each good-car trade go unrealized.</p>
+
+<figure class="ess-figure" data-essentials-figure="adverse-selection">
+<figcaption><strong>Watch the offer change who accepts</strong></figcaption>
+<p>At or above each owner’s reservation value, assume that type sells. Below 10, no cars are offered and the expected value conditional on acceptance is undefined.</p>
+<label for="offer-quality">Offer price <output id="offer-quality-value" for="offer-quality">60</output><input type="range" id="offer-quality" min="0" max="110" step="1" value="60"></label>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> At an offer of 60, who accepts and how much does the buyer lose per accepted offer?</p>
+<details><summary>Check your reading</summary><p>Only owners of poor cars accept. The buyer pays 60 for a car worth 20, losing 40. When the offer reaches 90 both types sell, bringing their average value to 60.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+
 <h2 id="change-an-assumption">Change an assumption</h2>
 <p>Suppose buyers can verify quality with a certificate. A good-car owner pays the verification fee and then sells for 100. <strong>Would that owner pay a fee of 6? What about 12?</strong> Assume the test perfectly distinguishes quality, every buyer trusts it, and the owner can always keep the car.</p>
 <details>

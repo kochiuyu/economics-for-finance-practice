@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 28 · Hong Kong and exchange-rate regimes"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A Hong Kong importer owes US$1 million in 90 days and collects revenue in Hong Kong dollars. Its manager says, “With the currency link, we can leave the interest expense out of our stress test.” What would you put in the cash forecast?
 :::
@@ -21,6 +24,18 @@ Quote the exchange rate in **HK dollars per US dollar**. A higher number makes t
 | Hypothetical floating regime | 8.20 | 4% | HK$8,280,000 |
 
 In the second row, HK$50,000 comes from exchange translation and HK$40,000 from the extra interest (8 million × 0.02 × 90/360). A treasury forecast reporting only the invoice misses almost half the HK$90,000 increase. Rates and loan terms are illustrative. The floating scenario is a counterfactual comparison.
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="hong-kong-exchange-rate">
+<figcaption><strong>Separate exchange and interest costs</strong></figcaption>
+<p>The steps show the change from the HK$7.88 million baseline. The dashed path fixes the exchange rate on the invoice at 7.80.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> If treasury fixes the invoice exchange rate, how much of the HK$90,000 increase remains?</p>
+<details><summary>Check your reading</summary><p>HK$40,000 remains because the HK-dollar loan rate rises from 4% to 6%. Fixing the foreign exchange cost removes the HK$50,000 translation increase and brings the total cash requirement to HK$7.92 million.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+```
 
 ## How does pressure on the link reach banks?
 

@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: "Chapter 21 · Measurement and inflation"
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A retailer reports that sales increased from HK$100 million to HK$108 million. Its product-price index rose from 100 to 106. Can the analyst describe the 8% sales increase as volume growth?
 :::
@@ -21,6 +24,18 @@ Assume the price index measures this retailer’s products and that product mix 
 | Sales at base-year prices, HK$ million | 100 | 101.89 |
 
 Subtracting 6% from 8% gives a convenient approximation of 2%. The exact calculation is 1.08 / 1.06 − 1. State which index you used. A consumer price index tracks a household basket and could give a misleading volume estimate for a specialist retailer.
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="real-returns">
+<figcaption><strong>Separate higher prices from higher sales volume</strong></figcaption>
+<p>All three series start at 100 in the base year. The chart connects the two observations for each series.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Which line would you use to brief the sales team on volume growth? What assumption would you check first?</p>
+<details><summary>Check your reading</summary><p>Price-adjusted sales rise to 101.89, implying about 1.89% real growth. Use the retailer’s own price index and check for differences in product mix or quality before interpreting that as growth in units sold.</p></details>
+<noscript><p>Open the explanation for the plotted result.</p></noscript>
+</figure>
+```
 
 ## Test the purchasing power of a deposit
 
