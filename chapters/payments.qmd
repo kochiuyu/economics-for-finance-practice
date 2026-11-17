@@ -24,7 +24,7 @@ Suppose that in 1% of cases the redemption pays only 90% of the balance, and oth
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>Which settlement service should the merchant choose?</h2><details><summary>Compare your recommendation</summary><p>At certain redemption, waiting 30 days gives B an advantage of only HK$7.46 in today’s money. Under the stated redemption-loss scenario, choose A. Check tomorrow’s payroll needs before treating a delayed balance as spendable cash.</p></details></section>
+<section aria-label="Practice brief"><h2>Which settlement service should the merchant choose?</h2><details><summary>Compare your recommendation</summary><p>Choose A under the stated 1% probability of a redemption loss. It delivers HK$98,500 today against B’s expected present value of HK$98,408.96. Even certain redemption gives B an advantage of only HK$7.46 in today’s money. If using B creates an additional payroll bridging cost above HK$7.46 in present value, A wins even with full redemption. Ask when the merchant can actually use the funds.</p></details></section>
 ```
 
 **Teaching source.** Week 7 on payments and transaction incentives.

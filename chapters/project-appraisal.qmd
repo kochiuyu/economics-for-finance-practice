@@ -36,7 +36,7 @@ At 6%, accept under the stated assumptions. At 10%, decline. If a lender also ch
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>What borrowing terms would you authorize?</h2><details><summary>Compare your recommendation</summary><p>Approve the certain one-year project at 6%. It leaves HK$2,000 at maturity after repayment. At 8% the surplus disappears. Include fees and revisit the analysis if the receipt date or amount becomes uncertain.</p></details></section>
+<section aria-label="Practice brief"><h2>What borrowing terms would you authorize?</h2><details><summary>Compare your recommendation</summary><p>Authorize the 6% loan if the project still produces a surplus after fees. The certain HK$108,000 receipt leaves HK$2,000 after repaying HK$106,000 in one year. A fee payable at maturity must therefore be below HK$2,000 for the deal to add value. If the fee is paid today, its break-even amount is HK$1,886.79 at the same financing rate. Ask for the fee amount and payment date before signing.</p></details></section>
 ```
 
 **Apply the model.** Would the project with the faster payback also win on present value? [FIN-08 · Back sooner. Worth more?](https://kochiuyu.github.io/micro-cases/back-sooner.html)

@@ -37,7 +37,7 @@ A monetary tightening can raise reference rates. Credit reprices on contractual 
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>When should the relationship manager reopen the covenant discussion?</h2><details><summary>Compare your recommendation</summary><p>With immediate repricing to 7%, interest reaches HK$3.5 million. Current EBIT of HK$6 million falls short of the HK$7 million needed for two-times coverage. Obtain the reset schedule and test the next covenant date.</p></details></section>
+<section aria-label="Practice brief"><h2>When should the relationship manager reopen the covenant discussion?</h2><details><summary>Compare your recommendation</summary><p>At HK$6 million of annual EBIT, two-times coverage allows HK$3 million of annual interest. On HK$50 million of debt that puts the all-in rate ceiling at 6%, or a 4% reference rate plus the 2-point spread. At the ceiling there is no headroom. If the next fixing takes the reference rate above 4%, open the covenant discussion before the test date. Recalculate if EBIT changes or only part of the loan resets.</p></details></section>
 ```
 
 **Teaching source.** Week 9 develops monetary and fiscal transmission using IS–LM and IS–MP. Loan terms, the coverage threshold, and EBIT scenarios are illustrative.

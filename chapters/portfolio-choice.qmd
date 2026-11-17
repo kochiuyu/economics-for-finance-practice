@@ -33,7 +33,7 @@ At correlation 0.8, the unconstrained minimum calls for approximately **−33.3%
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>What would you put in the client’s allocation note?</h2><details><summary>Compare your recommendation</summary><p>At zero correlation, 20% equities and 80% bonds minimize volatility at about 8.94%, with a 4.8% expected return. Check the return target before proposing that mix. Run the same weights at a higher correlation to show how much protection depends on the assumption.</p></details></section>
+<section aria-label="Practice brief"><h2>What would you put in the client’s allocation note?</h2><details><summary>Compare your recommendation</summary><p>For a client requiring at least 6% expected return, the 20% equity minimum-volatility mix falls short at 4.8%. Each ten percentage points shifted from bonds to equities adds 0.4 percentage points of expected return. The smallest equity weight that meets the target is 50%. At zero correlation its annual volatility is 11.18%. If the client also caps volatility at 10%, the two funds cannot meet both requirements under these assumptions. Revisit the mandate before placing an order.</p></details></section>
 ```
 
 **Apply the model.** How much protection does a second income stream provide in a bad month? [FIN-16 · Two income streams. One bad month?](https://kochiuyu.github.io/micro-cases/cash-moves-together.html)

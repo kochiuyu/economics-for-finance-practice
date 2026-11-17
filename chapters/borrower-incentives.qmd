@@ -37,7 +37,7 @@ Suppose the project needs 90 instead of 80. With effort, expected output less ef
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>Would you sign off on repayment of 115?</h2><details><summary>Compare your recommendation</summary><p>Decline those terms under the stated assumptions. They leave too little upside to induce effort, so expected collections fall to 57.5 on an advance of 80. At repayment of 100, effort pays and expected collections cover the advance.</p></details></section>
+<section aria-label="Practice brief"><h2>Would you sign off on repayment of 115?</h2><details><summary>Compare your recommendation</summary><p>Decline repayment of 115. It makes low effort attractive and cuts expected collections to 57.5 on the 80 advanced. To recover the advance with high effort, collect at least 100 on success. Keep repayment below 110 so the borrower strictly prefers to work. A competitive quote of 100 breaks even. At 105 the lender earns an expected 4 and effort is still worthwhile.</p></details></section>
 ```
 
 **Apply the model.** Which action becomes harder to induce after damage is covered? [ECO-10 · Covered damage. Unchanged behaviour?](https://kochiuyu.github.io/micro-cases/covered-damage.html)
