@@ -38,6 +38,11 @@ Restore the plant’s capacity to 100. A rival can now serve customers who previ
 
 **Decision memo.** Approve HK$100 while capacity and the revised orders hold. Ask sales how many customers can actually switch suppliers at renewal. That estimate determines whether the best response to the rival’s expansion is a price cut.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What should sales put on this week’s price sheet?</h2><details><summary>Compare your recommendation</summary><p>With capacity for 100 units, keep the HK$100 quote. At HK$115 the margin gained on retained orders falls HK$150 short of the contribution lost on departing customers. Reprice if operations confirms the capacity cut to 65.</p></details></section>
+```
+
 **Apply the model.** Which costs and receipts change if the business stays open one more hour? [ECO-11 · A profitable day. One more hour?](https://kochiuyu.github.io/micro-cases/one-more-hour.html)
 
 **Teaching source.** Week 2 develops production, marginal cost, and monopoly pricing. The discrete price and capacity schedules are original illustrations.

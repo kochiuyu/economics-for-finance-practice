@@ -38,6 +38,11 @@ The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-
 
 **Decision.** Decline the subscription under the stated terms. A discount to the unconditional average is insufficient here. For an actual offer, the question for the analyst is how fills co-vary with eventual value and what evidence supports that estimate.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What evidence would you request before submitting an IPO order?</h2><details><summary>Compare your recommendation</summary><p>Ask for the expected allotment in weak and strong deals. Weight gains and losses by the shares actually received in each state. A discount to average issue value can still leave subscribers losing money on the shares they receive.</p></details></section>
+```
+
 **Apply the model.** What information about the asset does winning the bid reveal? [ECO-12 · The highest estimate. The best bid?](https://kochiuyu.github.io/micro-cases/winning-is-information.html)
 
 **Teaching source.** The original outline includes auctions and Week 5 discusses IPO signaling. The auction and allocation calculations are new hypothetical exercises.

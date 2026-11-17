@@ -28,7 +28,7 @@ The recession claim costs 100 × 0.60 = **HK$60**, and the expansion claim costs
 
 ```{=html}
 <section class="panel" aria-labelledby="mix-title">
-<h2 id="mix-title">Move the payoff between states</h2>
+<h2 id="mix-title">Move the payoff between states</h2><p><strong>Before you start.</strong> Keep the average payout fixed. Which direction should you move the payout to protect a client whose income falls in recessions? Compare the extra price with the protection gained.</p>
 <p>Each state is equally likely. Move HK$10 of payoff from expansion to recession. Before moving the slider, predict how much the price will change. Expected payoff stays at HK$50.</p>
 <div class="controls"><label for="recession-payoff">Recession payoff (HK$)<input type="range" id="recession-payoff" min="0" max="100" step="10" value="50"></label></div>
 <div class="payoff-chart">
@@ -52,6 +52,11 @@ In the consumption model from the lecture, marginal utility is high when consump
 </details>
 
 **Continue along the investment route.** [Build a two-fund portfolio](portfolio-choice.html) and see how covariance changes the risk of the whole account.
+
+
+```{=html}
+<section aria-label="Practice brief"><h2>Which protection would you quote to a client short of cash in a recession?</h2><details><summary>Compare your recommendation</summary><p>A recession-only HK$100 payment costs HK$60 to reproduce. Moving HK$10 of payout from expansion into recession raises today’s cost by HK$2.50. Check that the client’s actual cash shortfall occurs in the state being insured.</p></details></section>
+```
 
 **Teaching source.** Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.
 

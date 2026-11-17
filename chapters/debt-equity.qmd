@@ -37,6 +37,11 @@ Suppose the existing creditors agree to reduce the debt face value from 100 to 8
 
 If existing creditors consent to priority for a new loan of 20, the project can repay the new lender 20 in either state. That leaves 70 or 150 for the old claims. Old creditors then collect 70 or 100, averaging 85. Existing equity collects zero or 50, averaging 25, with no up-front contribution. Priority makes the new claim financeable here because there is enough cash even in the weak state. An actual term sheet requires checking existing covenants and obtaining any necessary consent.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What should the board resolve before it asks shareholders for another 20?</h2><details><summary>Compare your recommendation</summary><p>The project creates 10 overall, but existing shareholders would lose 5 by funding it on the original terms. Negotiate the allocation of the incremental proceeds with creditors and check that each side prefers the deal to walking away.</p></details></section>
+```
+
 **Apply the model.** How do contractual priorities change the proceeds from an exit? [FIN-29 · The same ownership. The same exit proceeds?](https://kochiuyu.github.io/micro-cases/same-ownership-different-exit.html)
 
 **Teaching source.** This original financing exercise extends the course readings on agency and capital structure and the dated-cash-flow analysis in Chapter 5. All values are illustrative.

@@ -15,7 +15,7 @@ A dealer **buys at the bid** when a trader sells and **sells at the ask** when a
 
 ```{=html}
 <section class="panel" aria-labelledby="desk-title" id="desk">
-<h2 id="desk-title">The trading desk</h2>
+<h2 id="desk-title">The trading desk</h2><p><strong>Before you start.</strong> Predict both sides of the next quote after one buy. Enter the order, then compare a second buy with a sell from the same starting history. Explain what the desk learns in each sequence.</p>
 <p>Choose an incoming order. The desk executes at the posted price and updates the quotes for the following trader.</p>
 <div class="controls"><label for="informed">Informed traders · <output id="share" for="informed">50%</output><input type="range" id="informed" min="0" max="90" step="10" value="50"></label></div>
 <div class="metrics"><div class="metric"><span>Bid · dealer buys</span><b id="bid">0.25</b></div><div class="metric"><span>Ask · dealer sells</span><b id="ask">0.75</b></div><div class="metric"><span>Probability of high value</span><b id="posterior">50.0%</b></div></div>
@@ -60,6 +60,11 @@ Set the informed share to zero and try two buys. Each order is now equally likel
 An actual desk may also charge for inventory risk or processing. To assess whether asymmetric information helps explain a spread, look at whether order direction predicts subsequent changes in value and whether the changes persist.
 
 [Compare order-flow inference with IPO allocations](ipo-auctions.html)
+
+
+```{=html}
+<section aria-label="Practice brief"><h2>What prices should the desk show after one buy?</h2><details><summary>Compare your recommendation</summary><p>Post a bid of 0.50 and an ask of 0.90 under the model. The first buy changes your estimate of value. The next customer’s choice of side gives you another piece of information. Recalculate if the share of informed traders changes.</p></details></section>
+```
 
 **Teaching source.** The sequential-trading example comes from Week 6 of the original course. The model follows Lawrence Glosten and Paul Milgrom (1985). [Article and bibliographic details](https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders)
 

@@ -40,6 +40,11 @@ Suppose the early tooling slot costs 3. Your net payoff from committing is 8 −
 
 **Would a fee of 5 be worthwhile?** Under the fair draw it leaves 3, below the benchmark of 4. If the rival would otherwise take the market, the same fee leaves a gain of 3. A proposal claiming a first-mover advantage should say which alternative it compares against.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What tooling fee can the investment committee defend?</h2><details><summary>Compare your recommendation</summary><p>Against the symmetric mixed-equilibrium benchmark, a binding first move raises expected payoff from zero to eight payoff units before the fee. If the firm already expects the rival to wait, the incremental value can disappear. State which alternative the fee buys an advantage over.</p></details></section>
+```
+
 **Apply the model.** Which commitment would make it profitable for the other party to launch? [ECO-17 · We will launch if you do.](https://kochiuyu.github.io/micro-cases/ready-only-if-both-are-ready.html)
 
 **Teaching source.** Week 4 introduces simultaneous games, best responses, and backward induction. The tooling payoffs are illustrative.

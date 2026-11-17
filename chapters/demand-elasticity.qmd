@@ -47,6 +47,11 @@ Serving a subscriber costs HK$40 per month. Fixed costs stay the same. Compare c
 
 [Apply demand to a producer’s pricing and capacity decision](costs-capacity.html)
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What subscriber count should trigger a pricing review?</h2><details><summary>Compare your recommendation</summary><p>At HK$110 the business needs 910 subscribers to exceed its old revenue. With a HK$40 service cost, 860 subscribers still generate HK$200 more monthly contribution than before. Give sales both thresholds and track actual renewals.</p></details></section>
+```
+
 **Apply the model.** When does a lower sales volume still justify the new price? [ECO-04 · Fewer sales. A worse price?](https://kochiuyu.github.io/micro-cases/fewer-jobs.html)
 
 **Teaching source.** Week 2 covers consumer choice, substitutes, and the Slutsky decomposition. The subscription and cost schedules are new.

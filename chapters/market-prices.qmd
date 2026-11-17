@@ -34,6 +34,11 @@ Suppose reported earnings rose from HK$8 to HK$9 per share. If the market expect
 
 “Shares rose 5% around the release. A 5% increase in expected payment would explain the move at yesterday’s required return. To assess that explanation, I would compare timestamped forecast revisions with the price response of similar firms and the change in benchmark yields.” A sector-wide rally would weaken the firm-specific account. Even a narrow event window can contain more than one piece of news.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What wording would you clear for the morning note?</h2><details><summary>Compare your recommendation</summary><p>Report the move from HK$100 to HK$105. Before attributing it to higher future earnings, compare guidance with expectations and check whether the required return changed. Either input can explain the price.</p></details></section>
+```
+
 **Teaching source.** Week 1 develops market clearing, financial institutions, and the efficient-market hypothesis. The results-day calculations are illustrative.
 
 ```{=html}

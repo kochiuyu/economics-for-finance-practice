@@ -25,3 +25,8 @@ As a separate **illustrative** exercise, suppose prices fall 4% in exposed neigh
 **Falsification check.** Repeat the analysis around listings by firms with little local employment. An equally strong neighborhood pattern weakens the local employee-wealth explanation. A three-year exchange-level chart alone cannot perform this test.
 
 [Review the data exhibit](comparable-chart.html) · [Write the Shenzhen capstone memo](../cases/shenzhen-evidence.html)
+
+```{=html}
+<section aria-label="Practice brief"><h2>What would make the comparison credible enough for a credit memo?</h2><details><summary>Compare your recommendation</summary><p>Document similar pre-event trends, measure exposure before the listing event, and check for local shocks affecting only one group. The illustrative one-point deterioration warrants investigation. A simultaneous factory closure could explain it.</p></details></section>
+```
+

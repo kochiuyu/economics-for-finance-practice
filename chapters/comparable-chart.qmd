@@ -23,3 +23,8 @@ Open the CSV in a spreadsheet. Put year on the horizontal axis. Plot column B as
 **Source trail.** The CSV transcribes the Shenzhen row, second-hand housing table, prior-year-month column from each NBS release, and the Shenzhen exchange counts from the PwC comparison. It fixes the release vintages for classroom replication. [NBS December 2021](https://www.stats.gov.cn/english/PressRelease/202201/t20220117_1826410.html) · [December 2022](https://www.stats.gov.cn/english/PressRelease/202301/t20230116_1891673.html) · [December 2023](https://www.stats.gov.cn/english/PressRelease/202401/t20240117_1946674.html) · [PwC China IPO Watch 2023, Greater China exchange comparison](https://www.pwccn.com/en/ipo/china-ipo-watch-2023.pdf)
 
 [Continue to causal evidence](causal-evidence.html)
+
+```{=html}
+<section aria-label="Practice brief"><h2>What caption would you approve under the two panels?</h2><details><summary>Compare your recommendation</summary><p>Exchange-wide IPO counts fell from 187 to 133 in 2023. Shenzhen city resale prices fell 3.1% year on year that December, after a 3.7% fall a year earlier. The smaller decline describes the rate of change while the price level continued to fall.</p></details></section>
+```
+

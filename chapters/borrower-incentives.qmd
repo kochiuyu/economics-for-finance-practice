@@ -35,6 +35,11 @@ Suppose the project needs 90 instead of 80. With effort, expected output less ef
 <details><summary>Check how much income can be pledged</summary>
 <p>Even granting effort at the boundary, the lender can collect at most 0.8 × 110 = 88 in expectation while preserving incentives. Offering more induces shirking, under which expected collections cannot exceed 0.5 × 140 = 70. A borrower contribution of 3 lowers the required loan to 87. At R = 108.75 the lender breaks even, and the borrower retains 31.25 on success, enough for strict effort. Expected borrower payoff net of effort and its own contribution is 25 − 9 − 3 = 13.</p></details>
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>Would you sign off on repayment of 115?</h2><details><summary>Compare your recommendation</summary><p>Decline those terms under the stated assumptions. They leave too little upside to induce effort, so expected collections fall to 57.5 on an advance of 80. At repayment of 100, effort pays and expected collections cover the advance.</p></details></section>
+```
+
 **Apply the model.** Which action becomes harder to induce after damage is covered? [ECO-10 · Covered damage. Unchanged behaviour?](https://kochiuyu.github.io/micro-cases/covered-damage.html)
 
 **Teaching source.** Week 5 develops hidden action, incentive compatibility, and credit rationing. The loan terms and cash flows are illustrative.

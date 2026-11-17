@@ -1,6 +1,6 @@
 ---
 title: Finance labs
-summary: Choose a model and test how its results change when you vary an assumption.
+summary: Choose a desk decision. Predict the result, change one input, and explain what you would recommend.
 base: .
 sectionname: Labs
 kicker: Interactive learning

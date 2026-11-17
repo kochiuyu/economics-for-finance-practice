@@ -36,6 +36,11 @@ The open-economy model in the lecture links three policy choices. With mobile ca
 
 Write a three-sentence treasury note. State the currency and payment date of the invoice. Quantify the exchange and interest components under one stress scenario. Name one assumption that would change the result. A manager can then decide whether to hedge the invoice, fix the loan rate, or address both exposures.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What should appear in the importer’s 90-day cash forecast?</h2><details><summary>Compare your recommendation</summary><p>Show the dollar invoice and interest on the HK-dollar loan separately. In the combined stress, the invoice costs another HK$50,000 and interest another HK$40,000. A forward on the invoice leaves the loan-rate exposure outstanding.</p></details></section>
+```
+
 **Teaching source.** Week 10 develops fixed and floating regimes, capital mobility, and Hong Kong’s currency board. The institutional description follows the HKMA. The importer and treasury calculations were created for this edition.
 
 ```{=html}

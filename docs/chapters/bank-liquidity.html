@@ -51,7 +51,7 @@
 </table>
 <p>Cash used to repay deposits reduces assets and liabilities by the same amount. Selling loans below their maturity value reduces equity. At withdrawals of 50, the bank meets every request today and has exhausted its equity cushion. It could pay a little more today by selling further loans, leaving insufficient assets for those who wait.</p>
 <section class="panel" aria-labelledby="bank-title">
-<h2 id="bank-title">Run the withdrawal test</h2>
+<h2 id="bank-title">Run the withdrawal test</h2><p><strong>Before you start.</strong> With opening cash of 20 million and a sale price of 0.75, predict which runs out first, cash or equity. Raise withdrawals through both thresholds and identify when later depositors first face a loss.</p>
 <p>Change the requests, the opening cash reserve, or the price available for quick loan sales. The bank starts each scenario with assets of 110 and deposits of 100. A larger opening reserve replaces loans one-for-one.</p>
 <div class="controls">
 <label>Withdrawals requested (HK$ million)<input type="range" id="withdrawals" min="0" max="100" step="1" value="50"><output for="withdrawals" id="withdrawal-amount">50</output></label>
@@ -73,6 +73,9 @@ At a reserve of 40, the bank holds only 70 of loans. To pay 60 at the same sale 
 </details>
 <h2 id="why-might-a-patient-depositor-join-a-run">Why might a patient depositor join a run?</h2>
 <p>Suppose a bank serves depositors in arrival order. If others wait, loans mature and there is enough to repay everyone. If others withdraw, forced sales destroy value and a late depositor might receive less. A depositor who could otherwise wait may therefore withdraw after expecting others to do the same. This feedback connects the balance sheet to the strategic bank-run game in the lecture.</p>
+
+<section aria-label="Practice brief"><h2>What should the treasurer report when withdrawals reach HK$50 million?</h2><details><summary>Compare your recommendation</summary><p>Today’s requests can be paid. Selling HK$40 million of loans raises HK$30 million and consumes all HK$10 million of equity. At the same sale price, exhausting cash would take HK$87.5 million of withdrawals. Report both thresholds and rerun them at a worse bid.</p></details></section>
+
 <p><strong>Apply the model.</strong> When can a protected balance still leave the depositor short of cash? <a href="https://kochiuyu.github.io/micro-cases/protected-and-available.html">FIN-09 · One bank. Two kinds of safety.</a></p>
 <p><strong>Teaching source.</strong> Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.</p>
 <nav class="route-nav" aria-label="Essentials chapter navigation">

@@ -10,17 +10,22 @@ kicker: Chapter 4
 **Your decision.** A shop has two generators for a one-day outage. Four households value a day of power at 120, 90, 60, and 30. Each unit costs 20 to supply. Should the shop raise the price, hold a lottery, or serve the queue?
 :::
 
-## Build the comparison
+## Compare who gets power and what allocation costs
 
 At a price of 75, only the first two households buy. Their combined value is 210. Subtract 40 of supply cost to obtain total surplus of **170**. The shop earns 110 and consumers keep 60. The price splits the surplus between buyers and seller. Charging it consumes no generator capacity.
 
 At a price of 25 all four apply. An equal lottery without replacement gives each a one-half chance. Expected gross value is half of 300, or 150. Expected total surplus is **110** and the shop earns 10. Each household gets a chance, including the two who would decline at 75.
 
-## Change an assumption
+## Count waiting time as a real cost
 
 **Suppose the queue delivers the units to the 120 and 60 households, and all four spend time worth 10 each waiting. What changes?**
 
 <details><summary>Work through the decision</summary><p>Gross value is 180. Subtract supply cost of 40 and waiting cost of 40 to obtain surplus of 100. A one-unit purchase limit would prevent a household from taking both, but all households already want only one. To prioritize medical need, identify eligible households and explicitly measure reach. Willingness to pay also reflects purchasing power.</p></details>
+
+
+```{=html}
+<section aria-label="Practice brief"><h2>What would you ask the shop manager to decide before allocating the generators?</h2><details><summary>Compare your recommendation</summary><p>If the aim is highest total surplus under the stated valuations, the HK$75 price directs the units to the two highest-value users. If emergency need takes priority, establish how staff can identify eligible households before choosing an allocation rule.</p></details></section>
+```
 
 **Apply the model.** Who receives the scarce units when a price ceiling binds? [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html)
 

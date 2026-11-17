@@ -10,17 +10,22 @@ kicker: Chapter 19
 **Your decision.** A platform has 120 qualified one-loan applicants and lenders willing to fund 80 loans. It earns 60 per funded loan and spends 20 screening each qualified application. Should it pay 300 to attract another 20 applicants or another 20 units of lending capacity?
 :::
 
-## Build the comparison
+## Which side limits funded loans?
 
 With identical loan sizes, a funded match requires one applicant and one unit of capacity. Baseline contribution is 80 × 60 − 120 × 20 = **2,400**. More applicants leave matches at 80. Screening costs grow by 400 and the campaign costs 300. Contribution falls to 1,700.
 
 Attracting lenders raises matches to 100 without expanding the application pool. Contribution becomes 100 × 60 − 2,400 − 300 = **3,300**. This cross-side effect depends on lenders trusting the screening process. Report approvals, funded loans, and repeat participation separately.
 
-## Change an assumption
+## What if lenders lose confidence?
 
 **If a weakened screening standard causes funding capacity to fall to 65, what is the cost even before defaults?**
 
 <details><summary>Work through the decision</summary><p>Relative to the 80-match baseline, lost fees are 15 × 60 = 900 with the same screening bill. If lenders bear all defaults, their expected losses do not enter the platform’s current fee margin directly. They can still change future participation. A manager estimating lifetime profits needs cohort repayment and repeat-funding data.</p></details>
+
+
+```{=html}
+<section aria-label="Practice brief"><h2>Which acquisition campaign should receive the budget?</h2><details><summary>Compare your recommendation</summary><p>Acquire lending capacity under the baseline. Contribution rises from 2,400 to 3,300 because another 20 loans can be funded. Monitor funded matches and repeat lender participation alongside application counts.</p></details></section>
+```
 
 **Apply the model.** Does adding participants create more completed matches? [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html)
 

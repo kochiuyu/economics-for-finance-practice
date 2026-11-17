@@ -37,6 +37,11 @@ Give the same household an extra 69 before it chooses. Uninsured wealth is now 1
 <p>For square-root utility, the Arrow–Pratt measure of absolute risk aversion is 1 / (2w), which decreases with wealth w. The example compares the same monetary loss at two wealth levels. Preferences with constant absolute risk aversion would produce the same risk premium for a fixed loss distribution at both wealth levels.</p>
 </details>
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>How would you explain the premium to this household?</h2><details><summary>Compare your recommendation</summary><p>At the quoted HK$34,000, full cover leaves HK$66,000 in either state. The household values its uninsured position like a certain HK$64,000 under the stated preferences. Reassess the reservation premium if the client’s wealth changes.</p></details></section>
+```
+
 **Apply the model.** How much loss does the buyer retain through repeated deductibles? [FIN-24 · A lower premium. How much risk stays here?](https://kochiuyu.github.io/micro-cases/lower-premium-repeated-deductible.html)
 
 **Teaching source.** Week 3 develops expected utility, certainty equivalents, and Arrow–Pratt risk aversion. The two wealth levels and insurance quotes are illustrative.

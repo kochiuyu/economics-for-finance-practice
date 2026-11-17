@@ -34,6 +34,11 @@ Suppose a household starts with 100 units of income today and 50 next year. It c
 
 At 6%, accept under the stated assumptions. At 10%, decline. If a lender also charges an up-front fee, deduct it from today’s net present value. A HK$2,000 fee paid from cash today would turn the 6% decision negative. This is why an analyst asks for the drawdown, fee, and repayment dates before comparing two term sheets.
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What borrowing terms would you authorize?</h2><details><summary>Compare your recommendation</summary><p>Approve the certain one-year project at 6%. It leaves HK$2,000 at maturity after repayment. At 8% the surplus disappears. Include fees and revisit the analysis if the receipt date or amount becomes uncertain.</p></details></section>
+```
+
 **Apply the model.** Would the project with the faster payback also win on present value? [FIN-08 · Back sooner. Worth more?](https://kochiuyu.github.io/micro-cases/back-sooner.html)
 
 **Teaching source.** Week 3 develops the two-period budget and discounting. The project, funding terms, and household figures are illustrative.

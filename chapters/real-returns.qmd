@@ -36,6 +36,11 @@ GDP measures domestic value added over a period. A year-end stock of inventories
 
 [Apply the index calculation to Shenzhen resale prices](comparable-chart.html)
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>Which sales figure belongs in the analyst briefing?</h2><details><summary>Compare your recommendation</summary><p>Report cash sales growth of 8% and estimated volume growth of 1.89% under the retailer’s price index. Check whether product mix changed before interpreting the estimate as growth in units sold.</p></details></section>
+```
+
 **Teaching source.** Week 8 introduces national accounts, inflation, and the Fisher relation. Sales, deposit, and price series in this example are illustrative.
 
 ```{=html}

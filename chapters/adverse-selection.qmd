@@ -60,6 +60,11 @@ A dealer also faces a selected group. A trader with favorable private informatio
 
 [Follow the credit route to borrower incentives](borrower-incentives.html)
 
+
+```{=html}
+<section aria-label="Practice brief"><h2>What should a lender check before applying an average loss rate to a new offer?</h2><details><summary>Compare your recommendation</summary><p>Estimate who will accept the proposed terms. In the car example, offering 60 attracts owners of cars worth only 20 to the buyer. For a loan, use the expected loss among likely acceptances and test how the applicant mix shifts when terms change.</p></details></section>
+```
+
 **Apply the model.** What makes a quality signal cheaper for a high-quality seller to send? [ECO-13 · A promise of quality. Costly for whom?](https://kochiuyu.github.io/micro-cases/promise-costs.html)
 
 **Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.
