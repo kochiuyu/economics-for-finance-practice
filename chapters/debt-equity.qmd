@@ -1,0 +1,42 @@
+---
+title: Why would shareholders reject a valuable project?
+summary: Allocate a project’s cash flows among existing creditors and shareholders, then design funding terms both sides can accept.
+base: ..
+sectionname: Chapters
+kicker: Chapter 14 · Debt and equity
+---
+
+::: {.decision}
+**Your decision.** A company can invest 20 today for a certain additional 30 next year. Its existing shareholders can supply the 20. Should the board expect them to agree?
+:::
+
+## Follow the senior claim
+
+The company already owes 100 at maturity. Its existing assets pay 60 or 140 with equal probability. Assume risk-neutral valuation, zero interest, no taxes, and no bankruptcy costs. Creditors receive the smaller of available assets and the debt claim. Shareholders receive the residual.
+
+| State | Old debt without project | Equity without project | Old debt with project | Equity with project |
+| --- | ---: | ---: | ---: | ---: |
+| Weak | 60 | 0 | 90 | 0 |
+| Strong | 100 | 40 | 100 | 70 |
+| Expected payoff | 80 | 20 | 95 | 35 |
+
+In the weak state the entire extra 30 goes to creditors. In the strong state it goes to shareholders. Existing equity therefore gains 15 in expected future receipts but must contribute 20 today. The shareholders lose **5** by funding a project that creates **10** for the firm as a whole. This is debt overhang.
+
+## Would selling new equity solve the problem?
+
+Outside investors would need a fraction 20 / 35 of the post-investment equity to break even. Existing shareholders would retain equity worth 15, below the 20 they could keep by rejecting the project. Changing who writes the cheque leaves the distribution problem in place.
+
+## Renegotiate before the investment
+
+Suppose the existing creditors agree to reduce the debt face value from 100 to 85, conditional on shareholders funding the project. **Compare each party’s new position with its position if negotiations fail.**
+
+<details><summary>Check both participation decisions</summary>
+<p>With the project, assets pay 90 or 170. Creditors receive 85 in either state, worth 5 more than their original expected recovery of 80. Equity pays 5 or 85, averaging 45. After contributing 20, shareholders retain value of 25, also 5 above their original position. The two gains add to the project’s net value of 10.</p></details>
+
+## Could a new senior loan work instead?
+
+If existing creditors consent to priority for a new loan of 20, the project can repay the new lender 20 in either state. That leaves 70 or 150 for the old claims. Old creditors then collect 70 or 100, averaging 85. Existing equity collects zero or 50, averaging 25, with no up-front contribution. Priority makes the new claim financeable here because there is enough cash even in the weak state. An actual term sheet requires checking existing covenants and obtaining any necessary consent.
+
+**Teaching source.** This original financing exercise extends the course readings on agency and capital structure and the dated-cash-flow analysis in Chapter 5. All values are illustrative.
+
+[Review borrower incentives](borrower-incentives.html) · [Continue the credit route with bank liquidity](bank-liquidity.html)

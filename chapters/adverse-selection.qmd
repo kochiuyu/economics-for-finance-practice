@@ -58,6 +58,8 @@ The lender **screens** by offering a choice whose costs differ across types. A b
 
 A dealer also faces a selected group. A trader with favorable private information is more likely to buy. A trader with unfavorable information is more likely to sell. The dealer can use the direction of an order to revise the value at which the trade would break even. The next lesson puts a number on that revision.
 
+[Follow the credit route to borrower incentives](borrower-incentives.html)
+
 **Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.
 
 ```{=html}

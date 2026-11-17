@@ -1,0 +1,43 @@
+---
+title: What is a share worth conditional on receiving it?
+summary: Compare a private-value auction with an IPO allocation in which the number of shares you receive conveys information.
+base: ..
+sectionname: Chapters
+kicker: Chapter 16 · Auctions and IPO allocation
+---
+
+::: {.decision}
+**Your decision.** A share will be worth either 80 or 120, with equal probability. The offer price is 95. You request 100 shares. Is the five-unit discount to average value enough to make subscribing worthwhile?
+:::
+
+## Start with a private-value auction
+
+Suppose a buyer values an asset at 110 because of its own use for it. In a sealed-bid second-price auction, the highest bidder wins and pays the second-highest bid. Bidding 110 wins against a competing bid of 100 and earns 10. Against a bid of 115 it loses and earns zero. Bidding above 115 in that second situation would force a purchase at a loss. Under private values, bidding one’s valuation is weakly dominant given this payment rule.
+
+For a common-value asset, winning may reveal that other bidders received less favorable information. A bidder must consider the asset’s value given its signal **and the event that its bid wins**. The following fixed-price offering illustrates the related selection effect when allocations vary across states.
+
+<details><summary>Would a second-price bid of 100 break even under common values?</summary><p>Suppose the asset pays 80 or 120 with equal probability. A rival bids 85 in the low state and 115 in the high state. Treat those bids as given. Bidding the unconditional value of 100 wins only in the low state. You pay 85 for an asset worth 80, losing 5 conditional on winning and 2.50 per auction on average. Staying out yields zero. The private-value buyer above values the asset at 110 whichever rival bid it faces.</p></details>
+
+## Reconstruct what reaches your account
+
+Assume informed demand is strong when value is high. The allocation rule gives you all 100 shares in the low state and only 25 in the high state. There are no fees or financing costs. These allocations are stipulated for this exercise.
+
+| State | Probability | Allocation | Profit at price 95 |
+| --- | ---: | ---: | ---: |
+| Low value, 80 | ½ | 100 | −1,500 |
+| High value, 120 | ½ | 25 | +625 |
+
+Expected profit per application is **−437.50**. Dividing by the expected allocation of 62.5 shares gives **−7 per allocated share**. If the two states each occurred once, your account would hold 100 low-value shares and 25 high-value shares. A randomly selected allocated share would come from the low state with probability 100 / 125 = 80%.
+
+## Set a break-even subscription price
+
+The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-neutral investor would break even at 88 if the allocation schedule stayed fixed. Both states give you some shares, so merely observing that you received an allocation leaves the state probabilities unchanged. It is the *size* of that allocation that changes the payoff calculation.
+
+<details><summary>How much high-state allocation would make 95 acceptable?</summary>
+<p>Let H be the number of high-state shares and keep the low-state allocation at 100. Expected profit is one-half times [25H − 15 × 100]. Break-even requires H = 60 shares. At an offer price of 95, a high-state allocation of 70 would yield expected profit of 125 per application. Revisit the schedule if a different offer price changes informed demand.</p></details>
+
+**Decision.** Decline the subscription under the stated terms. A discount to the unconditional average is insufficient here. For an actual offer, the question for the analyst is how fills co-vary with eventual value and what evidence supports that estimate.
+
+**Teaching source.** The original outline includes auctions and Week 5 discusses IPO signaling. The auction and allocation calculations are new hypothetical exercises.
+
+[Review the dealer’s order-flow inference](dealer-pricing.html) · [Explore the course map](../curriculum.html)

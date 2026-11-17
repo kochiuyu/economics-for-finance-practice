@@ -27,9 +27,9 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 | Route | Chapter sequence |
 | --- | --- |
 | Investment analysis | [5](chapters/project-appraisal.html) → [6](chapters/risk-insurance.html) → [7](chapters/state-prices.html) → [8](chapters/portfolio-choice.html) → [9](chapters/market-risk.html) → [10](chapters/behavioral-finance.html) → [22](chapters/long-run-valuation.html) → [25](chapters/yield-curves.html) |
-| Credit and banking | [12](chapters/adverse-selection.html) → 13 → 14 → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → [25](chapters/yield-curves.html) → 29 |
+| Credit and banking | [12](chapters/adverse-selection.html) → [13](chapters/borrower-incentives.html) → [14](chapters/debt-equity.html) → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → [25](chapters/yield-curves.html) → 29 |
 | Corporate treasury in Hong Kong | [3](chapters/costs-capacity.html) → [5](chapters/project-appraisal.html) → [25](chapters/yield-curves.html) → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
-| Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → 16 → 19 → 20 |
+| Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → [16](chapters/ipo-auctions.html) → 19 → 20 |
 
 ## Part I. Markets, firms, and prices
 
@@ -51,10 +51,10 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 
 - [11. Entry, commitment, and strategic competition](chapters/strategic-entry.html)
 - [12. Adverse selection, signaling, and screening](chapters/adverse-selection.html)
-- 13. Moral hazard and incentives
-- 14. Debt, equity, and financing a new project
+- [13. Moral hazard and incentives](chapters/borrower-incentives.html)
+- [14. Debt, equity, and financing a new project](chapters/debt-equity.html)
 - [15. Order flow, bid–ask spreads, and price discovery](chapters/dealer-pricing.html)
-- 16. Auctions, IPO allocation, and the winner’s curse
+- [16. Auctions, IPO allocation, and the winner’s curse](chapters/ipo-auctions.html)
 
 ## Part IV. Banks, platforms, and public policy
 

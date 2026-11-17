@@ -1,0 +1,40 @@
+---
+title: How much can the lender safely promise itself?
+summary: Set a success repayment that finances a project while giving the borrower a reason to protect its cash flow.
+base: ..
+sectionname: Chapters
+kicker: Chapter 13 · Moral hazard
+---
+
+::: {.decision}
+**Your decision.** A borrower needs 80 today. Its project pays 140 on success and zero on failure. Your credit team proposes collecting 115 on success. Would you approve the loan if the borrower chooses how hard to work after signing?
+:::
+
+## Price the action the borrower will take
+
+All amounts are illustrative. Both parties are risk neutral, the funding rate is zero, and the borrower has no collateral. Effort raises the probability of success from 50% to 80% and costs the borrower 9 in personal effort. The lender can verify cash flow but cannot observe effort. Limited liability means the borrower pays zero on failure. Its outside option is zero.
+
+At repayment 115, success leaves the borrower 25. Working raises its expected share by (0.8 − 0.5) × 25 = 7.5. That falls short of the effort cost of 9. The borrower shirks. A credit forecast based on effort predicts collections of 92, but actual expected collections under this contract are only **57.5**.
+
+## Find the feasible contract
+
+Let R be repayment on success. To induce effort, the borrower must retain at least 9 / 0.3 = **30** on success. Thus R can be at most 110. To recover 80 when the borrower works, the lender needs 0.8R ≥ 80, or R ≥ 100.
+
+| Success repayment | Borrower payoff with effort | Borrower payoff without effort | Expected lender receipts under chosen action |
+| --- | ---: | ---: | ---: |
+| 100 | 23 | 20 | 80 |
+| 105 | 19 | 17.5 | 84 |
+| 115 | 11 | 12.5 | 57.5 |
+
+**Approve 100** if lenders compete to break even. At 105 the borrower also strictly prefers effort and the lender earns 4 above funding cost. At 110 the borrower is indifferent, so relying on effort there requires a tie-breaking assumption.
+
+## Can a valuable project still go unfunded?
+
+Suppose the project needs 90 instead of 80. With effort, expected output less effort and funding costs is 112 − 9 − 90 = **13**. Could a higher promised repayment cover the additional funding?
+
+<details><summary>Check how much income can be pledged</summary>
+<p>Even granting effort at the boundary, the lender can collect at most 0.8 × 110 = 88 in expectation while preserving incentives. Offering more induces shirking, under which expected collections cannot exceed 0.5 × 140 = 70. A borrower contribution of 3 lowers the required loan to 87. At R = 108.75 the lender breaks even, and the borrower retains 31.25 on success, enough for strict effort. Expected borrower payoff net of effort and its own contribution is 25 − 9 − 3 = 13.</p></details>
+
+**Teaching source.** Week 5 develops hidden action, incentive compatibility, and credit rationing. The loan terms and cash flows are illustrative.
+
+[Review borrower screening](adverse-selection.html) · [Continue to debt and equity](debt-equity.html)
