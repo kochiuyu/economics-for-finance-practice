@@ -1,0 +1,43 @@
+---
+title: Should the producer pass on a cost increase?
+summary: Use a price schedule, a capacity limit, and a rival’s expansion to decide how much of a higher unit cost customers will bear.
+base: ..
+sectionname: Chapters
+kicker: Chapter 3 · Costs and market power
+---
+
+::: {.decision}
+**Your decision.** A components plant can ship 100 units this week. A material shortage raises its variable cost from HK$40 to HK$55 per unit. Sales wants to pass the entire increase through. Operations wants to keep the plant full. Which price would you put on the order sheet?
+:::
+
+## Reconstruct the decision before the shortage
+
+The three prices below are the firm’s feasible quotes. It charges one price to everyone. Orders above capacity go unfilled, and unsold capacity has no alternative use. Weekly fixed costs of HK$2,000 are committed. Contribution equals units shipped times price less variable cost per unit.
+
+| Quote | Orders | Units shipped | Contribution at cost 40 | Contribution at cost 55 |
+| --- | ---: | ---: | ---: | ---: |
+| HK$85 | 120 | 100 | HK$4,500 | HK$3,000 |
+| HK$100 | 90 | 90 | HK$5,400 | HK$4,050 |
+| HK$115 | 65 | 65 | HK$4,875 | HK$3,900 |
+
+Before the shortage, HK$100 earns the highest contribution. Afterward, **keep the HK$100 quote**. Raising it to HK$115 adds HK$15 on each of the 65 retained sales, or HK$975. Losing 25 sales gives up 25 × HK$45 = HK$1,125. The increase would reduce weekly contribution by HK$150. Subtracting the same fixed cost from each row leaves the ranking unchanged.
+
+## What if the plant loses a production line?
+
+Suppose capacity falls to 65 while demand and the new unit cost stay fixed. **Would you still absorb the cost increase?**
+
+<details><summary>Check the capacity decision</summary>
+<p>At all three prices the plant now ships exactly 65. Contributions are HK$1,950, HK$2,925, and HK$3,900. Choose HK$115. With the line unavailable, the extra orders attracted by a lower quote cannot generate additional sales. Restoring capacity from 65 to 100 would raise the best achievable contribution from HK$3,900 to HK$4,050. Paying more than HK$150 to restore the line for this week would erase that gain.</p></details>
+
+## A rival adds capacity
+
+Restore the plant’s capacity to 100. A rival can now serve customers who previously had few alternatives. The sales team revises orders at the three prices to **105, 72, and 45**. Predict the best quote before opening the answer.
+
+<details><summary>Reprice after the rival expands</summary>
+<p>At a unit cost of HK$55 the three contributions are HK$3,000, HK$3,240, and HK$2,700. HK$100 still wins, but by only HK$240 over the low quote. If orders at HK$100 fall below 66⅔ units while orders at HK$85 stay above capacity, HK$85 becomes more profitable. At 66 units, cutting the price adds HK$30; at 67, holding the price earns HK$15 more.</p></details>
+
+**Decision memo.** Approve HK$100 while capacity and the revised orders hold. Ask sales how many customers can actually switch suppliers at renewal. That estimate determines whether the best response to the rival’s expansion is a price cut.
+
+**Teaching source.** Week 2 develops production, marginal cost, and monopoly pricing. The discrete price and capacity schedules are original illustrations.
+
+[Review demand and elasticity](demand-elasticity.html) · [Study strategic entry](strategic-entry.html)

@@ -1,0 +1,45 @@
+---
+title: When is moving first worth paying for?
+summary: Solve the same entry decision under simultaneous and sequential moves, then price a commitment that a rival can observe.
+base: ..
+sectionname: Chapters
+kicker: Chapter 11 · Strategy and commitment
+---
+
+::: {.decision}
+**Your decision.** Two manufacturers can launch competing products. Your firm can reserve tooling early so that its launch becomes observable and irreversible before the rival decides. What is the most you should pay for that advantage?
+:::
+
+## First solve the simultaneous game
+
+Each firm chooses launch or wait. Payoffs are illustrative incremental profits in millions, measured against its existing business. Each cell gives **your firm’s payoff first**, followed by the rival’s. All launch costs except the optional early reservation fee are already included.
+
+| Your choice | Rival launches | Rival waits |
+| --- | --- | --- |
+| Launch | (−2, −2) | (8, 0) |
+| Wait | (0, 8) | (0, 0) |
+
+If the rival launches, waiting yields 0 instead of −2. If the rival waits, launching yields 8 instead of 0. Both firms reason this way. There are **two pure-strategy Nash equilibria**: one firm launches and the other waits. The matrix alone cannot tell the investment committee which firm will secure the market.
+
+<details><summary>What if both firms randomize independently?</summary>
+<p>If the rival launches with probability p, launching gives 8(1 − p) − 2p = 8 − 10p. Waiting gives zero. At p = 0.8 the firm is indifferent. In the symmetric mixed equilibrium each launches with probability 0.8 and earns zero in expectation. This is a third equilibrium and a particular benchmark for valuing early action.</p></details>
+
+## Give the rival a second move
+
+Now the rival sees your binding decision. If you launch, it waits because 0 exceeds −2. If you wait, it launches because 8 exceeds 0. Looking ahead, you launch and earn 8. An announcement that can be withdrawn costlessly need not induce the same response. The rival must believe that tooling is reserved and the launch will go ahead.
+
+## Price the commitment against a stated alternative
+
+Suppose the early tooling slot costs 3. Your net payoff from committing is 8 − 3 = **5**. Its attractiveness depends on the outcome available without the slot.
+
+| Benchmark without reservation | Your expected payoff | Maximum reservation fee |
+| --- | ---: | ---: |
+| Rival would take the market | 0 | 8 |
+| A fair draw assigns one firm the launch opportunity | 4 | 4 |
+| You already secure the sole launch | 8 | 0 |
+
+**Would a fee of 5 be worthwhile?** Under the fair draw it leaves 3, below the benchmark of 4. If the rival would otherwise take the market, the same fee leaves a gain of 3. A proposal claiming a first-mover advantage should say which alternative it compares against.
+
+**Teaching source.** Week 4 introduces simultaneous games, best responses, and backward induction. The tooling payoffs are illustrative.
+
+[Apply the model to the Maruti Suzuki seminar](../cases/maruti-suzuki.html) · [Review costs and capacity](costs-capacity.html)

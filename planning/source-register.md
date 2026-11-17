@@ -18,5 +18,6 @@ The teaching archive is the 2023–24 CUHK FINA 6282 folder maintained by Chiu Y
 | Global shutdown seminar | Alfaro and Jeong, HBS 320-108, original case assignment and IMF April 2020 outlook | Separates the dated IMF forecast from new fictional bridge-loan scenarios. |
 | Investment route (8-10) | Earlier combined slides and outline, Week 3 on risk pricing | New portfolio allocation lab, beta worksheet, purchase-history comparison, and collateral stress exercise. All numerical exhibits are illustrative. |
 | Growth and fixed income (22, 25) | Week 8 on growth, dated cash flows in Week 3, policy transmission in Week 9 | New supplier terminal-value audit and two-maturity repricing and refinancing exercises. |
+| Costs, entry, and Maruti Suzuki (3, 11 and seminar) | Week 2 pricing, Week 4 games, assigned case W18345 | Original plant, tooling, and policy-contingent entry exercises. Case figures are fictional. |
 
 The public project includes independently written pages and links to publisher records. The full case texts, teaching notes, private keys to assessments, and other instructors' materials remain in the teaching archive.

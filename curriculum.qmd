@@ -18,7 +18,7 @@ Follow twelve decisions in order. Each lesson includes a worked example and link
 | Stress-test a balance sheet | [17. Meet deposit withdrawals](chapters/bank-liquidity.html) · [21. Measure purchasing power](chapters/real-returns.html) |
 | Trace a macro shock | [23. Diagnose a fall in shipments](chapters/business-cycle-shocks.html) · [24. Test interest coverage](chapters/policy-transmission.html) · [28. Assess a Hong Kong importer's exposure](chapters/hong-kong-exchange-rate.html) |
 
-**Case seminars.** [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html).
+**Case seminars.** [Decide whether to commit to an electric-car launch](cases/maruti-suzuki.html), [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html).
 
 ## Professional reading routes
 
@@ -28,14 +28,14 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 | --- | --- |
 | Investment analysis | [5](chapters/project-appraisal.html) → [6](chapters/risk-insurance.html) → [7](chapters/state-prices.html) → [8](chapters/portfolio-choice.html) → [9](chapters/market-risk.html) → [10](chapters/behavioral-finance.html) → [22](chapters/long-run-valuation.html) → [25](chapters/yield-curves.html) |
 | Credit and banking | [12](chapters/adverse-selection.html) → 13 → 14 → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → [25](chapters/yield-curves.html) → 29 |
-| Corporate treasury in Hong Kong | 3 → [5](chapters/project-appraisal.html) → [25](chapters/yield-curves.html) → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
+| Corporate treasury in Hong Kong | [3](chapters/costs-capacity.html) → [5](chapters/project-appraisal.html) → [25](chapters/yield-curves.html) → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
 | Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → 16 → 19 → 20 |
 
 ## Part I. Markets, firms, and prices
 
 - [1. What can a price move tell us?](chapters/market-prices.html)
 - [2. Demand, substitution, and elasticity](chapters/demand-elasticity.html)
-- 3. Costs, capacity, and market power
+- [3. Costs, capacity, and market power](chapters/costs-capacity.html)
 - 4. Welfare, incidence, and rationing
 
 ## Part II. Risk, valuation, and investment
@@ -49,7 +49,7 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 
 ## Part III. Strategy, information, and financial contracts
 
-- 11. Entry, commitment, and strategic competition
+- [11. Entry, commitment, and strategic competition](chapters/strategic-entry.html)
 - [12. Adverse selection, signaling, and screening](chapters/adverse-selection.html)
 - 13. Moral hazard and incentives
 - 14. Debt, equity, and financing a new project
