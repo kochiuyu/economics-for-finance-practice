@@ -49,7 +49,7 @@ Serving a subscriber costs HK$40 per month. Fixed costs stay the same. Compare c
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>What subscriber count should trigger a pricing review?</h2><details><summary>Compare your recommendation</summary><p>At HK$110 the business needs 910 subscribers to exceed its old revenue. With a HK$40 service cost, 860 subscribers still generate HK$200 more monthly contribution than before. Give sales both thresholds and track actual renewals.</p></details></section>
+<section aria-label="Practice brief"><h2>What subscriber count should trigger a pricing review?</h2><details><summary>Compare your recommendation</summary><p>At HK$110, each subscriber contributes HK$70 after service cost. The old plan earned HK$60,000 in monthly contribution, so the new price needs at least 858 renewals (60,000 ÷ 70, rounded up). Revenue needs 910 renewals to exceed its old level. At the forecast of 860, the contribution gain is only HK$200 a month. Three fewer renewals would erase it. Track renewals and any additional retention spending before extending the price change.</p></details></section>
 ```
 
 **Apply the model.** When does a lower sales volume still justify the new price? [ECO-04 · Fewer sales. A worse price?](https://kochiuyu.github.io/micro-cases/fewer-jobs.html)

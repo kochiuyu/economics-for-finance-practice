@@ -24,7 +24,7 @@ Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.6
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>Should purchasing switch suppliers for this shipment?</h2><details><summary>Compare your recommendation</summary><p>Stay with the incumbent for 10,000 units. The alternative saves US$26,000 before a US$30,000 qualification fee. Switching becomes cheaper above roughly 11,539 units if quotes hold and the fee is paid once.</p></details></section>
+<section aria-label="Practice brief"><h2>Should purchasing switch suppliers for this shipment?</h2><details><summary>Compare your recommendation</summary><p>Stay with the incumbent for 10,000 units. The alternative saves US$26,000 before a US$30,000 qualification fee. Each unit saves US$2.60. Divide the US$30,000 fee by US$2.60 and round up. At 11,539 units, switching first becomes cheaper. Count repeat orders only if the quotes still apply and the qualification fee covers them.</p></details></section>
 ```
 
 **Teaching source.** Week 10 and the trade-war case. All duties and prices are hypothetical.
