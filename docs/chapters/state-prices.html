@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why is a recession payoff worth more? · Economics for Finance Practice</title>
+<meta name="description" content="Two claims have the same average payoff. Recover their prices by building portfolios that reproduce their payments.">
+<link rel="stylesheet" href="../assets/course.css">
+<script src="../assets/state-prices.js" defer=""></script>
+</head>
+<body class="">
+<a href="#main" class="skip">Skip to content</a>
+<header class="mast"><div class="bar"><a class="brand" href="../index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Economics for Finance Practice</a>
+<nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../index.html#activities">Activities</a><a href="../original-course/index.html">Course record</a></nav></div></header>
+<main id="main" class="frame" tabindex="-1">
+<div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Chapters</div><header class="pagehead"><span class="kicker">Chapter 7 · State prices</span><h1>Why is a recession payoff worth more?</h1><p class="dek">Two claims have the same average payoff. Recover their prices by building portfolios that reproduce their payments.</p></header>
+<div class="decision">
+<p><strong>Your decision.</strong> You can buy a claim paying HK$100 in a recession and zero in an expansion, or another paying zero in a recession and HK$100 in an expansion. The two states are equally likely. Should you offer the same price for each claim?</p>
+</div>
+<h2 id="infer-two-state-prices-from-traded-securities">Infer two state prices from traded securities</h2>
+<p>Each security settles one year from today. The figures below are hypothetical. Assume frictionless trading, including borrowing and short selling at the stated prices. These two securities span the two possible states, so their prices pin down the cost of reproducing any pair of payoffs.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Security</th>
+<th style="text-align: right;">Price today</th>
+<th style="text-align: right;">Recession payoff</th>
+<th style="text-align: right;">Expansion payoff</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Safe note</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td>Cyclical share</td>
+<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+</tbody>
+</table>
+<p>Half a share delivers one dollar in an expansion only, for a price of <strong>0.35</strong>. Buying the note and selling half a share short delivers one dollar in a recession only. It costs 0.95 − 0.35 = <strong>0.60</strong>. These are <em>state prices</em>, the costs today of receiving one dollar in a specified state. Their sum prices a sure dollar. They need not sum to one.</p>
+<h2 id="price-the-two-claims">Price the two claims</h2>
+<p>The recession claim costs 100 × 0.60 = <strong>HK$60</strong>, and the expansion claim costs 100 × 0.35 = <strong>HK$35</strong>. Both have expected payoff HK$50. If a broker sold the recession claim for HK$55, you could buy it and sell its replicating portfolio for HK$60. The HK$5 difference arrives today and future cash flows cancel in both states.</p>
+<section class="panel" aria-labelledby="mix-title">
+<h2 id="mix-title">Move the payoff between states</h2>
+<p>Each state is equally likely. Move HK$10 of payoff from expansion to recession. Before moving the slider, predict how much the price will change. Expected payoff stays at HK$50.</p>
+<div class="controls"><label for="recession-payoff">Recession payoff (HK$)<input type="range" id="recession-payoff" min="0" max="100" step="10" value="50"></label></div>
+<div class="payoff-chart">
+<div><span>Recession</span><span class="payoff-track" aria-hidden="true"><i id="recession-bar" style="width:50%"></i></span><b id="recession-payment">HK$50</b></div>
+<div><span>Expansion</span><span class="payoff-track" aria-hidden="true"><i id="expansion-bar" style="width:50%"></i></span><b id="expansion-payment">HK$50</b></div>
+</div>
+<p>Price today <strong id="claim-price">HK$47.50</strong></p><p id="pricing-calculation" role="status">Price today = 0.60 × 50 + 0.35 × 50 = HK$47.50.</p>
+</section>
+<p>Each HK$10 transfer raises the price by 10 × (0.60 − 0.35) = <strong>HK$2.50</strong>. The total promise across the two states stays fixed. Its timing across good and bad states changes its value.</p>
+<h2 id="connect-state-prices-to-marginal-utility">Connect state prices to marginal utility</h2>
+<p>The stochastic discount factor in a state equals its state price divided by its probability. Here the factors are 0.60 / 0.50 = <strong>1.20</strong> in a recession and 0.35 / 0.50 = <strong>0.70</strong> in an expansion. To price a payoff, multiply it by its discount factor in each state, then take the probability-weighted average. The recession claim gives 0.5 × 1.20 × 100 = 60.</p>
+<p>In the consumption model from the lecture, marginal utility is high when consumption is scarce. A payoff delivered then helps finance particularly valuable consumption. The model gives an economic interpretation of the higher recession state price. Replication above provides a way to measure that price from trades.</p>
+<details>
+<summary>
+Price an importer’s cash flow, then check your answer by replication
+</summary>
+<p>
+An importer receives 20 in a recession and 80 in an expansion. Its price is 0.60 × 20 + 0.35 × 80 = 40. A portfolio of 20 notes and 30 shares also pays 20 or 80. Its price is 20 × 0.95 + 30 × 0.70 = 40. The expected cash flow is 50, just as for the two opening claims, yet each has a different price.
+</p>
+</details>
+<p><strong>Teaching source.</strong> Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.</p>
+<div class="route-nav">
+<p><strong>Essentials 5 of 12</strong><br>
+<a href="../curriculum.html#essentials">Essentials route</a> · <a href="risk-insurance.html">← What is full insurance worth?</a> · <a href="adverse-selection.html">Next · Who accepts the offer?</a></p>
+</div>
+</main>
+<footer><div class="foot"><span>Economics for Finance Practice <span aria-hidden="true">/</span> Chiu Yu Ko</span><a href="https://github.com/kochiuyu/economics-for-finance-practice">Project on GitHub ↗</a></div></footer>
+
+</body></html>

@@ -1,0 +1,45 @@
+---
+title: "What is full insurance worth?"
+summary: "Compare the expected loss with the largest premium a household would pay to remove it."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 6 · Risk and insurance"
+---
+
+::: {.decision}
+**Your decision.** A household has wealth of 100, measured in thousands of Hong Kong dollars. With probability one-half it loses 64. An insurer offers full cover for a certain premium of 34. Would the household buy?
+:::
+
+## Start with the uninsured household
+
+The household values final wealth using square-root utility. A utility number ranks outcomes for this household. The average of those utility numbers ranks lotteries under expected utility. With insurance, the premium is paid in either state and the insurer reimburses the full loss if it occurs.
+
+| State | Probability | Uninsured wealth | Utility |
+| --- | ---: | ---: | ---: |
+| No loss | 0.5 | 100 | 10 |
+| Loss | 0.5 | 36 | 6 |
+
+Expected wealth is **68**. Expected utility is (10 + 6) / 2 = **8**. Certain wealth of **64** delivers the same utility because its square root is 8. That 64 is the **certainty equivalent**. The household would give up 68 − 64 = **4** in expected wealth to avoid the uncertainty. The loss of a dollar matters more when the household has only 36 left.
+
+## Set the reservation premium
+
+After paying premium P, the fully insured household has 100 − P in either state. Setting this equal to the certainty equivalent gives a maximum premium of **36**. It contains two pieces, the expected loss of **32** and the risk premium of **4**. At the quoted premium of 34, full cover leaves certain wealth of 66. That exceeds 64, so the household buys. The insurer collects 2 above the expected payout before expenses.
+
+## Change wealth while keeping the loss fixed
+
+Give the same household an extra 69 before it chooses. Uninsured wealth is now 169 or 105. Keep the loss size, probabilities, utility function, and premium quote unchanged. **Would the wealthier household pay 35 for full insurance?**
+
+<details><summary>Calculate the new maximum premium</summary>
+<p>Expected utility is (13 + √105) / 2, about 11.624. Squaring gives a certainty equivalent of about 135.11. Maximum willingness to pay is 169 − 135.11 = 33.89. It falls below 35 and also below the earlier quote of 34. Expected loss remains 32. A fixed loss is less onerous for this household at its higher wealth.</p>
+</details>
+
+<details><summary>Which feature of preferences drives the wealth comparison?</summary>
+<p>For square-root utility, the Arrow–Pratt measure of absolute risk aversion is 1 / (2w), which decreases with wealth w. The example compares the same monetary loss at two wealth levels. Preferences with constant absolute risk aversion would produce the same risk premium for a fixed loss distribution at both wealth levels.</p>
+</details>
+
+**Teaching source.** Week 3 develops expected utility, certainty equivalents, and Arrow–Pratt risk aversion. The two wealth levels and insurance quotes are illustrative.
+
+::: {.route-nav}
+**Essentials 4 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Is the project worth funding?](project-appraisal.html) · [Next · Why is a recession payoff worth more?](state-prices.html)
+:::

@@ -1,0 +1,42 @@
+---
+title: "Did purchasing power rise?"
+summary: "Read a price index, deflate a sales forecast, and calculate what a nominal investment can actually buy."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 21 · Measurement and inflation"
+---
+
+::: {.decision}
+**Your decision.** A retailer reports that sales increased from HK$100 million to HK$108 million. Its product-price index rose from 100 to 106. Can the analyst describe the 8% sales increase as volume growth?
+:::
+
+## Reprice the current basket at base-period prices
+
+Assume the price index measures this retailer’s products and that product mix and quality are unchanged. Divide current sales by 106 / 100. That gives **HK$101.89 million in base-period prices**, up **1.89%**. Multiplying that real growth factor by the price factor reconstructs the cash receipts.
+
+| Measure | Base year | Current year |
+| --- | ---: | ---: |
+| Nominal sales, HK$ million | 100 | 108 |
+| Price index, base year = 100 | 100 | 106 |
+| Sales at base-year prices, HK$ million | 100 | 101.89 |
+
+Subtracting 6% from 8% gives a convenient approximation of 2%. The exact calculation is 1.08 / 1.06 − 1. State which index you used. A consumer price index tracks a household basket and could give a misleading volume estimate for a specialist retailer.
+
+## Test the purchasing power of a deposit
+
+A household places HK$10,000 in a one-year deposit paying 4%. A basket costs HK$100 today and HK$106 when the deposit matures. Today the household could buy 100 baskets. The maturity balance buys 10,400 / 106 = **98.11 baskets**. The realized real return is 1.04 / 1.06 − 1 = **−1.89%**.
+
+<details><summary>What return could the household reasonably expect at the start?</summary>
+<p>If the household forecast 2% inflation with certainty, its projected real return was 1.04 / 1.02 − 1 = 1.96%. The 6% inflation realization explains the shortfall in purchasing power. Use the inflation assumption available when the investment was made to assess the original decision.</p>
+</details>
+
+## Carry the distinction into a macro forecast
+
+GDP measures domestic value added over a period. A year-end stock of inventories and a year’s production have different units of time. When using GDP to justify a sales forecast, first identify the economy, period, and price basis. Then ask whether the retailer serves the same customers and sells the same mix as the aggregate. A macro volume forecast of 2% is a starting comparison. Moving it into a firm forecast requires a view on the firm’s market share and prices.
+
+**Teaching source.** Week 8 introduces national accounts, inflation, and the Fisher relation. Sales, deposit, and price series in this example are illustrative.
+
+::: {.route-nav}
+**Essentials 9 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Can the bank meet withdrawals?](bank-liquidity.html) · [Next · Why did shipments fall?](business-cycle-shocks.html)
+:::

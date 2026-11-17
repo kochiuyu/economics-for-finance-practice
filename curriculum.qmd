@@ -6,30 +6,43 @@ sectionname: Course map
 kicker: Curriculum
 ---
 
-**Available in this first release.** Begin with [adverse selection](chapters/adverse-selection.html), continue to the [dealer-pricing lab](chapters/dealer-pricing.html), or work through the [HKTVmall shortage case](cases/hktvmall.html). The other topics below form the publication plan.
+## The essentials route {#essentials}
 
-## Choose a reading route
+Follow twelve decisions in order. Each lesson includes a worked example and links to its neighbors. The chapter numbers refer to the full curriculum below.
+
+| Stage | Lessons in reading order |
+| --- | --- |
+| Read a market | [1. Interpret a price move](chapters/market-prices.html) · [2. Estimate the demand response](chapters/demand-elasticity.html) |
+| Value a payment | [5. Appraise a project](chapters/project-appraisal.html) · [6. Price insurance](chapters/risk-insurance.html) · [7. Compare state-contingent claims](chapters/state-prices.html) |
+| Work with private information | [12. Screen borrowers](chapters/adverse-selection.html) · [15. Quote the next trade](chapters/dealer-pricing.html) |
+| Stress-test a balance sheet | [17. Meet deposit withdrawals](chapters/bank-liquidity.html) · [21. Measure purchasing power](chapters/real-returns.html) |
+| Trace a macro shock | [23. Diagnose a fall in shipments](chapters/business-cycle-shocks.html) · [24. Test interest coverage](chapters/policy-transmission.html) · [28. Assess a Hong Kong importer's exposure](chapters/hong-kong-exchange-rate.html) |
+
+**Case seminars.** [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html).
+
+## Professional reading routes
+
+Linked chapters are available. The remaining chapters and workshops are planned.
 
 | Route | Chapter sequence |
 | --- | --- |
-| Essentials | 1 → 2 → 5 → 6 → 7 → 12 → 15 → 17 → 21 → 23 → 24 → 28 |
-| Investment analysis | 5 → 6 → 7 → 8 → 9 → 10 → 22 → 25 |
-| Credit and banking | 12 → 13 → 14 → 17 → 24 → 25 → 29 |
-| Corporate treasury in Hong Kong | 3 → 5 → 25 → 26 → 27 → 28 → 29 |
-| Markets and fintech | 1 → 12 → 15 → 16 → 19 → 20 |
+| Investment analysis | [5](chapters/project-appraisal.html) → [6](chapters/risk-insurance.html) → [7](chapters/state-prices.html) → 8 → 9 → 10 → 22 → 25 |
+| Credit and banking | [12](chapters/adverse-selection.html) → 13 → 14 → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → 25 → 29 |
+| Corporate treasury in Hong Kong | 3 → [5](chapters/project-appraisal.html) → 25 → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
+| Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → 16 → 19 → 20 |
 
 ## Part I. Markets, firms, and prices
 
-- 1. What can a price move tell us?
-- 2. Demand, substitution, and elasticity
+- [1. What can a price move tell us?](chapters/market-prices.html)
+- [2. Demand, substitution, and elasticity](chapters/demand-elasticity.html)
 - 3. Costs, capacity, and market power
 - 4. Welfare, incidence, and rationing
 
 ## Part II. Risk, valuation, and investment
 
-- 5. Saving, borrowing, and project appraisal
-- 6. Risk sharing and insurance
-- 7. State prices and the value of insurance in a downturn
+- [5. Saving, borrowing, and project appraisal](chapters/project-appraisal.html)
+- [6. Risk sharing and insurance](chapters/risk-insurance.html)
+- [7. State prices and the value of insurance in a downturn](chapters/state-prices.html)
 - 8. Diversification and portfolio choice
 - 9. Which risks command a premium?
 - 10. Behavioral finance and limits to arbitrage
@@ -37,32 +50,32 @@ kicker: Curriculum
 ## Part III. Strategy, information, and financial contracts
 
 - 11. Entry, commitment, and strategic competition
-- **12. Adverse selection, signaling, and screening** · [Read the opening lesson](chapters/adverse-selection.html)
+- [12. Adverse selection, signaling, and screening](chapters/adverse-selection.html)
 - 13. Moral hazard and incentives
 - 14. Debt, equity, and financing a new project
-- **15. Order flow, bid–ask spreads, and price discovery** · [Open the complete lesson and lab](chapters/dealer-pricing.html)
+- [15. Order flow, bid–ask spreads, and price discovery](chapters/dealer-pricing.html)
 - 16. Auctions, IPO allocation, and the winner’s curse
 
 ## Part IV. Banks, platforms, and public policy
 
-- 17. Banks, liquidity, and runs
+- [17. Banks, liquidity, and runs](chapters/bank-liquidity.html)
 - **18. Public goods, externalities, and corporate responses** · [Try the companion case](cases/hktvmall.html) · chapter in development
 - 19. Platform participation, reputation, and lending
 - 20. Payments, settlement, and digital money
 
 ## Part V. Macroeconomics and fixed income
 
-- 21. Reading growth, prices, and real returns
+- [21. Reading growth, prices, and real returns](chapters/real-returns.html)
 - 22. Productivity and long-run valuation
-- 23. Business cycles, demand, and supply shocks
-- 24. Monetary and fiscal transmission
+- [23. Business cycles, demand, and supply shocks](chapters/business-cycle-shocks.html)
+- [24. Monetary and fiscal transmission](chapters/policy-transmission.html)
 - 25. Yield curves, duration, and refinancing
 
 ## Part VI. Trade, currencies, and international finance
 
 - 26. Tariffs, pass-through, and supply chains
 - 27. Currency exposure and hedging
-- 28. Exchange-rate regimes and Hong Kong
+- [28. Exchange-rate regimes and Hong Kong](chapters/hong-kong-exchange-rate.html)
 - 29. Capital flows and foreign-currency debt
 
 ## Evidence workshops

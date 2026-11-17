@@ -1,0 +1,59 @@
+---
+title: "Why is a recession payoff worth more?"
+summary: "Two claims have the same average payoff. Recover their prices by building portfolios that reproduce their payments."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 7 · State prices"
+activity: state-prices
+---
+
+::: {.decision}
+**Your decision.** You can buy a claim paying HK$100 in a recession and zero in an expansion, or another paying zero in a recession and HK$100 in an expansion. The two states are equally likely. Should you offer the same price for each claim?
+:::
+
+## Infer two state prices from traded securities
+
+Each security settles one year from today. The figures below are hypothetical. Assume frictionless trading, including borrowing and short selling at the stated prices. These two securities span the two possible states, so their prices pin down the cost of reproducing any pair of payoffs.
+
+| Security | Price today | Recession payoff | Expansion payoff |
+| --- | ---: | ---: | ---: |
+| Safe note | 0.95 | 1 | 1 |
+| Cyclical share | 0.70 | 0 | 2 |
+
+Half a share delivers one dollar in an expansion only, for a price of **0.35**. Buying the note and selling half a share short delivers one dollar in a recession only. It costs 0.95 − 0.35 = **0.60**. These are *state prices*, the costs today of receiving one dollar in a specified state. Their sum prices a sure dollar. They need not sum to one.
+
+## Price the two claims
+
+The recession claim costs 100 × 0.60 = **HK$60**, and the expansion claim costs 100 × 0.35 = **HK$35**. Both have expected payoff HK$50. If a broker sold the recession claim for HK$55, you could buy it and sell its replicating portfolio for HK$60. The HK$5 difference arrives today and future cash flows cancel in both states.
+
+```{=html}
+<section class="panel" aria-labelledby="mix-title">
+<h2 id="mix-title">Move the payoff between states</h2>
+<p>Each state is equally likely. Move HK$10 of payoff from expansion to recession. Before moving the slider, predict how much the price will change. Expected payoff stays at HK$50.</p>
+<div class="controls"><label for="recession-payoff">Recession payoff (HK$)<input type="range" id="recession-payoff" min="0" max="100" step="10" value="50"></label></div>
+<div class="payoff-chart">
+<div><span>Recession</span><span class="payoff-track" aria-hidden="true"><i id="recession-bar" style="width:50%"></i></span><b id="recession-payment">HK$50</b></div>
+<div><span>Expansion</span><span class="payoff-track" aria-hidden="true"><i id="expansion-bar" style="width:50%"></i></span><b id="expansion-payment">HK$50</b></div>
+</div>
+<p>Price today <strong id="claim-price">HK$47.50</strong></p><p id="pricing-calculation" role="status">Price today = 0.60 × 50 + 0.35 × 50 = HK$47.50.</p>
+</section>
+```
+
+Each HK$10 transfer raises the price by 10 × (0.60 − 0.35) = **HK$2.50**. The total promise across the two states stays fixed. Its timing across good and bad states changes its value.
+
+## Connect state prices to marginal utility
+
+The stochastic discount factor in a state equals its state price divided by its probability. Here the factors are 0.60 / 0.50 = **1.20** in a recession and 0.35 / 0.50 = **0.70** in an expansion. To price a payoff, multiply it by its discount factor in each state, then take the probability-weighted average. The recession claim gives 0.5 × 1.20 × 100 = 60.
+
+In the consumption model from the lecture, marginal utility is high when consumption is scarce. A payoff delivered then helps finance particularly valuable consumption. The model gives an economic interpretation of the higher recession state price. Replication above provides a way to measure that price from trades.
+
+<details><summary>Price an importer’s cash flow, then check your answer by replication</summary>
+<p>An importer receives 20 in a recession and 80 in an expansion. Its price is 0.60 × 20 + 0.35 × 80 = 40. A portfolio of 20 notes and 30 shares also pays 20 or 80. Its price is 20 × 0.95 + 30 × 0.70 = 40. The expected cash flow is 50, just as for the two opening claims, yet each has a different price.</p>
+</details>
+
+**Teaching source.** Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.
+
+::: {.route-nav}
+**Essentials 5 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← What is full insurance worth?](risk-insurance.html) · [Next · Who accepts the offer?](adverse-selection.html)
+:::

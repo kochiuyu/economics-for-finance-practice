@@ -1,0 +1,58 @@
+---
+title: "Can the bank meet withdrawals?"
+summary: "Use a small balance sheet to find the withdrawal that exhausts equity and the larger withdrawal that exhausts cash."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 17 · Bank liquidity"
+activity: bank
+---
+
+::: {.decision}
+**Your decision.** A bank has HK$20 million in cash, HK$90 million in loans, and HK$100 million in demand deposits. The loans will pay in full at maturity. Today a buyer offers 75 cents per dollar of loans. Can the bank pay HK$50 million of withdrawals? How much equity would remain for the next depositor to rely on?
+:::
+
+## Follow the cash through one withdrawal
+
+All quantities below are in HK$ millions. The bank starts with assets of 110, liabilities of 100, and equity of 10. To pay withdrawals of 50, it uses 20 cash and must raise another 30. At a sale price of 0.75, it sells **40** in loan principal. Giving up a future receipt of 40 for 30 realizes a loss of **10**.
+
+| Balance sheet item | Before withdrawals | After paying 50 |
+| --- | ---: | ---: |
+| Cash | 20 | 0 |
+| Loans retained at maturity value | 90 | 50 |
+| Deposits still owed | 100 | 50 |
+| Equity at maturity value | 10 | 0 |
+
+Cash used to repay deposits reduces assets and liabilities by the same amount. Selling loans below their maturity value reduces equity. At withdrawals of 50, the bank meets every request today and has exhausted its equity cushion. It could pay a little more today by selling further loans, leaving insufficient assets for those who wait.
+
+```{=html}
+<section class="panel" aria-labelledby="bank-title">
+<h2 id="bank-title">Run the withdrawal test</h2>
+<p>Change the requests, the opening cash reserve, or the price available for quick loan sales. The bank starts each scenario with assets of 110 and deposits of 100. A larger opening reserve replaces loans one-for-one.</p>
+<div class="controls">
+<label>Withdrawals requested (HK$ million)<input type="range" id="withdrawals" min="0" max="100" step="1" value="50"><output for="withdrawals" id="withdrawal-amount">50</output></label>
+<label>Opening cash reserve<select id="bank-cash"><option value="20">20 million</option><option value="40">40 million</option></select></label>
+<label>Quick-sale price per HK$1 of loans<select id="bank-price"><option value="0.5">HK$0.50</option><option value="0.75" selected>HK$0.75</option><option value="1">HK$1.00</option></select></label>
+</div>
+<div class="metrics"><div class="metric"><span>Paid today (HK$ m)</span><b id="bank-paid">50</b></div><div class="metric"><span>Loans sold at face (HK$ m)</span><b id="bank-sold">40</b></div><div class="metric"><span>Equity left (HK$ m)</span><b id="bank-equity">0</b></div></div>
+<p id="bank-result" role="status">All requests are paid. The equity cushion is exhausted.</p>
+</section>
+```
+
+## Locate the two thresholds
+
+Try withdrawals of **60**. The bank sells 40 / 0.75 = 53.33 of loan principal. It can pay the full 60, but the realized loss is 13.33, leaving equity of **−3.33**. Now try **90**. Even selling all 90 of loans raises only 67.5. Cash available is **87.5**, so **2.5** of the request goes unpaid. Unpaid deposits remain liabilities. This calculation assumes no emergency borrowing, new equity, deposit insurance, or intervention, and values retained loans at their certain maturity payoff.
+
+<details><summary>Can a larger reserve protect the bank?</summary>
+<p>At a reserve of 40, the bank holds only 70 of loans. To pay 60 at the same sale price it sells 26.67 of loans, loses 6.67, and retains equity of 3.33. Its maximum immediate payout rises to 40 + 0.75 × 70 = 92.5. The example holds total assets fixed. To price the cost of that protection, add the income forgone by holding more cash.</p>
+</details>
+
+## Why might a patient depositor join a run?
+
+Suppose a bank serves depositors in arrival order. If others wait, loans mature and there is enough to repay everyone. If others withdraw, forced sales destroy value and a late depositor might receive less. A depositor who could otherwise wait may therefore withdraw after expecting others to do the same. This feedback connects the balance sheet to the strategic bank-run game in the lecture.
+
+**Teaching source.** Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.
+
+::: {.route-nav}
+**Essentials 8 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Quote the next trade](dealer-pricing.html) · [Next · Did purchasing power rise?](real-returns.html)
+:::

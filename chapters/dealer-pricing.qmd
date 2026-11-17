@@ -61,4 +61,7 @@ An actual desk may also charge for inventory risk or processing. To assess wheth
 
 **Teaching source.** The sequential-trading example comes from Week 6 of the original course. The model follows Lawrence Glosten and Paul Milgrom (1985). [Article and bibliographic details](https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders)
 
-[Review adverse selection](adverse-selection.html) · [Open the course map](../curriculum.html)
+::: {.route-nav}
+**Essentials 7 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Who accepts the offer?](adverse-selection.html) · [Next · Can the bank meet withdrawals?](bank-liquidity.html)
+:::

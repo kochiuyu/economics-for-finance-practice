@@ -1,0 +1,42 @@
+---
+title: "What can a price move tell us?"
+summary: "A share price rises after an earnings release. Decide which explanation you could defend in a morning note."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 1 · Price discovery"
+---
+
+::: {.decision}
+**Your decision.** At yesterday’s close a share traded at HK$100. This morning the firm announces higher earnings. The first post-announcement price is HK$105. A colleague writes, “The market raised its cash-flow forecast by 5%.” Would you sign that sentence?
+:::
+
+## Reconstruct the two prices
+
+Imagine a one-year claim with a single future payment and no interim dividends. Use a required return that reflects the risk of this claim. Its price equals the expected payment divided by one plus that return. Yesterday a forecast of HK$110 and a required return of 10% gave 110 / 1.10 = **HK$100**. Two different revisions produce today’s HK$105.
+
+| Account | Expected payment | Required return | Implied price |
+| --- | ---: | ---: | ---: |
+| Yesterday | 110.00 | 10.00% | 100.00 |
+| A. Stronger outlook | 115.50 | 10.00% | 105.00 |
+| B. Cheaper capital | 110.00 | 4.76% (rounded) | 105.00 |
+
+Account A might fit a firm that won an unexpected contract. Account B might fit a day when comparable risky claims also rose in price as investors accepted lower returns. Both changes could occur together. The last trade tells us the price at which someone bought and someone sold. One price change cannot identify two revisions.
+
+## Read the surprise
+
+Suppose reported earnings rose from HK$8 to HK$9 per share. If the market expected HK$8.50, the surprise was positive. If it expected HK$9.50, the same announcement fell short. Reported earnings describe the period just ended. An analyst still needs to explain why the news changes a future cash flow. An unexpected one-off tax credit and a permanent gain in recurring orders support different revisions.
+
+<details><summary>Try another release before writing the note</summary>
+<p>A firm earns HK$10 against a consensus of HK$11 and raises its forecast of next year’s recurring cash flow. The earnings surprise is −HK$1. A price rise is consistent with stronger forward guidance. To assess that account, compare the new guidance with the forecast investors held immediately before the announcement.</p>
+</details>
+
+## Write the morning note
+
+“Shares rose 5% around the release. A 5% increase in expected payment would explain the move at yesterday’s required return. To assess that explanation, I would compare timestamped forecast revisions with the price response of similar firms and the change in benchmark yields.” A sector-wide rally would weaken the firm-specific account. Even a narrow event window can contain more than one piece of news.
+
+**Teaching source.** Week 1 develops market clearing, financial institutions, and the efficient-market hypothesis. The results-day calculations are illustrative.
+
+::: {.route-nav}
+**Essentials 1 of 12**   
+[Essentials route](../curriculum.html#essentials) · [Next · Should the firm raise its price?](demand-elasticity.html)
+:::

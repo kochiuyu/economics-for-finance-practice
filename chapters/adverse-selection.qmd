@@ -35,10 +35,32 @@ Suppose buyers can verify quality with a certificate. A good-car owner pays the 
 <p>With a fee of 6, selling yields 94 after the fee, above the owner's reservation value of 90. With a fee of 12, selling yields 88, so the owner keeps the car. The private gain from verification is at most 10. Raising the price of certification can therefore cause good cars to disappear from the market again.</p>
 </details>
 
+## Screen borrowers with a menu of loans
+
+Suppose two equally common types each need a loan of 100. Safe borrowers always generate 125 and have an outside option worth 15. Risky borrowers generate 175 with probability 0.75 and zero otherwise. Their outside option is zero. Both are risk neutral and have illiquid collateral worth 100 that can be pledged. A failed unsecured project leaves nothing for the lender. Ignore funding costs and assume collateral can be seized without cost.
+
+At a uniform unsecured repayment of **115**, a safe borrower keeps 10 and declines. A risky borrower expects 0.75 × (175 − 115) = 45 and accepts. The lender expects to collect 86.25 on a loan of 100. Raising the repayment to cover losses can reinforce the selection problem.
+
+| Contract offered | Repayment on success | Collateral lost on failure |
+| --- | ---: | ---: |
+| Secured | 105 | 100 |
+| Unsecured | 135 | 0 |
+
+**Which contract does each type choose? Can the lender fund both on those terms?** Assume a borrower keeps any cash above repayment, with liability limited to project proceeds and pledged collateral.
+
+<details><summary>Check participation, incentives, and lender receipts</summary>
+<p>The safe borrower keeps 20 under the secured loan, above the outside option of 15. The unsecured repayment exhausts the project proceeds and leaves zero. The risky borrower expects 0.75 × 70 − 0.25 × 100 = 27.5 under the secured contract and 0.75 × 40 = 30 under the unsecured contract. Both types participate and each chooses the intended contract. The lender receives 105 from a safe borrower and expects 101.25 from a risky borrower. The menu therefore covers the 100 advanced to either type.</p>
+</details>
+
+The lender **screens** by offering a choice whose costs differ across types. A borrower **signals** when it takes an observable action that can credibly convey its type. Verification can remove some private information directly. The loan menu works without the lender observing the project type before contracting.
+
 ## Take the reasoning to a trading desk
 
 A dealer also faces a selected group. A trader with favorable private information is more likely to buy. A trader with unfavorable information is more likely to sell. The dealer can use the direction of an order to revise the value at which the trade would break even. The next lesson puts a number on that revision.
 
-[Quote the next trade →](dealer-pricing.html)
+**Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.
 
-**Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The certification calculation is a new exercise for this edition.
+::: {.route-nav}
+**Essentials 6 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Why is a recession payoff worth more?](state-prices.html) · [Next · Quote the next trade](dealer-pricing.html)
+:::

@@ -2,20 +2,25 @@
 
 A self-paced public course by Chiu Yu Ko, developed from FINA 6282 at The Chinese University of Hong Kong. [Open the course website](https://kochiuyu.github.io/economics-for-finance-practice/).
 
-## First release
+## Published teaching material
+
+The [12-chapter essentials route](https://kochiuyu.github.io/economics-for-finance-practice/curriculum.html#essentials) now runs from interpreting market prices to managing a Hong Kong importer’s exchange and funding exposure. Each chapter includes a worked answer and onward navigation.
 
 | Page | What a reader can do |
 | --- | --- |
 | [Adverse selection](https://kochiuyu.github.io/economics-for-finance-practice/chapters/adverse-selection.html) | Work out which sellers accept a price and when verification restores trade. |
 | [Dealer-pricing lab](https://kochiuyu.github.io/economics-for-finance-practice/chapters/dealer-pricing.html) | Submit buy and sell orders, revise beliefs and quotes, and change the informed share. |
 | [HKTVmall case guide and exercise](https://kochiuyu.github.io/economics-for-finance-practice/cases/hktvmall.html) | Compare eight procurement, price, and allocation decisions with fully disclosed illustrative data. |
+| [State-price lab](https://kochiuyu.github.io/economics-for-finance-practice/chapters/state-prices.html) | Move a payoff between recession and expansion while holding expected cash flow fixed. |
+| [Bank liquidity lab](https://kochiuyu.github.io/economics-for-finance-practice/chapters/bank-liquidity.html) | Test withdrawals, reserves, and quick-sale prices against the balance sheet. |
+| [Global shutdown seminar](https://kochiuyu.github.io/economics-for-finance-practice/cases/global-shutdown.html) | Choose a bridge-loan recipient using cash forecasts and repayment scenarios. |
 | [Course record](https://kochiuyu.github.io/economics-for-finance-practice/original-course/index.html) | Trace the ten lectures, five assigned cases, and assessment weights. |
 
 ## Editorial plan
 
 The [curriculum and publication plan](planning/course-plan.md) maps 29 subject chapters and two evidence workshops to the original lectures, readings, and new writing. The [source register](planning/source-register.md) records how the first release uses the teaching archive.
 
-The next release completes the essentials route. Start with Chapter 1 on interpreting market prices, then build demand and elasticity, saving and project appraisal, risk and insurance, and two-state valuation. The publication plan lists the remaining essential chapters, cases, and completion criteria.
+Milestones 1 and 2 are published. Milestone 3 develops the investment, firms, and financing chapters, including portfolio choice, strategic entry, financing incentives, IPO allocation, and fixed income. See the publication plan for chapter dependencies and completion criteria.
 
 ## Build and publish
 

@@ -1,0 +1,43 @@
+---
+title: "Can the borrower cover its interest?"
+summary: "Trace a policy change through a floating-rate loan and distinguish a financing shock from a change in operating earnings."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 24 · Policy transmission"
+---
+
+::: {.decision}
+**Your decision.** A company earns HK$6 million before interest and tax and owes HK$50 million on a floating-rate loan. Its lender requires interest coverage of at least 2.0 times. Could a rate rise cause a breach even before customers cut spending?
+:::
+
+## Read the contract before forecasting demand
+
+Interest coverage equals annual earnings before interest and tax (EBIT) divided by annual interest. The loan pays a reference rate plus 2 percentage points and resets immediately for a full year. Its outstanding principal is constant. Initially the reference rate is 3%, so interest is 50 × 5% = **HK$2.5 million** and coverage is **2.40**.
+
+| Scenario | Loan rate | EBIT, HK$ m | Interest, HK$ m | Coverage |
+| --- | ---: | ---: | ---: | ---: |
+| Before the change | 5% | 6.0 | 2.5 | 2.40 |
+| Reference rate rises 2 percentage points | 7% | 6.0 | 3.5 | 1.71 |
+| Customers also defer orders | 7% | 5.4 | 3.5 | 1.54 |
+| Public procurement lifts EBIT to 7.2 | 7% | 7.2 | 3.5 | 2.06 |
+
+The contractual reset alone breaks the threshold. At 7% the borrower needs EBIT of **HK$7 million** to restore coverage to 2.0. The last row is a separate scenario. For fiscal support to help this borrower, the company must win work, deliver it, and retain enough margin for EBIT to reach 7.2.
+
+## Separate the channels and their timing
+
+A monetary tightening can raise reference rates. Credit reprices on contractual reset dates. Higher financing costs can also lead customers to defer investment, shifting expenditure and output lower. The effect on inflation depends in part on spare capacity and the time prices take to adjust. Government purchases can increase demand directly. If productive capacity is tight, part of the response may appear in prices and costs. The scenario table gives conditional calculations for one borrower and leaves the size of the aggregate response open.
+
+<details><summary>What if half the loan is fixed at 5%?</summary>
+<p>With 25 fixed at 5% and 25 resetting to 7%, annual interest is 1.25 + 1.75 = HK$3 million. With unchanged EBIT of 6, coverage is exactly 2.0. If EBIT falls to 5.4 it declines to 1.8. For a credit memo, ask for the fixing schedule and the order book. They inform different parts of the ratio.</p>
+</details>
+
+<details><summary>Connect the calculation to the IS–MP model</summary>
+<p>The IS relationship describes expenditure consistent with goods-market equilibrium at a given real rate. A tighter policy rule can raise the real rate at a given level of activity when inflation expectations are slow to adjust. Output then falls along the IS curve. A fiscal expansion shifts desired expenditure outward. A central bank response to inflation can offset part of the output gain. The loan contract passes a nominal reference rate into cash interest, so it also matters how inflation expectations evolve.</p>
+</details>
+
+**Teaching source.** Week 9 develops monetary and fiscal transmission using IS–LM and IS–MP. Loan terms, the coverage threshold, and EBIT scenarios are illustrative.
+
+::: {.route-nav}
+**Essentials 11 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Why did shipments fall?](business-cycle-shocks.html) · [Next · What does the currency link protect?](hong-kong-exchange-rate.html)
+:::

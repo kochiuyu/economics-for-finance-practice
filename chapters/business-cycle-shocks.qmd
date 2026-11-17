@@ -1,0 +1,47 @@
+---
+title: "Why did shipments fall?"
+summary: "Compare the operating evidence behind equal falls in shipments and decide which constraint the firm should address."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 23 · Demand and supply shocks"
+---
+
+::: {.decision}
+**Your decision.** Two manufacturers each shipped 100 units last month and 80 this month. One wants a sales campaign. The other wants to qualify an alternative supplier. Which response fits each firm?
+:::
+
+## Read prices, orders, and capacity together
+
+Use these illustrative operating records. An order is net of cancellations. Unfilled orders carry forward. Both firms started the month with an empty order book. There is no finished inventory.
+
+| Operating measure | Firm A | Firm B |
+| --- | ---: | ---: |
+| Previous price, HK$ per unit | 100 | 100 |
+| Current price | 95 | 110 |
+| New orders | 80 | 115 |
+| Maximum units producible this month | 110 | 80 |
+| Units shipped | 80 | 80 |
+| Orders carried forward | 0 | 35 |
+
+Firm A has idle capacity, fewer orders, and a lower price. A fall in demand fits the joint pattern. Firm B has a full plant at its reduced capacity, a backlog, and a higher price. A loss of supply fits this evidence. In a simple market diagram, a leftward demand shift lowers both quantity and price. A leftward supply shift lowers quantity and raises price. Administered prices, inventories, and simultaneous shifts make the price sign alone a weak diagnostic.
+
+## Calculate the cash consequences
+
+Assume customers pay on shipment. Cash receipts are **HK$7,600** at A and **HK$8,800** at B, compared with HK$10,000 before. Suppose A’s variable cost stays at HK$60 per unit, while emergency sourcing raises B’s to HK$80. Contribution falls from HK$4,000 at each firm to **HK$2,800** at A and **HK$2,400** at B. B commands a higher price yet loses more contribution.
+
+<details><summary>Which intervention would you fund?</summary>
+<p>At A, bringing in ten additional orders at the current price adds 10 × (95 − 60) = HK$350 before campaign cost. At B, ten additional units of usable capacity add 10 × (110 − 80) = HK$300 before qualification cost, provided the backlog holds. More demand at B initially enlarges the queue. More capacity at A initially sits idle. Compare the incremental contribution with the price of the proposed intervention.</p>
+</details>
+
+## Take a firm diagnosis to a macro case
+
+A firm can lose demand while the economy faces a supply disruption. Ask which bottleneck binds at the firm, what other sectors are reporting, and whether prices adjust within the period. A fall in total output is compatible with more than one mix of shocks. The case asks you to choose what to finance when both shocks occur together.
+
+[Work the global shutdown case](../cases/global-shutdown.html)
+
+**Teaching source.** Weeks 8–9 introduce aggregate demand, supply, and adjustment. The paired order books are new illustrative exhibits.
+
+::: {.route-nav}
+**Essentials 10 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Did purchasing power rise?](real-returns.html) · [Next · Can the borrower cover its interest?](policy-transmission.html)
+:::

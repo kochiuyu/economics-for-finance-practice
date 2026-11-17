@@ -1,0 +1,42 @@
+---
+title: "Is the project worth funding?"
+summary: "A project pays more next year than it costs today. Find the financing rate at which the decision reverses."
+base: ..
+sectionname: Chapters
+kicker: "Chapter 5 · Intertemporal choice"
+---
+
+::: {.decision}
+**Your decision.** A firm can pay HK$100,000 today to receive a certain HK$108,000 exactly one year from now. It has to borrow the full cost. Should it accept a one-year loan at 6%? What would you say at 10%?
+:::
+
+## Put both choices on the same date
+
+At 6% the firm owes HK$106,000 at maturity. The project leaves **HK$2,000** after repayment. In today’s money that surplus is 2,000 / 1.06 = **HK$1,886.79**. Equivalently, subtract the initial outlay from the present value of the receipt. The two methods agree because they compare the same cash flows on a common date.
+
+| Rate | Loan repayment in one year | Surplus at maturity | Net present value today |
+| --- | ---: | ---: | ---: |
+| 6% | 106,000 | +2,000 | +1,886.79 |
+| 8% | 108,000 | 0 | 0 |
+| 10% | 110,000 | −2,000 | −1,818.18 |
+
+The switch occurs at 108,000 / 100,000 − 1 = **8%**. This comparison assumes certain payment, no fees or taxes, and a single drawdown with one repayment. If the receipt were risky, its promised amount and a borrowing quote alone would be insufficient to value the project.
+
+## Read the household budget line
+
+Suppose a household starts with 100 units of income today and 50 next year. It can lend or borrow at 6%. If it consumes 80 today, it saves 20 and can consume 50 + 20 × 1.06 = **71.2** next year. If it consumes 120 today, it borrows 20 and has **28.8** left next year. Each extra unit consumed today costs 1.06 units next year. Preferences determine which affordable pair the household chooses.
+
+<details><summary>What if saving earns 4% while borrowing costs 10%?</summary>
+<p>The budget line bends where consumption today equals current income. Consuming 80 today now leaves 50 + 20 × 1.04 = 70.8 next year. Consuming 120 leaves 50 − 20 × 1.10 = 28. A firm with HK$100,000 idle that would otherwise earn 4% gains HK$4,000 at maturity from the project. A firm financing the same project entirely at 10% loses HK$2,000. The source of the marginal dollar changes the decision.</p>
+</details>
+
+## Make the financing recommendation
+
+At 6%, accept under the stated assumptions. At 10%, decline. If a lender also charges an up-front fee, deduct it from today’s net present value. A HK$2,000 fee paid from cash today would turn the 6% decision negative. This is why an analyst asks for the drawdown, fee, and repayment dates before comparing two term sheets.
+
+**Teaching source.** Week 3 develops the two-period budget and discounting. The project, funding terms, and household figures are illustrative.
+
+::: {.route-nav}
+**Essentials 3 of 12**   
+[Essentials route](../curriculum.html#essentials) · [← Should the firm raise its price?](demand-elasticity.html) · [Next · What is full insurance worth?](risk-insurance.html)
+:::
