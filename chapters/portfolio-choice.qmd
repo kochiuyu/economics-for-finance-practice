@@ -1,0 +1,36 @@
+---
+title: How much should you put in each fund?
+summary: Vary the weights of two risky funds and find the allocation with the lowest volatility.
+base: ..
+sectionname: Chapters
+kicker: Chapter 8 · Portfolio choice
+activity: portfolio
+---
+
+::: {.decision}
+**Your decision.** A client holds a bond fund with expected annual return of 4% and volatility of 10%. An equity fund offers 8% with volatility of 20%. Could adding the more volatile fund actually reduce the risk of the account?
+:::
+
+## Start with ten cents in equities
+
+Assume the funds’ returns are uncorrelated. Investing 10% in equities and 90% in bonds raises expected return to 4.4%. To calculate volatility, first calculate the variance. Independent fluctuations need not arrive on the same day or in the same direction. At zero correlation the variance is (0.1 × 0.20)² + (0.9 × 0.10)² = 0.0085. Its square root is **9.22%**, below the bond fund’s 10%. Zero correlation suffices for this calculation.
+
+## Try the allocation
+
+Compare the same 50/50 allocation at three correlations. Its expected return stays at 6%. Watch what happens to volatility and to the equity weight that minimizes it.
+
+```{=html}
+<section class="panel" aria-label="Two-fund portfolio lab"><div class="controls"><label>Equity weight (%)<input id="weight" type="range" min="-100" max="200" value="50" step="1"></label><label>Return correlation<select id="corr"><option>-0.5</option><option selected>0</option><option>0.8</option></select></label><label>Portfolio constraint<select id="limit"><option value="long">Long only</option><option value="short">Allow short sales</option></select></label></div><p id="mix" role="status"></p></section>
+```
+
+For equity weight w, the bond weight is 1 − w. Portfolio variance equals the two weighted variance terms above plus **2w(1 − w) × 0.20 × 0.10 × correlation**. A positive covariance increases risk for a long-only mix. At 50/50, volatility rises from 8.66% at correlation −0.5 to 11.18% at zero and 14.32% at 0.8.
+
+<details><summary>Find the minimum and the efficient portfolios</summary><p>At zero correlation, variance simplifies to 0.05w² − 0.02w + 0.01. Its slope is zero at w = 0.20. This portfolio earns 4.8% with volatility of 8.94%. At 0% and 40% equities, volatility is exactly 10% in each case, but expected return rises from 4% to 5.6%. With these inputs, the efficient long-only portfolios run from 20% through 100% equities. Below 20%, another feasible mix earns more with equal or lower volatility.</p></details>
+
+## What does the mandate permit?
+
+At correlation 0.8, the unconstrained minimum calls for approximately **−33.3% equities and 133.3% bonds**. A short equity position partly offsets bond fluctuations. A long-only account cannot implement it, so its minimum occurs at zero equities. The illustration assumes no trading fees, borrowing costs, or margin constraints. Before acting on an estimated minimum, test plausible correlations and check the client’s mandate.
+
+**Teaching source.** The original combined slides and early outline motivate mean–variance choice. Fund assumptions are illustrative.
+
+[Review state prices](state-prices.html) · [Continue to market risk](market-risk.html)

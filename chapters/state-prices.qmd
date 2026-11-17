@@ -51,6 +51,8 @@ In the consumption model from the lecture, marginal utility is high when consump
 <p>An importer receives 20 in a recession and 80 in an expansion. Its price is 0.60 × 20 + 0.35 × 80 = 40. A portfolio of 20 notes and 30 shares also pays 20 or 80. Its price is 20 × 0.95 + 30 × 0.70 = 40. The expected cash flow is 50, just as for the two opening claims, yet each has a different price.</p>
 </details>
 
+**Continue along the investment route.** [Build a two-fund portfolio](portfolio-choice.html) and see how covariance changes the risk of the whole account.
+
 **Teaching source.** Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.
 
 ```{=html}

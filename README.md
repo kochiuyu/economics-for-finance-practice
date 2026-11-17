@@ -20,7 +20,7 @@ The [12-chapter essentials route](https://kochiuyu.github.io/economics-for-finan
 
 The [curriculum and publication plan](planning/course-plan.md) maps 29 subject chapters and two evidence workshops to the original lectures, readings, and new writing. The [source register](planning/source-register.md) records how the first release uses the teaching archive.
 
-Milestones 1 and 2 are published. Milestone 3 develops the investment, firms, and financing chapters, including portfolio choice, strategic entry, financing incentives, IPO allocation, and fixed income. See the publication plan for chapter dependencies and completion criteria.
+Milestones 1 and 2 are published. The investment route now continues from state prices into [two-fund portfolio choice](https://kochiuyu.github.io/economics-for-finance-practice/chapters/portfolio-choice.html) and [market risk](https://kochiuyu.github.io/economics-for-finance-practice/chapters/market-risk.html). Chapter 10 on behavioral finance is next on this route. Milestone 3 develops the investment, firms, and financing chapters, including portfolio choice, strategic entry, financing incentives, IPO allocation, and fixed income. See the publication plan for chapter dependencies and completion criteria.
 
 ## Build and publish
 

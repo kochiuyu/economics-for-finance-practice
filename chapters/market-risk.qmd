@@ -1,0 +1,48 @@
+---
+title: Which risks command a premium?
+summary: Two funds have the same volatility. Use their market exposures to judge whether the same forecast return is equally attractive for both.
+base: ..
+sectionname: Chapters
+kicker: Chapter 9 · Market risk
+---
+
+::: {.decision}
+**Your decision.** Two research teams each forecast a 7% annual return for their fund. Both funds have 20% volatility. Does a diversified investor have the same reason to buy each one?
+:::
+
+## Work out what each fund adds to the market
+
+Suppose market volatility is 15%, the risk-free rate is 3%, and the expected market excess return is 5%. Fund A’s correlation with the market is 0.30. Fund B’s is 0.90. All figures are hypothetical and use the same annual horizon.
+
+Beta measures how much a fund moves with the market in a linear projection. It equals covariance with the market divided by market variance, or equivalently correlation times fund volatility divided by market volatility.
+
+| Quantity | Fund A | Fund B |
+| --- | ---: | ---: |
+| Beta | 0.30 × 20 / 15 = 0.40 | 0.90 × 20 / 15 = 1.20 |
+| CAPM required return | 3% + 0.40 × 5% = 5% | 3% + 1.20 × 5% = 9% |
+| Forecast less required return | +2 percentage points | −2 percentage points |
+
+The CAPM benchmark rewards covariance with the market because a diversified investor already holds market risk. At the stated forecasts, A clears its hurdle and B falls short. Both have substantial standalone volatility. The comparison depends on the investor being able to diversify fund-specific risk and on the market portfolio being an appropriate benchmark.
+
+## Check a benchmark against observations
+
+Here are four **invented monthly excess-return observations**, in percentage points. They illustrate estimation separately from the annual forecast above.
+
+| Month | Market | Fund |
+| --- | ---: | ---: |
+| 1 | −2 | −1 |
+| 2 | −1 | −2 |
+| 3 | 1 | 2 |
+| 4 | 2 | 1 |
+
+<details><summary>Estimate beta, then omit the last month</summary><p>Both four-month averages are zero. The sum of cross-products is 8 and the sum of squared market returns is 10, giving a regression slope of 0.8. With month 4 omitted, re-center each series around its new mean. The slope becomes 5.333 / 4.667 ≈ 1.14. A single observation changes the estimate substantially. Four months are enough to illustrate the arithmetic and far too little evidence to treat either slope as a stable exposure.</p></details>
+
+## Could a second exposure change the decision?
+
+Imagine a two-factor model under which A’s market loading is still 0.4 and its loading on a second traded factor is 0.8. If that factor’s expected premium is 3%, A’s model-implied return becomes **3% + 0.4 × 5% + 0.8 × 3% = 7.4%**. The same 7% forecast now falls short. In an empirical application, estimate both loadings jointly, check that the factor is economically relevant, and show how sensitive the recommendation is to its estimated premium.
+
+**Analyst’s answer.** Under CAPM, prefer A at the stated forecasts. Before recommending it to the investment committee, show the choice of market proxy, estimation window, and evidence for the second exposure. An apparent excess return can reflect compensation for a risk excluded from the first benchmark.
+
+**Teaching source.** Week 3 introduces consumption-based pricing and market beta. The comparison and four-observation worksheet are new illustrations.
+
+[Return to portfolio choice](portfolio-choice.html) · [Explore the course map](../curriculum.html)
