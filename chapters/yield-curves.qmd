@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 25 · Fixed income
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A treasury team has two fixed obligations, each promising HK$100 million once. One matures in a year and the other in five years. The CFO asks which is more vulnerable to rising rates. Are you preparing a market-value report or next year’s funding budget?

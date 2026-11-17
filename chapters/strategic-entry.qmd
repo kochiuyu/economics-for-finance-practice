@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 11 · Strategy and commitment
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** Two manufacturers can launch competing products. Your firm can reserve tooling early so that its launch becomes observable and irreversible before the rival decides. What is the most you should pay for that advantage?

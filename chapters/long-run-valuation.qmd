@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 22 · Productivity and valuation
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** An analyst raises a mature supplier’s perpetual nominal cash-flow growth forecast from 3% to 5%. The justification is a new machine that will increase output per worker by 10% next year. Would you approve the higher terminal value?

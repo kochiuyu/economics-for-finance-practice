@@ -6,8 +6,8 @@ sectionname: Evidence workshops
 kicker: Workshop 30 · Measurement
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your task.** An analyst puts “Shenzhen IPOs” and “Shenzhen house prices” on one line chart. Before you show it to a client, identify the population, unit, and observation window for each series.

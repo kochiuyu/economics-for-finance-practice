@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: "Chapter 28 · Hong Kong and exchange-rate regimes"
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A Hong Kong importer owes US$1 million in 90 days and collects revenue in Hong Kong dollars. Its manager says, “With the currency link, we can leave the interest expense out of our stress test.” What would you put in the cash forecast?

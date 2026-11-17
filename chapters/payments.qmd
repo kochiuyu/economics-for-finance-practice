@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 20
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A merchant sells goods for HK$100,000. Service A settles in bank money today with a 1.5% fee. Service B charges 1% and delivers a redeemable digital balance in 30 days. Which offer has higher value today?

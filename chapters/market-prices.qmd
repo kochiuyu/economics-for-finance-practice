@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: "Chapter 1 · Price discovery"
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** At yesterday’s close a share traded at HK$100. This morning the firm announces higher earnings. The first post-announcement price is HK$105. A colleague writes, “The market raised its cash-flow forecast by 5%.” Would you sign that sentence?

@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 19
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A platform has 120 qualified one-loan applicants and lenders willing to fund 80 loans. It earns 60 per funded loan and spends 20 screening each qualified application. Should it pay 300 to attract another 20 applicants or another 20 units of lending capacity?

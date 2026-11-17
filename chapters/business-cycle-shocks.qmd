@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: "Chapter 23 · Demand and supply shocks"
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** Two manufacturers each shipped 100 units last month and 80 this month. One wants a sales campaign. The other wants to qualify an alternative supplier. Which response fits each firm?

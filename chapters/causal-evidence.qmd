@@ -6,8 +6,8 @@ sectionname: Evidence workshops
 kicker: Workshop 31 · Causal evidence
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your task.** Both series weakened between 2021 and 2022. Would you advise a lender to use the exchange-wide number of IPOs to forecast the price of homes near Shenzhen technology employers?

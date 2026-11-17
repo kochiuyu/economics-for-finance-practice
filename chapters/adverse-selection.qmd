@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 12 · Adverse selection
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** You can inspect the number of cars for sale, but only their owners know their quality. Would you offer 60 for any car that turns up?

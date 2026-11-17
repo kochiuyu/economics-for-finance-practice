@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 18
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A retailer can prevent ten bags of waste each week at a total real cost of HK$180. It saves HK$12 in handling per bag. Neighbors avoid damage valued at HK$10 per bag. Would the retailer adopt the change voluntarily?

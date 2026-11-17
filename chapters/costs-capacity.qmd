@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 3 · Costs and market power
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A components plant can ship 100 units this week. A material shortage raises its variable cost from HK$40 to HK$55 per unit. Sales wants to pass the entire increase through. Operations wants to keep the plant full. Which price would you put on the order sheet?

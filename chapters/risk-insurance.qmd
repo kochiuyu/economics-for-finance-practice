@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: "Chapter 6 · Risk and insurance"
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A household has wealth of 100, measured in thousands of Hong Kong dollars. With probability one-half it loses 64. An insurer offers full cover for a certain premium of 34. Would the household buy?

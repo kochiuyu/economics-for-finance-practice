@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 29
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** The importer financed its baseline US$1 million invoice with a dollar loan. At maturity it has the US$300,000 customer receipt and HK$2 million in unrestricted cash. How much of the loan must its bank renew?

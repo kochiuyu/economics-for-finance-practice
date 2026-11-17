@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: "Chapter 21 · Measurement and inflation"
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A retailer reports that sales increased from HK$100 million to HK$108 million. Its product-price index rose from 100 to 106. Can the analyst describe the 8% sales increase as volume growth?

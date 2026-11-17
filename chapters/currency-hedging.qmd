@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 27
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>

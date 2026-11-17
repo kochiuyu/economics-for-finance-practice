@@ -6,8 +6,8 @@ sectionname: Chapters
 kicker: Chapter 4
 ---
 
-<link rel="stylesheet" href="../assets/essentials-figures.css">
-<script src="../assets/essentials-figures.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css?v=full-course-1">
+<script src="../assets/essentials-figures.js?v=full-course-1" defer></script>
 
 ::: {.decision}
 **Your decision.** A shop has two generators for a one-day outage. Four households value a day of power at 120, 90, 60, and 30. Each unit costs 20 to supply. Should the shop raise the price, hold a lottery, or serve the queue?
