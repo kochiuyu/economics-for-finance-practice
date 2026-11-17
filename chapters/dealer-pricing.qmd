@@ -7,6 +7,11 @@ kicker: Chapter 15 · Market microstructure
 activity: dealer
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#desk">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** A security pays 0 or 1 at the end of trading. The two outcomes are equally likely. Half the traders know the payoff. After one buy, what bid and ask should you post for the next order?
 :::
@@ -14,7 +19,7 @@ activity: dealer
 A dealer **buys at the bid** when a trader sells and **sells at the ask** when a trader buys. An informed trader always buys when the payoff is 1 and sells when it is 0. Each uninformed trader is equally likely to buy or sell. Trader types are independently drawn across orders and independent of the payoff. Competition makes the risk-neutral dealer break even on each side. There are no inventory or processing costs in this exercise.
 
 ```{=html}
-<section class="panel" aria-labelledby="desk-title" id="desk">
+<section data-finance-lab="dealer-pricing" class="panel" aria-labelledby="desk-title" id="desk">
 <h2 id="desk-title">The trading desk</h2><p><strong>Before you start.</strong> Predict both sides of the next quote after one buy. Enter the order, then compare a second buy with a sell from the same starting history. Explain what the desk learns in each sequence.</p>
 <p>Choose an incoming order. The desk executes at the posted price and updates the quotes for the following trader.</p>
 <div class="controls"><label for="informed">Informed traders · <output id="share" for="informed">50%</output><input type="range" id="informed" min="0" max="90" step="10" value="50"></label></div>
@@ -22,8 +27,19 @@ A dealer **buys at the bid** when a trader sells and **sells at the ask** when a
 <div class="buttons"><button type="button" id="buy">Buy order</button><button type="button" id="sell">Sell order</button><button type="button" class="ghost" id="undo" disabled>Undo</button><button type="button" class="ghost" id="reset">Reset orders</button></div>
 <p id="trade-status" class="status" aria-live="polite">Opening quotes. Try a buy order first.</p><p class="trail" id="history">Order history · No trades yet</p>
 <noscript><p>The worked example below follows the same desk through a buy and a sell.</p></noscript>
+
+<button type="button" class="lab-reset">Reset scenario</button>
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#investment">Back to investment and trading labs</a></p>
 </section>
 ```
+
+<div id="worked-example"></div>
 
 ## Why does a buy carry information?
 
@@ -63,7 +79,7 @@ An actual desk may also charge for inventory risk or processing. To assess wheth
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>What prices should the desk show after one buy?</h2><details><summary>Compare your recommendation</summary><p>Post a bid of 0.50 and an ask of 0.90 under the model. The first buy changes your estimate of value. The next customer’s choice of side gives you another piece of information. Recalculate if the share of informed traders changes.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if the first buy is followed by a sell?</h2><details><summary>Check your application</summary><p>With 50% informed traders, opposite orders cancel in the model. The probability of high value returns to 50%, and the next bid and ask return to 0.25 and 0.75.</p></details><p><strong>Transfer to a Micro Case.</strong> How does receiving an allocation change what you infer about the asset? <a href="https://kochiuyu.github.io/micro-cases/winning-is-information.html">The highest estimate. The best bid?</a></p></section>
 ```
 
 **Teaching source.** The sequential-trading example comes from Week 6 of the original course. The model follows Lawrence Glosten and Paul Milgrom (1985). [Article and bibliographic details](https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders)

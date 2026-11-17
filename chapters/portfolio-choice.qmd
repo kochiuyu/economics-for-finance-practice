@@ -7,9 +7,16 @@ kicker: Chapter 8 · Portfolio choice
 activity: portfolio
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#portfolio-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** A client holds a bond fund with expected annual return of 4% and volatility of 10%. An equity fund offers 8% with volatility of 20%. Could adding the more volatile fund actually reduce the risk of the account?
 :::
+
+<div id="worked-example"></div>
 
 ## Start with ten cents in equities
 
@@ -20,7 +27,16 @@ Assume the funds’ returns are uncorrelated. Investing 10% in equities and 90% 
 Compare the same 50/50 allocation at three correlations. Its expected return stays at 6%. Watch what happens to volatility and to the equity weight that minimizes it.
 
 ```{=html}
-<section id="portfolio-lab" class="panel" aria-label="Two-fund portfolio lab"><p><strong>Before you start.</strong> Set correlation to zero. Predict whether adding a small equity position will reduce risk. Find the lowest-volatility mix, read its expected return, and decide whether it meets a 6% return target.</p><div class="controls"><label>Equity weight (%)<input id="weight" type="range" min="-100" max="200" value="50" step="1"></label><label>Return correlation<select id="corr"><option>-0.5</option><option selected>0</option><option>0.8</option></select></label><label>Portfolio constraint<select id="limit"><option value="long">Long only</option><option value="short">Allow short sales</option></select></label></div><p id="mix" role="status"></p></section>
+<section data-finance-lab="portfolio-choice" id="portfolio-lab" class="panel" aria-label="Two-fund portfolio lab"><p><strong>Before you start.</strong> Set correlation to zero. Predict whether adding a small equity position will reduce risk. Find the lowest-volatility mix, read its expected return, and decide whether it meets a 6% return target.</p><div class="controls"><label>Equity weight (%)<input id="weight" type="range" min="-100" max="200" value="50" step="1"></label><label>Return correlation<select id="corr"><option>-0.5</option><option selected>0</option><option>0.8</option></select></label><label>Portfolio constraint<select id="limit"><option value="long">Long only</option><option value="short">Allow short sales</option></select></label></div><p id="mix" role="status"></p>
+<button type="button" class="lab-reset">Reset scenario</button>
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#investment">Back to investment and trading labs</a></p>
+</section>
 ```
 
 For equity weight w, the bond weight is 1 − w. Portfolio variance equals the two weighted variance terms above plus **2w(1 − w) × 0.20 × 0.10 × correlation**. A positive covariance increases risk for a long-only mix. At 50/50, volatility rises from 8.66% at correlation −0.5 to 11.18% at zero and 14.32% at 0.8.
@@ -33,10 +49,9 @@ At correlation 0.8, the unconstrained minimum calls for approximately **−33.3%
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>What would you put in the client’s allocation note?</h2><details><summary>Compare your recommendation</summary><p>For a client requiring at least 6% expected return, the 20% equity minimum-volatility mix falls short at 4.8%. Each ten percentage points shifted from bonds to equities adds 0.4 percentage points of expected return. The smallest equity weight that meets the target is 50%. At zero correlation its annual volatility is 11.18%. If the client also caps volatility at 10%, the two funds cannot meet both requirements under these assumptions. Revisit the mandate before placing an order.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if the client targets 6% expected return and correlation rises to 0.8?</h2><details><summary>Check your application</summary><p>The 50/50 allocation still has 6% expected return. Its annual volatility rises to about 14.32%, so it exceeds a 10% volatility cap.</p></details><p><strong>Transfer to a Micro Case.</strong> What happens to the benefit of diversification when both streams fall together? <a href="https://kochiuyu.github.io/micro-cases/cash-moves-together.html">Two income streams. One bad month?</a></p></section>
 ```
 
-**Apply the model.** How much protection does a second income stream provide in a bad month? [FIN-16 · Two income streams. One bad month?](https://kochiuyu.github.io/micro-cases/cash-moves-together.html)
 
 **Teaching source.** The original combined slides and early outline motivate mean–variance choice. Fund assumptions are illustrative.
 

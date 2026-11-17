@@ -6,9 +6,16 @@ sectionname: Chapters
 kicker: Chapter 26
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#tariff-incidence-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** A Hong Kong treasury team sources 10,000 units for delivery into a hypothetical tariff-imposing market. The supplier quotes US$100 per unit, payable in 90 days. The importer sells at US$125. A 10% duty on invoice value is introduced. Does the importer have to raise its price by US$10?
 :::
+
+<div id="worked-example"></div>
 
 ## Trace the duty through the supplier quote and customer price
 
@@ -24,7 +31,7 @@ Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.6
 
 
 ```{=html}
-<section class="panel" id="tariff-incidence-lab" aria-labelledby="tariff-incidence-lab-title">
+<section data-finance-lab="tariff-incidence" class="panel" id="tariff-incidence-lab" aria-labelledby="tariff-incidence-lab-title">
 <h2 id="tariff-incidence-lab-title">Decide whether to switch suppliers</h2><p>The incumbent costs US$105.60 per unit after duty. A qualified alternative costs US$103. Should purchasing pay the one-time fee?</p>
 <form><p><label>Confirmed units <select><option>5000</option><option selected>10000</option><option>11538</option><option>11539</option><option>15000</option></select></label></p>
 <p><label>Possible repeat units <select><option>0</option><option selected>2000</option><option>10000</option></select></label></p>
@@ -34,6 +41,14 @@ Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.6
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#pricing">Back to pricing and procurement labs</a></p>
 </section>
 <script>
 (() => {
@@ -82,9 +97,9 @@ return {rows:[['Confirmed-order savings after fee',usd(saving)],['Savings if rep
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>Should purchasing switch suppliers for this shipment?</h2><details><summary>Compare your recommendation</summary><p>Stay with the incumbent for 10,000 units. The alternative saves US$26,000 before a US$30,000 qualification fee. Each unit saves US$2.60. Divide the US$30,000 fee by US$2.60 and round up. At 11,539 units, switching first becomes cheaper. Count repeat orders only if the quotes still apply and the qualification fee covers them.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if repeat orders save only US$1.50 each?</h2><details><summary>Check your application</summary><p>The confirmed 10,000 units save US$26,000 before the fee. Another 2,000 units at US$1.50 save US$3,000, leaving qualification US$1,000 short of break-even.</p></details><p><strong>Transfer to a Micro Case.</strong> What sourcing information would change the recommendation based on cost alone? <a href="https://kochiuyu.github.io/micro-cases/shared-factory.html">Two suppliers. One factory?</a></p></section>
 ```
 
 **Teaching source.** Week 10 and the trade-war case. All duties and prices are hypothetical.
 
-[OPS-05 · Two suppliers. One factory?](https://kochiuyu.github.io/micro-cases/shared-factory.html) · [Hedge the baseline invoice](currency-hedging.html)
+[Hedge the baseline invoice](currency-hedging.html)

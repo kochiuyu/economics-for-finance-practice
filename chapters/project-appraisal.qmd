@@ -6,9 +6,16 @@ sectionname: Chapters
 kicker: "Chapter 5 · Intertemporal choice"
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#project-appraisal-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** A firm can pay HK$100,000 today to receive a certain HK$108,000 exactly one year from now. It has to borrow the full cost. Should it accept a one-year loan at 6%? What would you say at 10%?
 :::
+
+<div id="worked-example"></div>
 
 ## Put both choices on the same date
 
@@ -36,7 +43,7 @@ At 6%, accept under the stated assumptions. At 10%, decline. If a lender also ch
 
 
 ```{=html}
-<section class="panel" id="project-appraisal-lab" aria-labelledby="project-appraisal-lab-title">
+<section data-finance-lab="project-appraisal" class="panel" id="project-appraisal-lab" aria-labelledby="project-appraisal-lab-title">
 <h2 id="project-appraisal-lab-title">Compare financing fees</h2><p>A HK$100,000 project pays HK$108,000 in one year. What fee can you authorize, and when is it due?</p>
 <form><p><label>Annual financing rate (%) <select><option>4</option><option selected>6</option><option>8</option><option>10</option></select></label></p>
 <p><label>Fee (HK$) <select><option>0</option><option>1500</option><option>1886.79</option><option selected>2000</option><option>2500</option></select></label></p>
@@ -46,6 +53,14 @@ At 6%, accept under the stated assumptions. At 10%, decline. If a lender also ch
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#investment">Back to investment and trading labs</a></p>
 </section>
 <script>
 (() => {
@@ -95,10 +110,9 @@ return {rows:[['Year-end surplus after financing the fee',money(maturity)],['Sur
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>What borrowing terms would you authorize?</h2><details><summary>Compare your recommendation</summary><p>Authorize the 6% loan if the project still produces a surplus after fees. The certain HK$108,000 receipt leaves HK$2,000 after repaying HK$106,000 in one year. A fee payable at maturity must therefore be below HK$2,000 for the deal to add value. If the fee is paid today, its break-even amount is HK$1,886.79 at the same financing rate. Ask for the fee amount and payment date before signing.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>Would you pay HK$1,900 at signing if the project still pays HK$108,000?</h2><details><summary>Check your application</summary><p>At 6%, the fee costs HK$2,014 by maturity. The project has only HK$2,000 left after debt repayment, so the proposed fee creates a HK$14 shortfall at maturity.</p></details><p><strong>Transfer to a Micro Case.</strong> How does earlier cash affect the ranking when the projects have different total receipts? <a href="https://kochiuyu.github.io/micro-cases/back-sooner.html">Back sooner. Worth more?</a></p></section>
 ```
 
-**Apply the model.** Would the project with the faster payback also win on present value? [FIN-08 · Back sooner. Worth more?](https://kochiuyu.github.io/micro-cases/back-sooner.html)
 
 **Teaching source.** Week 3 develops the two-period budget and discounting. The project, funding terms, and household figures are illustrative.
 

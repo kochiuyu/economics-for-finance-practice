@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -13,9 +15,11 @@
 <nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../labs.html">Labs</a><a href="../cases/micro-cases.html">Micro Cases</a></nav></div></header>
 <main id="main" class="frame" tabindex="-1">
 <div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Chapters</div><header class="pagehead"><span class="kicker">Chapter 26</span><h1>Who absorbs the tariff on a supplier invoice?</h1><p class="dek">Trace a hypothetical duty through the exporter’s quote, the importer’s margin, and the customer’s price.</p></header>
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#tariff-incidence-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
 <div class="decision">
 <p><strong>Your decision.</strong> A Hong Kong treasury team sources 10,000 units for delivery into a hypothetical tariff-imposing market. The supplier quotes US$100 per unit, payable in 90 days. The importer sells at US$125. A 10% duty on invoice value is introduced. Does the importer have to raise its price by US$10?</p>
 </div>
+<div id="worked-example"></div>
 <h2 id="build-the-comparison">Trace the duty through the supplier quote and customer price</h2>
 <p>Before the duty the US$1 million invoice leaves US$25 per unit before other costs. If the supplier holds at 100 and the customer price stays 125, duty of 10 reduces the importer’s unit margin to 15. Legal responsibility to remit the duty does not specify how prices adjust.</p>
 <p>Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.60 per unit. Landed cost is 105.60 and margin is 23.40. Relative to the baseline the exporter gives up 4, the customer pays 4 more, and the importer gives up 1.60 in margin. These changes sum to 9.60 for each unit still sold.</p>
@@ -30,7 +34,7 @@ At 10,000 units the alternative costs 1,060,000 versus 1,056,000 from the renego
 </p>
 </details>
 
-<section class="panel" id="tariff-incidence-lab" aria-labelledby="tariff-incidence-lab-title">
+<section data-finance-lab="tariff-incidence" class="panel" id="tariff-incidence-lab" aria-labelledby="tariff-incidence-lab-title">
 <h2 id="tariff-incidence-lab-title">Decide whether to switch suppliers</h2><p>The incumbent costs US$105.60 per unit after duty. A qualified alternative costs US$103. Should purchasing pay the one-time fee?</p>
 <form><p><label>Confirmed units <select><option>5000</option><option selected>10000</option><option>11538</option><option>11539</option><option>15000</option></select></label></p>
 <p><label>Possible repeat units <select><option>0</option><option selected>2000</option><option>10000</option></select></label></p>
@@ -40,6 +44,14 @@ At 10,000 units the alternative costs 1,060,000 versus 1,056,000 from the renego
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#pricing">Back to pricing and procurement labs</a></p>
 </section>
 <script>
 (() => {
@@ -88,10 +100,10 @@ return {rows:[['Confirmed-order savings after fee',usd(saving)],['Savings if rep
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>Should purchasing switch suppliers for this shipment?</h2><details><summary>Compare your recommendation</summary><p>Stay with the incumbent for 10,000 units. The alternative saves US$26,000 before a US$30,000 qualification fee. Each unit saves US$2.60. Divide the US$30,000 fee by US$2.60 and round up. At 11,539 units, switching first becomes cheaper. Count repeat orders only if the quotes still apply and the qualification fee covers them.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if repeat orders save only US$1.50 each?</h2><details><summary>Check your application</summary><p>The confirmed 10,000 units save US$26,000 before the fee. Another 2,000 units at US$1.50 save US$3,000, leaving qualification US$1,000 short of break-even.</p></details><p><strong>Transfer to a Micro Case.</strong> What sourcing information would change the recommendation based on cost alone? <a href="https://kochiuyu.github.io/micro-cases/shared-factory.html">Two suppliers. One factory?</a></p></section>
 
 <p><strong>Teaching source.</strong> Week 10 and the trade-war case. All duties and prices are hypothetical.</p>
-<p><a href="https://kochiuyu.github.io/micro-cases/shared-factory.html">OPS-05 · Two suppliers. One factory?</a> · <a href="currency-hedging.html">Hedge the baseline invoice</a></p>
+<p><a href="currency-hedging.html">Hedge the baseline invoice</a></p>
 </main>
 <footer><div class="foot"><a href="../original-course/index.html">Course record</a><span>Economics for Finance Practice <span aria-hidden="true">/</span> Chiu Yu Ko</span><a href="https://github.com/kochiuyu/economics-for-finance-practice">Project on GitHub ↗</a></div></footer>
 

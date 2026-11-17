@@ -7,9 +7,16 @@ kicker: "Chapter 7 · State prices"
 activity: state-prices
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#mix-title">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** You can buy a claim paying HK$100 in a recession and zero in an expansion, or another paying zero in a recession and HK$100 in an expansion. The two states are equally likely. Should you offer the same price for each claim?
 :::
+
+<div id="worked-example"></div>
 
 ## Infer two state prices from traded securities
 
@@ -27,7 +34,7 @@ Half a share delivers one dollar in an expansion only, for a price of **0.35**. 
 The recession claim costs 100 × 0.60 = **HK$60**, and the expansion claim costs 100 × 0.35 = **HK$35**. Both have expected payoff HK$50. If a broker sold the recession claim for HK$55, you could buy it and sell its replicating portfolio for HK$60. The HK$5 difference arrives today and future cash flows cancel in both states.
 
 ```{=html}
-<section class="panel" aria-labelledby="mix-title">
+<section data-finance-lab="state-prices" class="panel" aria-labelledby="mix-title">
 <h2 id="mix-title">Move the payoff between states</h2><p><strong>Before you start.</strong> Keep the average payout fixed. Which direction should you move the payout to protect a client whose income falls in recessions? Compare the extra price with the protection gained.</p>
 <p>Each state is equally likely. Move HK$10 of payoff from expansion to recession. Before moving the slider, predict how much the price will change. Expected payoff stays at HK$50.</p>
 <div class="controls"><label for="recession-payoff">Recession payoff (HK$)<input type="range" id="recession-payoff" min="0" max="100" step="10" value="50"></label></div>
@@ -36,6 +43,15 @@ The recession claim costs 100 × 0.60 = **HK$60**, and the expansion claim costs
 <div><span>Expansion</span><span class="payoff-track" aria-hidden="true"><i id="expansion-bar" style="width:50%"></i></span><b id="expansion-payment">HK$50</b></div>
 </div>
 <p>Price today <strong id="claim-price">HK$47.50</strong></p><p id="pricing-calculation" role="status">Price today = 0.60 × 50 + 0.35 × 50 = HK$47.50.</p>
+
+<button type="button" class="lab-reset">Reset scenario</button>
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#investment">Back to investment and trading labs</a></p>
 </section>
 ```
 
@@ -55,7 +71,7 @@ In the consumption model from the lecture, marginal utility is high when consump
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>Which protection would you quote to a client short of cash in a recession?</h2><details><summary>Compare your recommendation</summary><p>A recession-only HK$100 payment costs HK$60 to reproduce. Moving HK$10 of payout from expansion into recession raises today’s cost by HK$2.50. Check that the client’s actual cash shortfall occurs in the state being insured.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if the client has HK$25 of bills that can only be covered by the recession payment?</h2><details><summary>Check your application</summary><p>A claim paying HK$25 in recession and zero in expansion costs HK$15 at the example state prices. The lab holds expected payoff fixed, so test this specific new claim separately.</p></details><p><strong>Transfer to a Micro Case.</strong> Which payout would help when the two income streams weaken together? <a href="https://kochiuyu.github.io/micro-cases/cash-moves-together.html">Two income streams. One bad month?</a></p></section>
 ```
 
 **Teaching source.** Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.

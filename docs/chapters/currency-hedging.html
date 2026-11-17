@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -13,9 +15,11 @@
 <nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../labs.html">Labs</a><a href="../cases/micro-cases.html">Micro Cases</a></nav></div></header>
 <main id="main" class="frame" tabindex="-1">
 <div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Chapters</div><header class="pagehead"><span class="kicker">Chapter 27</span><h1>How many US dollars should the importer hedge?</h1><p class="dek">Match the size and settlement date of a hedge to the net dollar payment.</p></header>
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#currency-hedging-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
 <div class="decision">
 <p><strong>Your decision.</strong> Take the baseline 90-day US$1 million invoice. A US$300,000 customer receipt is certain on the same date. The treasury team can buy dollars forward at HK$7.81 per US dollar. Should it buy the full million?</p>
 </div>
+<div id="worked-example"></div>
 <h2 id="build-the-comparison">Offset same-day receipts before booking the forward</h2>
 <p>The receipt can settle part of the invoice. Net exposure is <strong>US$700,000</strong>. At settlement spot rates of 7.75 and 7.85, buying the residual costs HK$5,425,000 or HK$5,495,000. A forward purchase of 700,000 fixes that outlay at <strong>HK$5,467,000</strong>. These are illustrative treasury quotes with no fees or collateral calls.</p>
 <p>A million-dollar forward costs HK$7,810,000. After paying the invoice, the firm has the customer’s US$300,000 left to sell at spot. Net HK-dollar outlay is therefore HK$5,485,000 at 7.75 or HK$5,455,000 at 7.85. Hedging the gross invoice reverses the direction of the residual exposure.</p>
@@ -30,16 +34,25 @@ Assuming the same US$300,000 receipt, the net invoice exposure becomes US$660,00
 </p>
 </details>
 
-<section class="panel" id="currency-hedging-lab" aria-labelledby="currency-hedging-lab-title">
+<section data-finance-lab="currency-hedging" class="panel" id="currency-hedging-lab" aria-labelledby="currency-hedging-lab-title">
 <h2 id="currency-hedging-lab-title">Size a dollar hedge</h2><p>Choose a forward purchase for a US$1 million invoice due on day 90. What changes if the customer’s US$300,000 receipt misses the payment date?</p>
-<form><p><label>Forward purchase (US$) <select><option>0</option><option>300000</option><option selected>700000</option><option>1000000</option></select></label></p>
+<form><p><label>Forward purchase (US$) <select><option>0</option><option value="300000">300,000</option><option value="700000" selected>700,000</option><option value="1000000">1,000,000</option></select></label></p>
 <p><label>Customer receipt <select><option selected>On time</option><option>One week late</option><option>Cancelled</option></select></label></p>
 <p><label>Day 90 spot (HKD per USD) <select><option>7.75</option><option>7.8</option><option selected>7.85</option></select></label></p><button type="reset">Reset scenario</button></form>
-<div aria-live="polite" class="scenario-result"></div>
+<p class="lab-headline" role="status"></p><div class="lab-visual"></div>
+<div class="scenario-result"></div>
 <details><summary>Check the calculation</summary><p class="scenario-math"></p></details>
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#treasury">Back to treasury and credit labs</a></p>
 </section>
 <script>
 (() => {
@@ -52,7 +65,7 @@ Assuming the same US$300,000 receipt, the net invoice exposure becomes US$660,00
     const [forward,timing,spot]=inputs;
 const receipt=timing==='On time'?300000:0, gap=1000000-forward-receipt;
 const cost=forward*7.81+gap*spot;
-return {rows:[['Today · book forward',usd(forward)+' at HK$7.81'],['Day 90 · dollars received',usd(forward)+' forward + '+usd(receipt)+' customer'],['Day 90 · invoice',usd(1000000)],['Day 90 · spot transaction',(gap<0?'Sell ':'Buy ')+usd(Math.abs(gap))],['Day 90 · net HKD outlay',money(cost)],['Day 97 · customer receipt',usd(timing==='One week late'?300000:0)]],math:'Day 90 outlay = forward dollars × 7.81 + remaining dollar purchase × spot. Excess dollars are sold at the same spot quote. Fees and interest are excluded.',call:timing==='One week late'?'Confirm interim funding for the invoice date. The day-97 receipt can repay a dollar bridge or be converted at the then-current rate.':timing==='Cancelled'?'Recalculate the net exposure at US$1 million. Treasury must source any dollars left uncovered on day 90.':'Match the hedge to US$700,000 after the confirmed receipt. A larger forward leaves surplus dollars to sell.'};
+return {rows:[['Today · book forward',usd(forward)+' at HK$7.81'],['Day 90 · dollars received',usd(forward)+' forward + '+usd(receipt)+' customer'],['Day 90 · invoice',usd(1000000)],['Day 90 · spot transaction',gap===0?'None':(gap<0?'Sell ':'Buy ')+usd(Math.abs(gap))],['Day 90 · uncovered dollars',usd(Math.max(0,gap))],['Day 90 · net HKD outlay',money(cost)],['Day 97 · customer receipt',usd(timing==='One week late'?300000:0)]],math:'Day 90 outlay = forward dollars × 7.81 + remaining dollar purchase × spot. Excess dollars are sold at the same spot quote. Fees and interest are excluded.',call:timing==='One week late'?'Confirm interim funding for the invoice date. The day-97 receipt can repay a dollar bridge or be converted at the then-current rate.':timing==='Cancelled'?'Recalculate the net exposure at US$1 million. Treasury must source any dollars left uncovered on day 90.':'Match the hedge to US$700,000 after the confirmed receipt. A larger forward leaves surplus dollars to sell.'};
   }
   function refresh() {
     const inputs = Array.from(form.querySelectorAll('select'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
@@ -89,9 +102,8 @@ return {rows:[['Today · book forward',usd(forward)+' at HK$7.81'],['Day 90 · d
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>What instruction would you send to treasury operations?</h2><details><summary>Compare your recommendation</summary><p>Buy US$700,000 forward for the invoice date at 7.81 HKD per USD, fixing the residual payment at HK$5,467,000. Confirm that the US$300,000 customer receipt will clear on time. If the full receipt arrives a week late, the forward supplies US$700,000 on the invoice date and the supplier still needs US$300,000 that day. Arrange a one-week dollar funding line or renegotiate the payment date. If the customer cancels instead, recalculate the exposure because the offsetting receipt has disappeared.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if only half the customer receipt arrives on day 90?</h2><details><summary>Check your application</summary><p>With the US$700,000 forward and US$150,000 received on time, treasury still needs US$150,000 on day 90. If the balance is due a week later, size the bridge to that timing.</p></details><p><strong>Transfer to a Micro Case.</strong> Which receipts can offset the bill by its actual settlement date? <a href="https://kochiuyu.github.io/micro-cases/invoice-exposure.html">The invoice is not the exposure</a></p></section>
 
-<p><strong>Apply the model.</strong> Which receipts and payments offset the invoice before a hedge is sized? <a href="https://kochiuyu.github.io/micro-cases/invoice-exposure.html">FIN-04 · The invoice is not the exposure</a></p>
 <p><strong>Teaching source.</strong> Week 10 and the original treasury outline.</p>
 <p><a href="hong-kong-exchange-rate.html">Compare Hong Kong funding and exchange-rate exposure</a> · <a href="foreign-currency-debt.html">Stress-test rollover</a></p>
 </main>

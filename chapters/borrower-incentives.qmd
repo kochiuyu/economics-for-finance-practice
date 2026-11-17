@@ -6,9 +6,16 @@ sectionname: Chapters
 kicker: Chapter 13 · Moral hazard
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#borrower-incentives-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** A borrower needs 80 today. Its project pays 140 on success and zero on failure. Your credit team proposes collecting 115 on success. Would you approve the loan if the borrower chooses how hard to work after signing?
 :::
+
+<div id="worked-example"></div>
 
 ## Price the action the borrower will take
 
@@ -37,7 +44,7 @@ Suppose the project needs 90 instead of 80. With effort, expected output less ef
 
 
 ```{=html}
-<section class="panel" id="borrower-incentives-lab" aria-labelledby="borrower-incentives-lab-title">
+<section data-finance-lab="borrower-incentives" class="panel" id="borrower-incentives-lab" aria-labelledby="borrower-incentives-lab-title">
 <h2 id="borrower-incentives-lab-title">Design a loan that rewards effort</h2><p>Advance 80 for a project paying 140 on success. Predict whether raising repayment will increase what the lender collects.</p>
 <form><p><label>Repayment on success <select><option>90</option><option>99</option><option>100</option><option selected>105</option><option>109</option><option>110</option><option>111</option><option>115</option></select></label></p><button type="reset">Reset scenario</button></form>
 <div aria-live="polite" class="scenario-result"></div>
@@ -45,6 +52,14 @@ Suppose the project needs 90 instead of 80. With effort, expected output less ef
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#treasury">Back to treasury and credit labs</a></p>
 </section>
 <script>
 (() => {
@@ -94,10 +109,9 @@ return {rows:[['Borrower payoff with effort',high.toFixed(2)],['Borrower payoff 
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>Would you sign off on repayment of 115?</h2><details><summary>Compare your recommendation</summary><p>Decline repayment of 115. It makes low effort attractive and cuts expected collections to 57.5 on the 80 advanced. To recover the advance with high effort, collect at least 100 on success. Keep repayment below 110 so the borrower strictly prefers to work. A competitive quote of 100 breaks even. At 105 the lender earns an expected 4 and effort is still worthwhile.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if effort costs 12 instead of 9?</h2><details><summary>Check your application</summary><p>The borrower must retain more than 12 ÷ 0.3 = 40 on success to strictly prefer effort. That requires repayment below 100, while covering the advance requires repayment of at least 100.</p></details><p><strong>Transfer to a Micro Case.</strong> Which action becomes harder to induce once a loss is covered? <a href="https://kochiuyu.github.io/micro-cases/covered-damage.html">Covered damage. Unchanged behaviour?</a></p></section>
 ```
 
-**Apply the model.** Which action becomes harder to induce after damage is covered? [ECO-10 · Covered damage. Unchanged behaviour?](https://kochiuyu.github.io/micro-cases/covered-damage.html)
 
 **Teaching source.** Week 5 develops hidden action, incentive compatibility, and credit rationing. The loan terms and cash flows are illustrative.
 

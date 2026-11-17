@@ -7,9 +7,16 @@ kicker: "Chapter 17 · Bank liquidity"
 activity: bank
 ---
 
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
+
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#bank-title">Lab</a> <a href="#practice-brief">Application</a></nav>
+
 ::: {.decision}
 **Your decision.** A bank has HK$20 million in cash, HK$90 million in loans, and HK$100 million in demand deposits. The loans will pay in full at maturity. Today a buyer offers 75 cents per dollar of loans. Can the bank pay HK$50 million of withdrawals? How much equity would remain for the next depositor to rely on?
 :::
+
+<div id="worked-example"></div>
 
 ## Follow the cash through one withdrawal
 
@@ -25,7 +32,7 @@ All quantities below are in HK$ millions. The bank starts with assets of 110, li
 Cash used to repay deposits reduces assets and liabilities by the same amount. Selling loans below their maturity value reduces equity. At withdrawals of 50, the bank meets every request today and has exhausted its equity cushion. It could pay a little more today by selling further loans, leaving insufficient assets for those who wait.
 
 ```{=html}
-<section class="panel" aria-labelledby="bank-title">
+<section data-finance-lab="bank-liquidity" class="panel" aria-labelledby="bank-title">
 <h2 id="bank-title">Run the withdrawal test</h2><p><strong>Before you start.</strong> With opening cash of 20 million and a sale price of 0.75, predict which runs out first, cash or equity. Raise withdrawals through both thresholds and identify when later depositors first face a loss.</p>
 <p>Change the requests, the opening cash reserve, or the price available for quick loan sales. The bank starts each scenario with assets of 110 and deposits of 100. A larger opening reserve replaces loans one-for-one.</p>
 <div class="controls">
@@ -35,6 +42,15 @@ Cash used to repay deposits reduces assets and liabilities by the same amount. S
 </div>
 <div class="metrics"><div class="metric"><span>Paid today (HK$ m)</span><b id="bank-paid">50</b></div><div class="metric"><span>Loans sold at face (HK$ m)</span><b id="bank-sold">40</b></div><div class="metric"><span>Equity left (HK$ m)</span><b id="bank-equity">0</b></div></div>
 <p id="bank-result" role="status">All requests are paid. The equity cushion is exhausted.</p>
+
+<button type="button" class="lab-reset">Reset scenario</button>
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#treasury">Back to treasury and credit labs</a></p>
 </section>
 ```
 
@@ -52,10 +68,9 @@ Suppose a bank serves depositors in arrival order. If others wait, loans mature 
 
 
 ```{=html}
-<section aria-label="Practice brief"><h2>What should the treasurer report when withdrawals reach HK$50 million?</h2><details><summary>Compare your recommendation</summary><p>Today’s requests can be paid. Selling HK$40 million of loans raises HK$30 million and consumes all HK$10 million of equity. At the same sale price, exhausting cash would take HK$87.5 million of withdrawals. Report both thresholds and rerun them at a worse bid.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if the quick-sale bid falls to 50 cents per dollar of loans?</h2><details><summary>Check your application</summary><p>At HK$50 million of withdrawals and HK$20 million of opening cash, the bank must sell HK$60 million of loans at face value. The HK$30 million loss uses up its HK$10 million equity and leaves a HK$20 million deficit.</p></details><p><strong>Transfer to a Micro Case.</strong> Which payment still has to be made before protected funds become available? <a href="https://kochiuyu.github.io/micro-cases/protected-and-available.html">Protected and available?</a></p></section>
 ```
 
-**Apply the model.** When can a protected balance still leave the depositor short of cash? [FIN-09 · One bank. Two kinds of safety.](https://kochiuyu.github.io/micro-cases/protected-and-available.html)
 
 **Teaching source.** Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.
 

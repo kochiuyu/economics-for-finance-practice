@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -13,9 +15,11 @@
 <nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../labs.html">Labs</a><a href="../cases/micro-cases.html">Micro Cases</a></nav></div></header>
 <main id="main" class="frame" tabindex="-1">
 <div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Chapters</div><header class="pagehead"><span class="kicker">Chapter 24 · Policy transmission</span><h1>Can the borrower cover its interest?</h1><p class="dek">Trace a policy change through a floating-rate loan and distinguish a financing shock from a change in operating earnings.</p></header>
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#policy-transmission-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
 <div class="decision">
 <p><strong>Your decision.</strong> A company earns HK$6 million before interest and tax and owes HK$50 million on a floating-rate loan. Its lender requires interest coverage of at least 2.0 times. Could a rate rise cause a breach even before customers cut spending?</p>
 </div>
+<div id="worked-example"></div>
 <h2 id="read-the-contract-before-forecasting-demand">Read the contract before forecasting demand</h2>
 <p>Interest coverage equals annual earnings before interest and tax (EBIT) divided by annual interest. The loan pays a reference rate plus 2 percentage points and resets immediately for a full year. Its outstanding principal is constant. Initially the reference rate is 3%, so interest is 50 × 5% = <strong>HK$2.5 million</strong> and coverage is <strong>2.40</strong>.</p>
 <table class="caption-top">
@@ -79,16 +83,25 @@ The IS relationship describes expenditure consistent with goods-market equilibri
 </p>
 </details>
 
-<section class="panel" id="policy-transmission-lab" aria-labelledby="policy-transmission-lab-title">
-<h2 id="policy-transmission-lab-title">Stress-test a loan covenant</h2><p>The borrower owes HK$50 million. Predict whether interest coverage stays at or above 2.0 times after the next reset.</p>
+<section data-finance-lab="policy-transmission" class="panel" id="policy-transmission-lab" aria-labelledby="policy-transmission-lab-title">
+<h2 id="policy-transmission-lab-title">Stress-test a loan covenant</h2><p>The borrower owes HK$50 million. Resetting debt pays the reference rate plus 2 percentage points. The rest pays 5%. Predict whether interest coverage stays at or above 2.0 times after the next reset.</p>
 <form><p><label>Reference rate (%) <select><option>2</option><option>3</option><option selected>4</option><option>4.1</option><option>5</option><option>6</option></select></label></p>
 <p><label>Debt resetting (%) <select><option>0</option><option>25</option><option>50</option><option>75</option><option selected>100</option></select></label></p>
 <p><label>Annual EBIT (HK$ million) <select><option>5.4</option><option selected>6</option><option>7</option><option>7.2</option></select></label></p><button type="reset">Reset scenario</button></form>
-<div aria-live="polite" class="scenario-result"></div>
+<p class="lab-headline" role="status"></p><div class="lab-visual"></div>
+<div class="scenario-result"></div>
 <details><summary>Check the calculation</summary><p class="scenario-math"></p></details>
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#treasury">Back to treasury and credit labs</a></p>
 </section>
 <script>
 (() => {
@@ -101,7 +114,7 @@ The IS relationship describes expenditure consistent with goods-market equilibri
     const [ref,share,ebit]=inputs;
 const interest=50*((ref+2)*share/100+5*(1-share/100))/100;
 const cover=ebit/interest,room=ebit-2*interest;
-return {rows:[['Annual interest',money(interest*1e6)],['Coverage',cover.toFixed(3)+'×'],['EBIT above covenant minimum',money(room*1e6)]],bars:[['Coverage',+cover.toFixed(3)],['Covenant minimum',2]],math:'The resetting portion pays the reference rate plus 2 percentage points. The balance pays 5%. Coverage = annual EBIT ÷ annual interest.',call:Math.abs(room)<1e-9?'Exactly at the minimum. Any decline in EBIT would trigger a breach under these terms.':room<0?'Contact the lender before the test. The borrower needs '+money(-room*1e6)+' more annual EBIT to reach the minimum.':'The borrower passes with '+money(room*1e6)+' of EBIT headroom. Confirm the fixing and test dates.'};
+return {rows:[['Annual interest',money(interest*1e6)],['Coverage',cover.toFixed(3)+'×'],['EBIT above covenant minimum',money(room*1e6)]],math:'The resetting portion pays the reference rate plus 2 percentage points. The balance pays 5%. Coverage = annual EBIT ÷ annual interest.',call:Math.abs(room)<1e-9?'Exactly at the minimum. Any decline in EBIT would trigger a breach under these terms.':room<0?'Contact the lender before the test. The borrower needs '+money(-room*1e6)+' more annual EBIT to reach the minimum.':'The borrower passes with '+money(room*1e6)+' of EBIT headroom. Confirm the fixing and test dates.'};
   }
   function refresh() {
     const inputs = Array.from(form.querySelectorAll('select'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
@@ -138,7 +151,7 @@ return {rows:[['Annual interest',money(interest*1e6)],['Coverage',cover.toFixed(
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>When should the relationship manager reopen the covenant discussion?</h2><details><summary>Compare your recommendation</summary><p>At HK$6 million of annual EBIT, two-times coverage allows HK$3 million of annual interest. On HK$50 million of debt that puts the all-in rate ceiling at 6%, or a 4% reference rate plus the 2-point spread. At the ceiling there is no headroom. If the next fixing takes the reference rate above 4%, open the covenant discussion before the test date. Recalculate if EBIT changes or only part of the loan resets.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if only half the loan resets and earnings fall to HK$5.4 million?</h2><details><summary>Check your application</summary><p>At a 5% reference rate, rates of 7% and 5% on equal halves imply HK$3 million in annual interest. Coverage is 1.80×, which falls short of 2.00×.</p></details><p><strong>Transfer to a Micro Case.</strong> Move from an interest coverage test to a cash repayment test. What else would the lender need to verify? <a href="https://kochiuyu.github.io/micro-cases/interest-paid-principal-due.html">Affordable interest. A repayable principal?</a></p></section>
 
 <p><strong>Teaching source.</strong> Week 9 develops monetary and fiscal transmission using IS–LM and IS–MP. Loan terms, the coverage threshold, and EBIT scenarios are illustrative.</p>
 <nav class="route-nav" aria-label="Essentials chapter navigation">

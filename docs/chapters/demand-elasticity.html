@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/lab-comparison.css">
+<script src="../assets/lab-comparison.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -13,9 +15,11 @@
 <nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../labs.html">Labs</a><a href="../cases/micro-cases.html">Micro Cases</a></nav></div></header>
 <main id="main" class="frame" tabindex="-1">
 <div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Chapters</div><header class="pagehead"><span class="kicker">Chapter 2 · Demand and substitution</span><h1>Should the firm raise its price?</h1><p class="dek">Use a subscription business to see when the same price increase helps revenue and when it hurts.</p></header>
+<nav class="lab-jumps" aria-label="On this page"><a href="#worked-example">Worked example</a> <a href="#demand-elasticity-lab">Lab</a> <a href="#practice-brief">Application</a></nav>
 <div class="decision">
 <p><strong>Your decision.</strong> A market-data vendor charges HK$100 per month and has 1,000 subscribers. Should it charge HK$110? Give the sales director a break-even subscriber count before looking at the demand forecast.</p>
 </div>
+<div id="worked-example"></div>
 <h2 id="find-the-quantity-the-firm-can-afford-to-lose">Find the quantity the firm can afford to lose</h2>
 <p>Monthly revenue is price times subscribers. The current plan brings in <strong>HK$100,000</strong>. At HK$110 the firm needs 100,000 / 110 = 909.09 subscribers to match that figure. Subscribers come in whole numbers, so <strong>910</strong> is the smallest count that raises revenue. All figures in this exercise are illustrative.</p>
 <table class="caption-top">
@@ -103,15 +107,24 @@ A customer chooses among bundles within a budget. A higher own price makes alter
 </details>
 <p><a href="costs-capacity.html">Apply demand to a producer’s pricing and capacity decision</a></p>
 
-<section class="panel" id="demand-elasticity-lab" aria-labelledby="demand-elasticity-lab-title">
+<section data-finance-lab="demand-elasticity" class="panel" id="demand-elasticity-lab" aria-labelledby="demand-elasticity-lab-title">
 <h2 id="demand-elasticity-lab-title">Test a subscription price</h2><p>How many renewals will cover the contribution you earn today? Your current 1,000 customers pay HK$100 each month and cost HK$40 each to serve.</p>
 <form><p><label>Monthly price (HK$) <select><option>100</option><option>105</option><option selected>110</option><option>115</option></select></label></p>
-<p><label>Renewals <select><option>800</option><option>857</option><option>858</option><option selected>860</option><option>909</option><option>910</option><option>940</option><option>1000</option></select></label></p><button type="reset">Reset scenario</button></form>
-<div aria-live="polite" class="scenario-result"></div>
+<p><label>Renewals <input type="number" min="0" max="1000" step="1" required value="860" list="renewal-presets"></label><datalist id="renewal-presets"><option value="800"><option value="857"><option value="858"><option value="860"><option value="909"><option value="910"><option value="940"><option value="1000"></datalist></p><p class="lab-input-note" role="status"></p><button type="reset">Reset scenario</button></form>
+<p class="lab-headline" role="status"></p><div class="lab-visual"></div>
+<div class="scenario-result"></div>
 <details><summary>Check the calculation</summary><p class="scenario-math"></p></details>
 <p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+
+<details class="lab-comparison"><summary>Compare scenarios</summary>
+<button type="button">Keep for comparison</button>
+<p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>
+<div class="lab-table" tabindex="0" role="region" aria-label="Scenario comparison table">
+<table><thead><tr><th scope="col">Measure</th><th scope="col">Starting scenario</th><th scope="col">Current</th><th scope="col">Change</th></tr></thead><tbody></tbody></table>
+</div></details>
+<p><a href="../labs.html#pricing">Back to pricing and procurement labs</a></p>
 </section>
 <script>
 (() => {
@@ -124,10 +137,17 @@ A customer chooses among bundles within a budget. A higher own price makes alter
     const [price,n]=inputs;
 const revenue=price*n, contribution=(price-40)*n;
 const minRevenue=Math.ceil(100000/price), minContribution=Math.ceil(60000/(price-40));
-return {rows:[['Monthly sales',money(revenue)],['Monthly contribution',money(contribution)],['Change in contribution',money(contribution-60000)]],bars:[['Renewals',n],['Required for sales',minRevenue],['Required for contribution',minContribution]],math:'Sales = price × renewals. Contribution = (price − HK$40) × renewals. Divide each baseline by its new per-customer amount and round up.',call:contribution>60000?'The new terms raise monthly contribution by '+money(contribution-60000)+'. Check that retention spending stays below that gain.':contribution===60000?'The plans earn equal contribution. Check retention costs before changing terms.':'Keep the current terms at this renewal forecast. The new plan needs '+minContribution+' renewals to preserve contribution.'};
+return {rows:[['Monthly sales',money(revenue)],['Monthly contribution',money(contribution)],['Change in contribution',money(contribution-60000)]],math:'Sales = price × renewals. Contribution = (price − HK$40) × renewals. Divide each baseline by its new per-customer amount and round up.',call:contribution>60000?'The new terms raise monthly contribution by '+money(contribution-60000)+'. Check that retention spending stays below that gain.':contribution===60000?'The plans earn equal contribution. Check retention costs before changing terms.':'Keep the current terms at this renewal forecast. The new plan needs '+minContribution+' renewals to preserve contribution.'};
   }
   function refresh() {
-    const inputs = Array.from(form.querySelectorAll('select'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
+    const inputs = Array.from(form.querySelectorAll('select, input'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
+    const renewals = form.querySelector('input');
+    const note = lab.querySelector('.lab-input-note');
+    if (!renewals.validity.valid) {
+      note.textContent = 'Enter a whole number from 0 to 1,000.';
+      return;
+    }
+    note.textContent = '';
     const result = calculate(inputs);
     const table = document.createElement('table');
     table.setAttribute('aria-label', 'Scenario results');
@@ -156,14 +176,14 @@ return {rows:[['Monthly sales',money(revenue)],['Monthly contribution',money(con
     lab.querySelector('.scenario-math').textContent = result.math;
     lab.querySelector('.scenario-call').textContent = result.call;
   }
-  form.addEventListener('change', refresh);
+  form.addEventListener('input', refresh);
+  form.addEventListener('submit', event => event.preventDefault());
   form.addEventListener('reset', () => requestAnimationFrame(refresh));
   refresh();
 })();
 </script>
-<section aria-label="Practice brief"><h2>What subscriber count should trigger a pricing review?</h2><details><summary>Compare your recommendation</summary><p>At HK$110, each subscriber contributes HK$70 after service cost. The old plan earned HK$60,000 in monthly contribution, so the new price needs at least 858 renewals (60,000 ÷ 70, rounded up). Revenue needs 910 renewals to exceed its old level. At the forecast of 860, the contribution gain is only HK$200 a month. Three fewer renewals would erase it. Track renewals and any additional retention spending before extending the price change.</p></details></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>Would you extend the price increase if retention calls cost HK$250 a month?</h2><details><summary>Check your application</summary><p>At 860 renewals, the new price adds HK$200 in monthly contribution before calls. After HK$250 of extra spending, it earns HK$50 less than the original plan.</p></details><p><strong>Transfer to a Micro Case.</strong> Which additional cost would change your pricing recommendation? <a href="https://kochiuyu.github.io/micro-cases/fewer-jobs.html">Fewer sales. A worse price?</a></p></section>
 
-<p><strong>Apply the model.</strong> When does a lower sales volume still justify the new price? <a href="https://kochiuyu.github.io/micro-cases/fewer-jobs.html">ECO-04 · Fewer sales. A worse price?</a></p>
 <p><strong>Teaching source.</strong> Week 2 covers consumer choice, substitutes, and the Slutsky decomposition. The subscription and cost schedules are new.</p>
 <nav class="route-nav" aria-label="Essentials chapter navigation">
 <strong>Essentials 2 of 12</strong>
