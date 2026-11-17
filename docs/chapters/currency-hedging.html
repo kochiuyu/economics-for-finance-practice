@@ -30,6 +30,65 @@ Assuming the same US$300,000 receipt, the net invoice exposure becomes US$660,00
 </p>
 </details>
 
+<section class="panel" id="currency-hedging-lab" aria-labelledby="currency-hedging-lab-title">
+<h2 id="currency-hedging-lab-title">Size a dollar hedge</h2><p>Choose a forward purchase for a US$1 million invoice due on day 90. What changes if the customer’s US$300,000 receipt misses the payment date?</p>
+<form><p><label>Forward purchase (US$) <select><option>0</option><option>300000</option><option selected>700000</option><option>1000000</option></select></label></p>
+<p><label>Customer receipt <select><option selected>On time</option><option>One week late</option><option>Cancelled</option></select></label></p>
+<p><label>Day 90 spot (HKD per USD) <select><option>7.75</option><option>7.8</option><option selected>7.85</option></select></label></p><button type="reset">Reset scenario</button></form>
+<div aria-live="polite" class="scenario-result"></div>
+<details><summary>Check the calculation</summary><p class="scenario-math"></p></details>
+<p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
+<details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
+<noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+</section>
+<script>
+(() => {
+  const lab = document.getElementById('currency-hedging-lab');
+  const form = lab.querySelector('form');
+  const format = n => n.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const money = n => 'HK$' + format(n);
+  const usd = n => 'US$' + format(n);
+  function calculate(inputs) {
+    const [forward,timing,spot]=inputs;
+const receipt=timing==='On time'?300000:0, gap=1000000-forward-receipt;
+const cost=forward*7.81+gap*spot;
+return {rows:[['Today · book forward',usd(forward)+' at HK$7.81'],['Day 90 · dollars received',usd(forward)+' forward + '+usd(receipt)+' customer'],['Day 90 · invoice',usd(1000000)],['Day 90 · spot transaction',(gap<0?'Sell ':'Buy ')+usd(Math.abs(gap))],['Day 90 · net HKD outlay',money(cost)],['Day 97 · customer receipt',usd(timing==='One week late'?300000:0)]],math:'Day 90 outlay = forward dollars × 7.81 + remaining dollar purchase × spot. Excess dollars are sold at the same spot quote. Fees and interest are excluded.',call:timing==='One week late'?'Confirm interim funding for the invoice date. The day-97 receipt can repay a dollar bridge or be converted at the then-current rate.':timing==='Cancelled'?'Recalculate the net exposure at US$1 million. Treasury must source any dollars left uncovered on day 90.':'Match the hedge to US$700,000 after the confirmed receipt. A larger forward leaves surplus dollars to sell.'};
+  }
+  function refresh() {
+    const inputs = Array.from(form.querySelectorAll('select'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
+    const result = calculate(inputs);
+    const table = document.createElement('table');
+    table.setAttribute('aria-label', 'Scenario results');
+    for (const [label, value] of result.rows) {
+      const row = table.insertRow();
+      const heading = document.createElement('th');
+      heading.scope = 'row';
+      heading.textContent = label;
+      row.append(heading);
+      row.insertCell().textContent = value;
+    }
+    const output = lab.querySelector('.scenario-result');
+    output.replaceChildren(table);
+    if (result.bars) {
+      const maximum = Math.max(...result.bars.map(item => item[1]));
+      for (const [label, value] of result.bars) {
+        const line = document.createElement('p');
+        const bar = document.createElement('meter');
+        bar.max = maximum;
+        bar.value = value;
+        bar.setAttribute('aria-label', label);
+        line.append(label + ' ', bar, ' ' + value);
+        output.append(line);
+      }
+    }
+    lab.querySelector('.scenario-math').textContent = result.math;
+    lab.querySelector('.scenario-call').textContent = result.call;
+  }
+  form.addEventListener('change', refresh);
+  form.addEventListener('reset', () => requestAnimationFrame(refresh));
+  refresh();
+})();
+</script>
 <section aria-label="Practice brief"><h2>What instruction would you send to treasury operations?</h2><details><summary>Compare your recommendation</summary><p>Buy US$700,000 forward for the invoice date at 7.81 HKD per USD, fixing the residual payment at HK$5,467,000. Confirm that the US$300,000 customer receipt will clear on time. If the full receipt arrives a week late, the forward supplies US$700,000 on the invoice date and the supplier still needs US$300,000 that day. Arrange a one-week dollar funding line or renegotiate the payment date. If the customer cancels instead, recalculate the exposure because the offsetting receipt has disappeared.</p></details></section>
 
 <p><strong>Apply the model.</strong> Which receipts and payments offset the invoice before a hedge is sized? <a href="https://kochiuyu.github.io/micro-cases/invoice-exposure.html">FIN-04 · The invoice is not the exposure</a></p>

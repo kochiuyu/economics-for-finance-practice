@@ -69,6 +69,63 @@ Even granting effort at the boundary, the lender can collect at most 0.8 × 110 
 </p>
 </details>
 
+<section class="panel" id="borrower-incentives-lab" aria-labelledby="borrower-incentives-lab-title">
+<h2 id="borrower-incentives-lab-title">Design a loan that rewards effort</h2><p>Advance 80 for a project paying 140 on success. Predict whether raising repayment will increase what the lender collects.</p>
+<form><p><label>Repayment on success <select><option>90</option><option>99</option><option>100</option><option selected>105</option><option>109</option><option>110</option><option>111</option><option>115</option></select></label></p><button type="reset">Reset scenario</button></form>
+<div aria-live="polite" class="scenario-result"></div>
+<details><summary>Check the calculation</summary><p class="scenario-math"></p></details>
+<p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
+<details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
+<noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+</section>
+<script>
+(() => {
+  const lab = document.getElementById('borrower-incentives-lab');
+  const form = lab.querySelector('form');
+  const format = n => n.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const money = n => 'HK$' + format(n);
+  const usd = n => 'US$' + format(n);
+  function calculate(inputs) {
+    const [repay]=inputs;
+const high=.8*(140-repay)-9, low=.5*(140-repay), tie=Math.abs(high-low)<1e-9;
+const effort=high>low, collections=(effort?.8:.5)*repay;
+return {rows:[['Borrower payoff with effort',high.toFixed(2)],['Borrower payoff without effort',low.toFixed(2)],['Borrower choice',tie?'Indifferent':effort?'High effort':'Low effort'],['Expected lender collections',tie?'88 with effort · 55 without':collections.toFixed(2)],['Expected lender margin on 80',tie?'+8 with effort · −25 without':(collections-80).toFixed(2)]],math:'High effort costs 9 and succeeds 80% of the time. Low effort is free and succeeds 50% of the time. Failure pays zero. Expected collections = success probability × repayment.',call:tie?'The borrower is indifferent. Quote below 110 if the credit decision depends on effort.':effort&&collections>=80?'These terms cover the advance and give a strict incentive to work. Check that the assumed effort cost and success rates are credible.':effort?'The borrower works, but expected collections fall short of 80. Increase repayment to at least 100.':'Promised repayment weakens the incentive to work. Reassess terms inside the range from 100 up to, but excluding, 110.'};
+  }
+  function refresh() {
+    const inputs = Array.from(form.querySelectorAll('select'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
+    const result = calculate(inputs);
+    const table = document.createElement('table');
+    table.setAttribute('aria-label', 'Scenario results');
+    for (const [label, value] of result.rows) {
+      const row = table.insertRow();
+      const heading = document.createElement('th');
+      heading.scope = 'row';
+      heading.textContent = label;
+      row.append(heading);
+      row.insertCell().textContent = value;
+    }
+    const output = lab.querySelector('.scenario-result');
+    output.replaceChildren(table);
+    if (result.bars) {
+      const maximum = Math.max(...result.bars.map(item => item[1]));
+      for (const [label, value] of result.bars) {
+        const line = document.createElement('p');
+        const bar = document.createElement('meter');
+        bar.max = maximum;
+        bar.value = value;
+        bar.setAttribute('aria-label', label);
+        line.append(label + ' ', bar, ' ' + value);
+        output.append(line);
+      }
+    }
+    lab.querySelector('.scenario-math').textContent = result.math;
+    lab.querySelector('.scenario-call').textContent = result.call;
+  }
+  form.addEventListener('change', refresh);
+  form.addEventListener('reset', () => requestAnimationFrame(refresh));
+  refresh();
+})();
+</script>
 <section aria-label="Practice brief"><h2>Would you sign off on repayment of 115?</h2><details><summary>Compare your recommendation</summary><p>Decline repayment of 115. It makes low effort attractive and cuts expected collections to 57.5 on the 80 advanced. To recover the advance with high effort, collect at least 100 on success. Keep repayment below 110 so the borrower strictly prefers to work. A competitive quote of 100 breaks even. At 105 the lender earns an expected 4 and effort is still worthwhile.</p></details></section>
 
 <p><strong>Apply the model.</strong> Which action becomes harder to induce after damage is covered? <a href="https://kochiuyu.github.io/micro-cases/covered-damage.html">ECO-10 · Covered damage. Unchanged behaviour?</a></p>

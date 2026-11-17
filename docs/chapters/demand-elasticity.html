@@ -103,6 +103,64 @@ A customer chooses among bundles within a budget. A higher own price makes alter
 </details>
 <p><a href="costs-capacity.html">Apply demand to a producer’s pricing and capacity decision</a></p>
 
+<section class="panel" id="demand-elasticity-lab" aria-labelledby="demand-elasticity-lab-title">
+<h2 id="demand-elasticity-lab-title">Test a subscription price</h2><p>How many renewals will cover the contribution you earn today? Your current 1,000 customers pay HK$100 each month and cost HK$40 each to serve.</p>
+<form><p><label>Monthly price (HK$) <select><option>100</option><option>105</option><option selected>110</option><option>115</option></select></label></p>
+<p><label>Renewals <select><option>800</option><option>857</option><option>858</option><option selected>860</option><option>909</option><option>910</option><option>940</option><option>1000</option></select></label></p><button type="reset">Reset scenario</button></form>
+<div aria-live="polite" class="scenario-result"></div>
+<details><summary>Check the calculation</summary><p class="scenario-math"></p></details>
+<p><strong>Make the call.</strong> Which action would you recommend? Give a figure and the assumption that matters most.</p>
+<details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
+<noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
+</section>
+<script>
+(() => {
+  const lab = document.getElementById('demand-elasticity-lab');
+  const form = lab.querySelector('form');
+  const format = n => n.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const money = n => 'HK$' + format(n);
+  const usd = n => 'US$' + format(n);
+  function calculate(inputs) {
+    const [price,n]=inputs;
+const revenue=price*n, contribution=(price-40)*n;
+const minRevenue=Math.ceil(100000/price), minContribution=Math.ceil(60000/(price-40));
+return {rows:[['Monthly sales',money(revenue)],['Monthly contribution',money(contribution)],['Change in contribution',money(contribution-60000)]],bars:[['Renewals',n],['Required for sales',minRevenue],['Required for contribution',minContribution]],math:'Sales = price × renewals. Contribution = (price − HK$40) × renewals. Divide each baseline by its new per-customer amount and round up.',call:contribution>60000?'The new terms raise monthly contribution by '+money(contribution-60000)+'. Check that retention spending stays below that gain.':contribution===60000?'The plans earn equal contribution. Check retention costs before changing terms.':'Keep the current terms at this renewal forecast. The new plan needs '+minContribution+' renewals to preserve contribution.'};
+  }
+  function refresh() {
+    const inputs = Array.from(form.querySelectorAll('select'), field => Number.isFinite(Number(field.value)) ? Number(field.value) : field.value);
+    const result = calculate(inputs);
+    const table = document.createElement('table');
+    table.setAttribute('aria-label', 'Scenario results');
+    for (const [label, value] of result.rows) {
+      const row = table.insertRow();
+      const heading = document.createElement('th');
+      heading.scope = 'row';
+      heading.textContent = label;
+      row.append(heading);
+      row.insertCell().textContent = value;
+    }
+    const output = lab.querySelector('.scenario-result');
+    output.replaceChildren(table);
+    if (result.bars) {
+      const maximum = Math.max(...result.bars.map(item => item[1]));
+      for (const [label, value] of result.bars) {
+        const line = document.createElement('p');
+        const bar = document.createElement('meter');
+        bar.max = maximum;
+        bar.value = value;
+        bar.setAttribute('aria-label', label);
+        line.append(label + ' ', bar, ' ' + value);
+        output.append(line);
+      }
+    }
+    lab.querySelector('.scenario-math').textContent = result.math;
+    lab.querySelector('.scenario-call').textContent = result.call;
+  }
+  form.addEventListener('change', refresh);
+  form.addEventListener('reset', () => requestAnimationFrame(refresh));
+  refresh();
+})();
+</script>
 <section aria-label="Practice brief"><h2>What subscriber count should trigger a pricing review?</h2><details><summary>Compare your recommendation</summary><p>At HK$110, each subscriber contributes HK$70 after service cost. The old plan earned HK$60,000 in monthly contribution, so the new price needs at least 858 renewals (60,000 ÷ 70, rounded up). Revenue needs 910 renewals to exceed its old level. At the forecast of 860, the contribution gain is only HK$200 a month. Three fewer renewals would erase it. Track renewals and any additional retention spending before extending the price change.</p></details></section>
 
 <p><strong>Apply the model.</strong> When does a lower sales volume still justify the new price? <a href="https://kochiuyu.github.io/micro-cases/fewer-jobs.html">ECO-04 · Fewer sales. A worse price?</a></p>
