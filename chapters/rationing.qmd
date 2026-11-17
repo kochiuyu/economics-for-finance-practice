@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: Chapter 4
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A shop has two generators for a one-day outage. Four households value a day of power at 120, 90, 60, and 30. Each unit costs 20 to supply. Should the shop raise the price, hold a lottery, or serve the queue?
 :::
@@ -17,6 +20,20 @@ At a price of 75, only the first two households buy. Their combined value is 210
 At a price of 25 all four apply. An equal lottery without replacement gives each a one-half chance. Expected gross value is half of 300, or 150. Expected total surplus is **110** and the shop earns 10. Each household gets a chance, including the two who would decline at 75.
 
 ## Count waiting time as a real cost
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="scarce-generators">
+<figcaption><strong>Compare access and total surplus</strong></figcaption>
+<p>The willingness-to-pay values identify households. The stated queue order gives the generators to the households valued at 120 and 60. The lottery gives each household an equal chance.</p>
+<div class="full-scroll" tabindex="0" role="region" aria-label="Allocation by household"><table><thead><tr><th scope="col">Rule</th><th scope="col">120</th><th scope="col">90</th><th scope="col">60</th><th scope="col">30</th><th scope="col">Price paid by each recipient</th></tr></thead><tbody><tr><th scope="row">Price</th><td>Gets power</td><td>Gets power</td><td>—</td><td>—</td><td>75</td></tr><tr><th scope="row">Lottery</th><td>½ chance</td><td>½ chance</td><td>½ chance</td><td>½ chance</td><td>25</td></tr><tr><th scope="row">Queue</th><td>Gets power</td><td>—</td><td>Gets power</td><td>—</td><td>Unspecified</td></tr></tbody></table></div>
+<p>Each rule uses two generators and costs HK$40 to supply. Only the queue imposes waiting cost in this comparison.</p>
+<label for="rationing-wait">Waiting cost per household (HK$)<input id="rationing-wait" type="range" min="0" max="40" step="1" value="10"></label>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> When does the queue fall below the lottery? How would you allocate power if the household valued at 30 faces the greatest medical risk?</p>
+<details><summary>Check your reading</summary><p>The queue starts at 140 before waiting costs. It ties the lottery at a waiting cost of 7.50 per household and falls below it at higher costs. If medical need is the priority, reserve one generator for the vulnerable household and state how you will verify eligibility. Giving the other to the household valued at 120 generates 110 of measured net surplus before verification costs, and it reaches the medically vulnerable household for certain.</p></details>
+</figure>
+```
 
 **Suppose the queue delivers the units to the 120 and 60 households, and all four spend time worth 10 each waiting. What changes?**
 

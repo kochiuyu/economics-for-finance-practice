@@ -58,6 +58,9 @@ At correlation 0.8, the unconstrained minimum calls for approximately **−33.3%
 ```
 
 
+
+<details class="full-course-detail"><summary>When does the risk cap rule out even the lowest-risk eligible mix?</summary><p>Meeting 6% requires at least 50% equities in the example. At exactly 50%, volatility squared is 0.0125 + 0.01ρ, where ρ is return correlation. The 10% cap requires ρ no higher than −0.25. The variance rises with equity weight above 50% for each correlation offered in the lab, so raising the weight cannot rescue the mandate.</p></details>
+
 **Teaching source.** The original combined slides and early outline motivate mean–variance choice. Fund assumptions are illustrative.
 
 [Review state prices](state-prices.html) · [Continue to market risk](market-risk.html)

@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -50,6 +52,17 @@ If the rival launches with probability p, launching gives 8(1 − p) − 2p = 8 
 </details>
 <h2 id="give-the-rival-a-second-move">Give the rival a second move</h2>
 <p>Now the rival sees your binding decision. If you launch, it waits because 0 exceeds −2. If you wait, it launches because 8 exceeds 0. Looking ahead, you launch and earn 8. An announcement that can be withdrawn costlessly need not induce the same response. The rival must believe that tooling is reserved and the launch will go ahead.</p>
+
+<figure class="ess-figure" data-essentials-figure="tooling-fee">
+<figcaption><strong>From the rival’s response to the maximum fee</strong></figcaption>
+<p>Start at the bottom of each branch. The rival takes the action with the higher payoff to the rival. Payoff pairs put your firm first and exclude the reservation fee.</p>
+<ul class="decision-tree"><li><strong>You launch</strong><ul><li>Rival launches → (−2, −2)</li><li><strong>Rival waits → (8, 0)</strong></li></ul></li><li><strong>You wait</strong><ul><li><strong>Rival launches → (0, 8)</strong></li><li>Rival waits → (0, 0)</li></ul></li></ul>
+<p>In the simultaneous matrix above, either firm can be the sole entrant. With a binding first move, your firm can secure the payoff of 8 before the fee. Compare the fee-adjusted payoff with each alternative.</p>
+<label for="early-tooling-fee">Early reservation fee (millions)<input id="early-tooling-fee" type="range" min="0" max="10" step="1" value="3"></label>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> At a fee of 5, when should the firm buy the early slot?</p>
+<details><summary>Check your reading</summary><p>Committing returns 3 after the fee. Buy the slot if the rival would otherwise enter and leave you with 0. Under a fair draw, waiting yields 4. If you already expect to enter alone, waiting yields 8. At fees of 8, 4, and 0 respectively, the firm is indifferent.</p></details>
+</figure>
 <h2 id="price-the-commitment-against-a-stated-alternative">Price the commitment against a stated alternative</h2>
 <p>Suppose the early tooling slot costs 3. Your net payoff from committing is 8 − 3 = <strong>5</strong>. Its attractiveness depends on the outcome available without the slot.</p>
 <table class="caption-top">

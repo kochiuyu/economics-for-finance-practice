@@ -58,6 +58,9 @@ If existing creditors consent to priority for a new loan of 20, the project can 
 
 **Apply the model.** How do contractual priorities change the proceeds from an exit? [FIN-29 · The same ownership. The same exit proceeds?](https://kochiuyu.github.io/micro-cases/same-ownership-different-exit.html)
 
+
+<details class="full-course-detail"><summary>Find the smallest face-value concession that makes shareholders willing to invest</summary><p>If creditor face value is cut to F between 90 and 100, the new project leaves shareholders zero in the weak state and 170 − F in the strong state. Deduct the contribution of 20 from the expected payoff and compare with the shareholders’ existing value of 20. They are indifferent at F = 90 and strictly prefer investment below 90. Creditors recover 90 at that boundary, above their original expected recovery of 80.</p></details>
+
 **Teaching source.** This original financing exercise extends the course readings on agency and capital structure and the dated-cash-flow analysis in Chapter 5. All values are illustrative.
 
 [Review borrower incentives](borrower-incentives.html) · [Continue the credit route with bank liquidity](bank-liquidity.html)

@@ -120,6 +120,9 @@ return {rows:[['Confirmed-order savings after fee',usd(saving)],['Savings if rep
 <section id="practice-brief" aria-label="Practice brief"><h2>What if repeat orders save only US$1.50 each?</h2><details><summary>Check your application</summary><p>The confirmed 10,000 units save US$26,000 before the fee. Another 2,000 units at US$1.50 save US$3,000, leaving qualification US$1,000 short of break-even.</p></details><p><strong>Transfer to a Micro Case.</strong> What sourcing information would change the recommendation based on cost alone? <a href="https://kochiuyu.github.io/micro-cases/shared-factory.html">Two suppliers. One factory?</a></p></section>
 ```
 
+
+<details class="full-course-detail"><summary>State the volume assumption behind a per-unit burden</summary><p>The US$9.60 split applies to a unit still sold at the new prices. Multiply by the new sales quantity to estimate the associated cash flows. Separately account for units that no longer sell and the margins each party would have earned on them. That distinguishes the per-unit incidence from the change in total profit.</p></details>
+
 **Teaching source.** Week 10 and the trade-war case. All duties and prices are hypothetical.
 
 [Hedge the baseline invoice](currency-hedging.html)

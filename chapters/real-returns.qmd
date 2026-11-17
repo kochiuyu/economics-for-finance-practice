@@ -56,6 +56,9 @@ GDP measures domestic value added over a period. A year-end stock of inventories
 <section aria-label="Practice brief"><h2>Which sales figure belongs in the analyst briefing?</h2><details><summary>Compare your recommendation</summary><p>Report cash sales growth of 8% and estimated volume growth of 1.89% under the retailer’s price index. Check whether product mix changed before interpreting the estimate as growth in units sold.</p></details></section>
 ```
 
+
+<details class="full-course-detail"><summary>Translate a real return target into a deposit quote</summary><p>To deliver 2% real growth with 6% inflation, the account must turn HK$1 into enough cash to buy 1.02 times the original basket. The nominal gross return is 1.02 × 1.06 = 1.0812. A quote of 8.12% meets the target in this scenario. Repeat the calculation for the inflation rate you would stress, using the spending basket that matters to the depositor.</p></details>
+
 **Teaching source.** Week 8 introduces national accounts, inflation, and the Fisher relation. Sales, deposit, and price series in this example are illustrative.
 
 ```{=html}

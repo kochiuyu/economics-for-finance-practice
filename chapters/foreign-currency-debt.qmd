@@ -52,6 +52,9 @@ If the bank renews 500,000, the importer buys 200,000 dollars and spends HK$1.56
 </section>
 ```
 
+
+<details class="full-course-detail"><summary>Turn a Hong Kong dollar funding line into a rollover target</summary><p>A committed HK$200,000 line increases available HK-dollar cash from HK$2 million to HK$2.2 million. At 7.85 that buys about US$280,255. With the US$300,000 receipt, minimum renewal falls to about US$419,745. Confirm the line can be drawn at maturity and include any fees and interest in the subsequent funding schedule.</p></details>
+
 **Teaching source.** Week 10 on capital flows, with a new illustrative funding schedule.
 
 [Review the invoice hedge](currency-hedging.html) · [Review bank liquidity](bank-liquidity.html)

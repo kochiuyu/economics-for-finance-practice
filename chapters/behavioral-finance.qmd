@@ -55,6 +55,9 @@ The two decisions answer different questions. A preference for realizing gains c
 
 **Apply the model.** What evidence would distinguish a preference from the effect of a default? [ECO-29 · The default stays. Is it the preferred choice?](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html)
 
+
+<details class="full-course-detail"><summary>Size a trade from the collateral buffer</summary><p>In the lesson’s convergence trade, the interim loss is 10 per pair. If a collateral buffer of 6 is dedicated to this trade and quantities are divisible, it supports at most 0.6 pairs against that stress scenario before fees. If only whole pairs trade, the buffer is insufficient even for one pair. Use the broker’s actual margin rules before sizing an order.</p></details>
+
 **Teaching source.** The early behavioral-finance materials motivate the purchase-price comparison and the discussion of limits to arbitrage. All account and collateral figures are illustrative.
 
 [Previous · Market risk](market-risk.html) · [Next · Long-run valuation](long-run-valuation.html)

@@ -16,7 +16,7 @@ kicker: Shenzhen · Evidence memo
 | 2022 | 187 | −3.7% |
 | 2023 | 133 | −3.1% |
 
-[Download the data](../assets/shenzhen-2021-2023.csv) · [Reproduce the chart and verify its sources](../chapters/comparable-chart.html)
+[Download the data](../assets/shenzhen-2021-2023.csv) · [Reproduce the chart and verify its sources](../chapters/comparable-chart.html?route=full-course)
 
 ## Submit a one-page analyst memo
 
@@ -26,7 +26,7 @@ Attach the two-panel exhibit. Lead with one sentence the committee can quote. Qu
 
 **Self-check.** Can another analyst reproduce both series? Does the memo distinguish a price decline from a slowdown in the decline? Could the proposed test yield an answer that contradicts the recommendation?
 
-Adapted from the original course’s Shenzhen housing and IPO question with a newly compiled public exhibit. [Study the comparison design](../chapters/causal-evidence.html)
+Adapted from the original course’s Shenzhen housing and IPO question with a newly compiled public exhibit. [Study the comparison design](../chapters/causal-evidence.html?route=full-course)
 
 ```{=html}
 <section aria-label="Practice brief"><h2>Would you change the collateral haircut on the strength of this exhibit?</h2><details><summary>Compare your recommendation</summary><p>Keep the IPO observation as context. Before changing a haircut, request local transaction evidence and test whether neighborhoods exposed to issuer employment weakened relative to comparable neighborhoods. Specify which result would justify reopening the credit decision.</p></details></section>

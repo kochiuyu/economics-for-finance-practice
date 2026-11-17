@@ -146,6 +146,9 @@ return {rows:[['Year-end surplus after financing the fee',money(maturity)],['Sur
 </section>
 ```
 
+
+<details class="full-course-detail"><summary>When should a borrowing rate enter the project discount rate?</summary><p>The example matches a certain receipt with a loan of the same maturity. For a risky expansion, estimate what investors require for cash flows with comparable risk and calculate unlevered project value. Value changes in financing costs separately, or use a discount rate that reflects the target financing mix. Deducting interest from the project cash flows and then discounting at a rate that already charges for financing can count the cost twice.</p></details>
+
 **Teaching source.** Week 3 develops the two-period budget and discounting. The project, funding terms, and household figures are illustrative.
 
 ```{=html}

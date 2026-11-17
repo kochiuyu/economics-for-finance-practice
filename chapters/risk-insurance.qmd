@@ -67,6 +67,9 @@ Give the same household an extra 69 before it chooses. Uninsured wealth is now 1
 </section>
 ```
 
+
+<details class="full-course-detail"><summary>What does a deductible do to the maximum premium?</summary><p>With a deductible of HK$16,000, wealth before paying the premium is 100 in the no-loss state and 84 in the loss state, measured in thousands. At a premium P, compare the average of √(100 − P) and √(84 − P) with uninsured expected utility of 8. Equality gives P = 27.75. Expected payout is 24, leaving a maximum loading of 3.75 in this hypothetical example.</p></details>
+
 **Teaching source.** Week 3 develops expected utility, certainty equivalents, and Arrow–Pratt risk aversion. The two wealth levels and insurance quotes are illustrative.
 
 ```{=html}

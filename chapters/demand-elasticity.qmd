@@ -150,6 +150,9 @@ return {rows:[['Monthly sales',money(revenue)],['Monthly contribution',money(con
 ```
 
 
+
+<details class="full-course-detail"><summary>Which retention forecast still pays after campaign costs?</summary><p>At the HK$110 price, each subscriber contributes HK$70. If the increase requires an extra HK$250 per month in retention spending, the firm needs at least 861 subscribers because 60,250 ÷ 70 is about 860.71. Apply the extra cost to contribution and compare with the original plan on the same monthly basis.</p></details>
+
 **Teaching source.** Week 2 covers consumer choice, substitutes, and the Slutsky decomposition. The subscription and cost schedules are new.
 
 ```{=html}

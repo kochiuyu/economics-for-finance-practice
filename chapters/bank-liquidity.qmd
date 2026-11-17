@@ -91,6 +91,9 @@ Suppose a bank serves depositors in arrival order. If others wait, loans mature 
 </section>
 ```
 
+
+<details class="full-course-detail"><summary>Derive both thresholds for a different cash reserve</summary><p>Write opening cash as C, face-value loans as L, opening equity as E, and sale proceeds per dollar of loans as p. After using C, each dollar raised by selling loans costs (1 − p) ÷ p in equity. For p below 1, the candidate equity threshold is C + Ep ÷ (1 − p). If it exceeds available cash and fire-sale proceeds of C + pL, selling all loans never exhausts equity. At p = 1, sales leave book equity unchanged.</p></details>
+
 **Teaching source.** Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.
 
 ```{=html}

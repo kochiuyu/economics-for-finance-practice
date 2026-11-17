@@ -1,7 +1,7 @@
 (() => {
   const figures = document.querySelectorAll('[data-essentials-figure]');
   const route = new URLSearchParams(window.location.search).get('route');
-  const routes = ['essentials','investment','credit','treasury','fintech'];
+  const routes = ['essentials','investment','credit','treasury','fintech','full-course'];
   for (const task of document.querySelectorAll('[data-professional-route]')) {
     if (routes.includes(route)) task.hidden = route !== task.dataset.professionalRoute;
   }
@@ -392,10 +392,80 @@
     ])];
   }
 
+  function scarceGenerators() {
+    const wait = input('#rationing-wait',10);
+    const queue = 180-40-4*wait;
+    const tickLabels = ['','Price','Lottery','Queue',''];
+    return [named(plot('Allocation rule', 'Expected net surplus (illustrative HK$)', [0,1,2,3,4], [-30,0,30,60,90,120,150,180], [
+      bar('Price: HK$170',[[1,170]],'green'),
+      bar('Lottery: HK$110',[[2,110]],'blue'),
+      bar('Queue: HK$'+format(queue)+' after HK$'+format(4*wait)+' of waiting cost',[[3,queue]],'rust')
+    ]),tickLabels)];
+  }
+
+  function toolingFee() {
+    const fee = input('#early-tooling-fee',3);
+    return [named(plot('Outcome available without early tooling', 'Incremental profit (millions)', [0,1,2,3,4], [-2,0,2,4,6,8,10], [
+      bar('Payoff without early tooling',[[1,0],[2,4],[3,8]],'blue',-.12),
+      bar('Payoff after paying a fee of '+format(fee),[[1,8-fee],[2,8-fee],[3,8-fee]],'green',.12),
+      series('Maximum fee by alternative: 8, 4, 0',[[1,8],[2,4],[3,0]],'rust','point')
+    ]),['','Rival enters','Fair draw','You enter',''])];
+  }
+
+  function wastePolicy() {
+    const charge = input('#waste-charge',8);
+    const admin = input('#waste-admin',50);
+    const firm = -60+10*charge;
+    const social = 40-admin;
+    return [
+      named(plot('Cost or saving', 'Effect on retailer if it adopts (HK$ per week)', [0,1,2,3,4], [-200,-150,-100,-50,0,50,100], [
+        bar('Prevention costs HK$180',[[1,-180]],'rust'),
+        bar('Handling saves HK$120',[[2,-60,-180]],'blue'),
+        bar('Avoided charges: HK$'+format(10*charge),[[3,firm,-60]],'green'),
+        series('Retailer net gain: HK$'+format(firm),[[3,firm]],'gray','point')
+      ]),['','Prevention','Handling','Fee saving','']),
+      named(plot('Resource cost or benefit', 'Social value if it adopts (HK$ per week)', [0,1,2,3,4], [-80,-60,-40,-20,0,20,40,60], [
+        bar('Retailer resource cost net of handling savings: HK$60',[[1,-60]],'rust'),
+        bar('Neighbors avoid HK$100 of harm',[[2,40,-60]],'green'),
+        bar('Administration costs HK$'+format(admin),[[3,social,40]],'blue'),
+        series('Net social value: HK$'+format(social),[[3,social]],'gray','point')
+      ]),['','Net firm cost','Avoided harm','Admin.',''])
+    ];
+  }
+
+  function measurementWorkshop() {
+    const years = [2021,2022,2023];
+    return [
+      plot('December of each year', 'Resale price change from previous December (%)', years, [-4,-3,-2,-1,0,1], [
+        series('Year-on-year change: +0.6%, −3.7%, −3.1%',[[2021,.6],[2022,-3.7],[2023,-3.1]],'blue','segment'),
+        series('No annual change',[[2021,0],[2023,0]],'gray','dashed')
+      ]),
+      plot('December of each year', 'Resale price level (December 2021 = 100)', years, [92,94,96,98,100,102], [
+        series('Rebased level: 100, 96.30, '+format(100*.963*.969),[[2021,100],[2022,96.3],[2023,100*.963*.969]],'green','segment')
+      ])
+    ];
+  }
+
+  function causalWorkshop() {
+    return [
+      named(plot('Timing relative to listing delay', 'Housing price growth (%)', [0,1], [-5,-4,-3,-2,-1,0,1], [
+        series('Exposed neighborhoods: −1% to −4%',[[0,-1],[1,-4]],'rust','segment'),
+        series('Comparison neighborhoods: 0% to −2%',[[0,0],[1,-2]],'blue','segment'),
+        series('Exposed counterfactual if the gap stayed at −1 point',[[0,-1],[1,-3]],'gray','dashed')
+      ]),['Before','After']),
+      named(plot('Timing relative to listing delay', 'Exposed minus comparison (percentage points)', [0,1], [-3,-2,-1,0,1], [
+        series('Observed gap: −1 to −2 points',[[0,-1],[1,-2]],'rust','segment'),
+        series('Constant-gap benchmark: −1 point',[[0,-1],[1,-1]],'gray','dashed')
+      ]),['Before','After'])
+    ];
+  }
+
   const models = {'market-prices':marketPrices,'demand-elasticity':demand,'project-appraisal':project,
     'budget-line':budgetLine,'risk-insurance':insurance,'state-prices':statePrices,'adverse-selection':selection,'dealer-pricing':dealer,
     'bank-liquidity':bank,'real-returns':returns,'business-cycle-shocks':shocks,'policy-transmission':covenant,
-    'hong-kong-exchange-rate':currency,'market-risk':marketRisk,'beta-estimate':betaEstimate,'sale-cash':sale,'terminal-growth':growth,'yield-sensitivity':yields,'loan-screening':loanScreen,'loan-effort':effort,'debt-waterfall':debtEquity,'rollover-gap':rollover,'plant-capacity':capacity,'tariff-burden':tariff,'supplier-switch':switching,'ipo-allocation':allocation,'platform-matches':platforms,'payment-value':payments};
+    'hong-kong-exchange-rate':currency,'market-risk':marketRisk,'beta-estimate':betaEstimate,'sale-cash':sale,'terminal-growth':growth,'yield-sensitivity':yields,'loan-screening':loanScreen,'loan-effort':effort,'debt-waterfall':debtEquity,'rollover-gap':rollover,'plant-capacity':capacity,'tariff-burden':tariff,'supplier-switch':switching,'ipo-allocation':allocation,'platform-matches':platforms,'payment-value':payments,
+    'scarce-generators':scarceGenerators,'tooling-fee':toolingFee,'waste-policy':wastePolicy,
+    'measurement-workshop':measurementWorkshop,'causal-workshop':causalWorkshop};
   const labels = {
     'real-returns': {0:'Base year',1:'Current year'},
     'hong-kong-exchange-rate': {0:'Base',1:'FX + 50k',2:'Interest + 40k',3:'Total'}
@@ -432,7 +502,7 @@
     ctx.fillText(yTitle,8,17,width-16);
     ctx.textAlign='center';
     ctx.fillText(xTitle,(left+right)/2,height-9,width-16);
-    for (const n of xTicks) ctx.fillText(tickLabels?.[n] ?? format(n),x(n),bottom+20,tickLabels ? (right-left)/(xTicks.length-1)+8 : width);
+    for (const n of xTicks) ctx.fillText(tickLabels?.[n] ?? (spec.xTitle === 'December of each year' ? String(n) : format(n)),x(n),bottom+20,tickLabels ? (right-left)/(xTicks.length-1)+8 : width);
     ctx.textAlign='right';
     for (const n of yTicks) {
       ctx.fillText(format(n),left-7,y(n)+4);

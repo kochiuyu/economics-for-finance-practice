@@ -59,6 +59,9 @@ Restore the plant’s capacity to 100. A rival can now serve customers who previ
 
 **Apply the model.** Which costs and receipts change if the business stays open one more hour? [ECO-11 · A profitable day. One more hour?](https://kochiuyu.github.io/micro-cases/one-more-hour.html)
 
+
+<details class="full-course-detail"><summary>Find the capacity that puts the two quotes on equal footing</summary><p>After the shortage, the HK$100 quote contributes HK$45 per unit and the HK$115 quote contributes HK$60 per unit. For capacity between 65 and 90, the higher quote sells 65 units, earning HK$3,900. The lower quote ties it at 3,900 ÷ 45 ≈ 86.67 units. Compare 86 and 87 if capacity comes in whole units.</p></details>
+
 **Teaching source.** Week 2 develops production, marginal cost, and monopoly pricing. The discrete price and capacity schedules are original illustrations.
 
 [Review demand and elasticity](demand-elasticity.html) · [Study strategic entry](strategic-entry.html)

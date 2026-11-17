@@ -115,6 +115,9 @@ return {rows:[['Today · book forward',usd(forward)+' at HK$7.81'],['Day 90 · d
 ```
 
 
+
+<details class="full-course-detail"><summary>Stress an uncertain receipt without treating expected cash as committed cash</summary><p>Suppose half of the US$300,000 receipt is confirmed for day 90 and the remaining half may be late. A US$700,000 forward still leaves a possible same-day gap of US$150,000. Compare committing to an extra forward against keeping a committed dollar facility. If the full receipt arrives, the extra forward creates surplus dollars, while an undrawn facility may still charge a fee.</p></details>
+
 **Teaching source.** Week 10 and the original treasury outline.
 
 [Compare Hong Kong funding and exchange-rate exposure](hong-kong-exchange-rate.html) · [Stress-test rollover](foreign-currency-debt.html)

@@ -59,6 +59,9 @@ The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-
 
 **Apply the model.** What information about the asset does winning the bid reveal? [ECO-12 · The highest estimate. The best bid?](https://kochiuyu.github.io/micro-cases/winning-is-information.html)
 
+
+<details class="full-course-detail"><summary>Map the required strong-issue allocation at a different offer price</summary><p>With 100 shares in the weak outcome, equal outcome probabilities, and price P between 80 and 120, break-even requires strong-issue allocation of at least 100(P − 80) ÷ (120 − P). At a price of 90 this is 33⅓ shares, so 34 whole shares are needed for a positive result. Treat the allocation as an assumption that may move with the price.</p></details>
+
 **Teaching source.** The original outline includes auctions and Week 5 discusses IPO signaling. The auction and allocation calculations are new hypothetical exercises.
 
 [Review the dealer’s order-flow inference](dealer-pricing.html) · [Explore the course map](../curriculum.html)

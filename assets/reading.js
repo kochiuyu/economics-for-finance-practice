@@ -5,7 +5,8 @@
   };
   openRoute();
   window.addEventListener('hashchange', openRoute);
-  const chapter = location.pathname.match(/\/chapters\/([^/]+)\.html$/)?.[1];
+  const chapter = location.pathname.match(/\/chapters\/([^/]+)\.html$/)?.[1] ||
+    location.pathname.match(/\/cases\/(shenzhen-evidence)\.html$/)?.[1];
   if (!chapter) return;
   const lessonURL = new URL(location.href);
   const mapURL = new URL('../curriculum.html', lessonURL);
@@ -28,7 +29,7 @@
     top.setAttribute('aria-label', 'Reading route');
     if (!active) {
       const group = [...map.querySelectorAll('.topic-group')].find(g =>
-        [...g.querySelectorAll('a')].some(a => a.getAttribute('href') === 'chapters/'+chapter+'.html'));
+        [...g.querySelectorAll('a')].some(a => a.dataset.lesson === chapter));
       if (!group) return;
       top.append(group.querySelector('summary').textContent);
       for (const route of routes) {
@@ -41,7 +42,9 @@
       const steps = [...active.querySelectorAll('[data-lesson]')];
       const i = steps.findIndex(a => a.dataset.lesson === chapter);
       mapURL.hash = active.id;
-      top.append(active.dataset.routeName+' · Lesson '+(i+1)+' of '+steps.length, anchor('View route',mapURL));
+      const full = active.id === 'full-course';
+      top.append(active.dataset.routeName+' · '+(full ? 'Step ' : 'Lesson ')+(i+1)+' of '+steps.length,
+        anchor(full ? 'View full sequence' : 'View route',mapURL));
       const bottom = document.createElement('nav');
       bottom.className = 'route-nav';
       bottom.setAttribute('aria-label','Continue reading');

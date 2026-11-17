@@ -14,3 +14,12 @@
 .professional-comparison { overflow:auto; }
 .professional-practice { margin:1.5rem 0; }
 @media(max-width:540px) { .professional-timeline {grid-template-columns:1fr;} }
+
+.full-scroll { overflow:auto; }
+.decision-tree,.decision-tree ul { list-style:none; padding-left:0; }
+.decision-tree { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.decision-tree > li { border-top:3px solid #17634e; padding:.65rem; background:#edf3ee; }
+.decision-tree ul { margin:.5rem 0 0; border-left:1px solid #8ba99a; padding-left:.75rem; }
+.decision-tree li + li { margin-top:.25rem; }
+.decision-tree > li + li { margin-top:0; }
+@media(max-width:520px) { .decision-tree {grid-template-columns:1fr;} }

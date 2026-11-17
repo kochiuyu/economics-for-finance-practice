@@ -103,6 +103,9 @@ A dealer also faces a selected group. A trader with favorable private informatio
 </section>
 ```
 
+
+<details class="full-course-detail"><summary>How much could verification save per attempted purchase?</summary><p>At an offer of 60, an accepted car is worth 20 under the model. A perfect inspection before purchase avoids paying 60 for that car. If the buyer could instead negotiate the price down once quality is known, use the gain relative to that alternative when setting an inspection budget. Track inspections per attempted purchase, including cars the buyer rejects.</p></details>
+
 **Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.
 
 ```{=html}

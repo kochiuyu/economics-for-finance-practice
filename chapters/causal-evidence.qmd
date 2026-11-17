@@ -6,6 +6,9 @@ sectionname: Evidence workshops
 kicker: Workshop 31 · Causal evidence
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your task.** Both series weakened between 2021 and 2022. Would you advise a lender to use the exchange-wide number of IPOs to forecast the price of homes near Shenzhen technology employers?
 :::
@@ -20,11 +23,22 @@ Compare neighborhoods with high pre-event employment exposure to prospective loc
 
 As a separate **illustrative** exercise, suppose prices fall 4% in exposed neighborhoods and 2% in comparison neighborhoods following a listing delay. Before the delay their changes were −1% and 0%. **What is the change in the exposed-minus-comparison growth gap?**
 
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="causal-workshop">
+<figcaption><strong>See the gap your causal claim depends on</strong></figcaption>
+<p>These are hypothetical neighborhood data. The dashed line assumes the exposed areas would have kept their original one-point gap in the absence of the delay. At the plotted dates, one pre-event observation only sets the starting gap.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Suppose a factory closure in the exposed areas reduced price growth by one point at the same time. Could the two plots distinguish it from a listing effect?</p>
+<details><summary>Check your reading</summary><p>The closure alone could move the exposed outcome from −3% to −4%, reproducing the same one-point gap change. Check several pre-event periods, compare areas with similar housing and labor-market conditions, and look for evidence linking employee exposure and the date when wealth or hiring could affect purchases. A placebo around issuers with little local employment can probe that mechanism.</p></details>
+</figure>
+```
+
 <details><summary>Calculate and interpret the comparison</summary><p>The gap changes from −1 to −2 percentage points, a further deterioration of 1 point. Interpreting that difference as an effect requires that the gap would have stayed stable without the delay. A local factory closure concentrated in exposed areas would undermine that assumption. Investor anticipation could shift the timing before the formal event.</p></details>
 
 **Falsification check.** Repeat the analysis around listings by firms with little local employment. An equally strong neighborhood pattern weakens the local employee-wealth explanation. A three-year exchange-level chart alone cannot perform this test.
 
-[Review the data exhibit](comparable-chart.html) · [Write the Shenzhen capstone memo](../cases/shenzhen-evidence.html)
+[Review the data exhibit](comparable-chart.html?route=full-course) · [Write the Shenzhen capstone memo](../cases/shenzhen-evidence.html?route=full-course)
 
 ```{=html}
 <section aria-label="Practice brief"><h2>What would make the comparison credible enough for a credit memo?</h2><details><summary>Compare your recommendation</summary><p>Document similar pre-event trends, measure exposure before the listing event, and check for local shocks affecting only one group. The illustrative one-point deterioration warrants investigation. A simultaneous factory closure could explain it.</p></details></section>

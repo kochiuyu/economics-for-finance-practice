@@ -67,6 +67,9 @@ Assume each obligation stays outstanding until maturity. There are no coupons. A
 </section>
 ```
 
+
+<details class="full-course-detail"><summary>When does the yield change become a cash flow for the issuer?</summary><p>A higher market yield reduces the market value of an existing fixed payment. The issuer’s contractual cash outflow changes only if it buys back the obligation, refinances, or has a rate reset under its terms. In a funding forecast, put the one-year principal in the maturity schedule and model the new borrowing spread separately from the spot curve used to value the old debt.</p></details>
+
 **Teaching source.** This new fixed-income application extends the dated-cash-flow and monetary-transmission lessons. All rates and repayment schedules are illustrative.
 
 [Previous · Long-run valuation](long-run-valuation.html) · [Return to the course map](../curriculum.html)

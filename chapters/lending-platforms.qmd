@@ -43,6 +43,9 @@ Attracting lenders raises matches to 100 without expanding the application pool.
 
 **Apply the model.** Does adding participants create more completed matches? [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html)
 
+
+<details class="full-course-detail"><summary>When would screening another applicant become worthwhile?</summary><p>Holding capacity fixed, an extra qualified applicant adds 60 in revenue only if a slot is available and the applicant is funded. With a screening cost of 20, the marginal contribution is 40 in that case. Once capacity binds, the same application costs 20 without adding a loan. Compare campaigns by incremental matches and subtract both screening and acquisition costs.</p></details>
+
 **Teaching source.** Week 7 on networks and reputation.
 
 [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html)

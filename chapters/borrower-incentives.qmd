@@ -122,6 +122,9 @@ return {rows:[['Borrower payoff with effort',high.toFixed(2)],['Borrower payoff 
 ```
 
 
+
+<details class="full-course-detail"><summary>Work out which rise in effort cost makes the loan infeasible</summary><p>For repayment R on success, strict effort requires 0.30 × (140 − R) to exceed effort cost. Expected collections of at least 80 require R of at least 100 if the borrower works. The largest incremental payoff that can support effort while financing the loan is therefore 0.30 × 40 = 12. At exactly 12 the only candidate leaves the borrower indifferent.</p></details>
+
 **Teaching source.** Week 5 develops hidden action, incentive compatibility, and credit rationing. The loan terms and cash flows are illustrative.
 
 [Review borrower screening](adverse-selection.html) · [Continue to debt and equity](debt-equity.html)
