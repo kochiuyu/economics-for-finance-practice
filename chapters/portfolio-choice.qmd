@@ -7,6 +7,9 @@ kicker: Chapter 8 · Portfolio choice
 activity: portfolio
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>
 
@@ -29,6 +32,8 @@ Compare the same 50/50 allocation at three correlations. Its expected return sta
 ```{=html}
 <section data-finance-lab="portfolio-choice" id="portfolio-lab" class="panel" aria-label="Two-fund portfolio lab"><p><strong>Before you start.</strong> Set correlation to zero. Predict whether adding a small equity position will reduce risk. Find the lowest-volatility mix, read its expected return, and decide whether it meets a 6% return target.</p><div class="controls"><label>Equity weight (%)<input id="weight" type="range" min="-100" max="200" value="50" step="1"></label><label>Return correlation<select id="corr"><option>-0.5</option><option selected>0</option><option>0.8</option></select></label><label>Portfolio constraint<select id="limit"><option value="long">Long only</option><option value="short">Allow short sales</option></select></label></div><p id="mix" role="status"></p>
 <button type="button" class="lab-reset">Reset scenario</button>
+<div class="ess-figure"><p><strong>Read the graph.</strong> With short sales disabled, does any allocation meet both client limits at zero correlation? What changes at −0.5?</p>
+<details><summary>Check your reading</summary><p>At zero correlation, the least volatile mix that meets the 6% return floor holds 50% equity and has about 11.18% volatility. At −0.5, that mix has about 8.66% volatility. The graph highlights the allocations that meet both limits.</p></details></div>
 <details class="lab-comparison"><summary>Compare scenarios</summary>
 <button type="button">Keep for comparison</button>
 <p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>

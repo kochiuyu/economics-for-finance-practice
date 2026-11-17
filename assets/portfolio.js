@@ -30,12 +30,49 @@
       ctx.strokeStyle="#cbd2c4";ctx.beginPath();ctx.moveTo(58,yy);ctx.lineTo(548,yy);ctx.stroke();
       ctx.fillText(String(xmax*i/4),52+490*i/4,267);
     }
+    const cap = 58 + 490*10/xmax;
+    const floor = y(.5);
+    ctx.fillStyle = "#e8f1eb";
+    ctx.fillRect(58,y(high),cap-58,floor-y(high));
+    ctx.setLineDash([6,4]);
+    ctx.strokeStyle = "#934931";
+    ctx.beginPath();
+    ctx.moveTo(58,floor);
+    ctx.lineTo(548,floor);
+    ctx.moveTo(cap,y(high));
+    ctx.lineTo(cap,y(low));
+    ctx.stroke();
+    ctx.setLineDash([]);
     ctx.beginPath();
     for(let i=0;i<=200;i++){const t=low+(high-low)*i/200;if(i===0)ctx.moveTo(x(t),y(t));else ctx.lineTo(x(t),y(t));}
     ctx.lineWidth=2;ctx.strokeStyle="#154839";ctx.stroke();
+    const upper = (.02-2*covariance)/(.05-2*covariance);
+    const end = Math.min(high,upper);
+    const fits = end >= .5-1e-9 && riskAt(.5) <= 10+1e-9;
+    if (fits) {
+      ctx.beginPath();
+      ctx.moveTo(x(.5),y(.5));
+      for (let i=1;i<=100;i++) {
+        const t = .5+(end-.5)*i/100;
+        ctx.lineTo(x(t),y(t));
+      }
+      ctx.lineWidth=5;
+      ctx.strokeStyle="#23598a";
+      ctx.stroke();
+      if (Math.abs(end-.5)<1e-9) {
+        ctx.fillStyle="#23598a";
+        ctx.beginPath();
+        ctx.arc(x(.5),y(.5),5,0,2*Math.PI);
+        ctx.fill();
+      }
+    }
+    ctx.lineWidth=2;
     ctx.strokeStyle="#934931";ctx.strokeRect(x(best)-7,y(best)-7,14,14);
     ctx.fillStyle="#154839";ctx.beginPath();ctx.arc(x(w),y(w),5,0,2*Math.PI);ctx.fill();
     caption.textContent="● Selected mix · □ Minimum volatility ("+riskAt(best).toFixed(2)+"% volatility, "+(4+4*best).toFixed(2)+"% return)";
+    caption.textContent += " · Dashed lines mark the 6% return floor and 10% volatility cap. " +
+      (fits ? "The blue segment meets both limits. Equity weights from 50% to " + (100*end).toFixed(2) + "% satisfy the mandate." :
+      "No allocation meets both limits at this correlation.");
     canvas.setAttribute("aria-label","Portfolio opportunity set. "+document.querySelector("#mix").textContent+" "+caption.textContent);
   }
   function update() {

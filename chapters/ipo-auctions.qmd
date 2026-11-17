@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: Chapter 16 · Auctions and IPO allocation
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A share will be worth either 80 or 120, with equal probability. The offer price is 95. You request 100 shares. Is the five-unit discount to average value enough to make subscribing worthwhile?
 :::
@@ -30,6 +33,17 @@ Assume informed demand is strong when value is high. The allocation rule gives y
 Expected profit per application is **−437.50**. Dividing by the expected allocation of 62.5 shares gives **−7 per allocated share**. If the two states each occurred once, your account would hold 100 low-value shares and 25 high-value shares. A randomly selected allocated share would come from the low state with probability 100 / 125 = 80%.
 
 ## Set a break-even subscription price
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="ipo-allocation">
+<figcaption><strong>Weight the shares that reach the account</strong></figcaption><p>Read the allocation in each outcome first. The profit line holds those allocations fixed as the offer price varies.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> How can buying at 95 lose money when the average issue value is 100?</p>
+<details><summary>Check your reading</summary><p>You get four times as many shares when value is 80. The allocation-weighted break-even price is 88. An offer of 95 loses 437.50 in expectation per subscription.</p></details>
+</figure>
+```
+
 
 The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-neutral investor would break even at 88 if the allocation schedule stayed fixed. Both states give you some shares, so merely observing that you received an allocation leaves the state probabilities unchanged. It is the *size* of that allocation that changes the payoff calculation.
 

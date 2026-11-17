@@ -6,11 +6,25 @@ sectionname: Chapters
 kicker: Chapter 9 · Market risk
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** Two research teams each forecast a 7% annual return for their fund. Both funds have 20% volatility. Does a diversified investor have the same reason to buy each one?
 :::
 
 ## Work out what each fund adds to the market
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="market-risk">
+<figcaption><strong>Read the return required for market exposure</strong></figcaption><p>Both funds forecast 7%. The sloping line gives the required return for each beta.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Which forecast clears its benchmark, and by how much?</p>
+<details><summary>Check your reading</summary><p>Fund A clears its 5% benchmark by 2 percentage points. Fund B falls 2 points short of its 9% benchmark. Check whether the estimates reflect the funds’ exposures before investing.</p></details>
+</figure>
+```
+
 
 Suppose market volatility is 15%, the risk-free rate is 3%, and the expected market excess return is 5%. Fund A’s correlation with the market is 0.30. Fund B’s is 0.90. All figures are hypothetical and use the same annual horizon.
 
@@ -25,6 +39,17 @@ Beta measures how much a fund moves with the market in a linear projection. It e
 The CAPM benchmark rewards covariance with the market because a diversified investor already holds market risk. At the stated forecasts, A clears its hurdle and B falls short. Both have substantial standalone volatility. The comparison depends on the investor being able to diversify fund-specific risk and on the market portfolio being an appropriate benchmark.
 
 ## Check a benchmark against observations
+
+
+```{=html}
+<details class="ess-optional"><summary>See the beta estimation scatterplot</summary><figure class="ess-figure" data-essentials-figure="beta-estimate">
+<figcaption><strong>See how one month changes estimated beta</strong></figcaption><p>The solid line uses all four months. The dashed line omits month 4.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> What changes when the fourth month is omitted?</p>
+<details><summary>Check your reading</summary><p>The fitted slope rises from 0.80 to about 1.14. Four observations offer little basis for relying on either estimate.</p></details>
+</figure></details>
+```
+
 
 Here are four **invented monthly excess-return observations**, in percentage points. They illustrate estimation separately from the annual forecast above.
 

@@ -59,6 +59,14 @@ Give the same household an extra 69 before it chooses. Uninsured wealth is now 1
 
 **Apply the model.** How much loss does the buyer retain through repeated deductibles? [FIN-24 · A lower premium. How much risk stays here?](https://kochiuyu.github.io/micro-cases/lower-premium-repeated-deductible.html)
 
+
+
+```{=html}
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="investment"><p><strong>Investment analysis.</strong> Would the client accept a full-coverage premium of HK$37,000?</p><details><summary>Check your recommendation</summary><p>That would leave certain wealth of HK$63,000, below the HK$64,000 certainty equivalent. The client declines given the lesson’s preferences.</p></details></div>
+</section>
+```
+
 **Teaching source.** Week 3 develops expected utility, certainty equivalents, and Arrow–Pratt risk aversion. The two wealth levels and insurance quotes are illustrative.
 
 ```{=html}

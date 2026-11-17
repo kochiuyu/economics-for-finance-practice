@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="../assets/course.css">
 
 <script src="../assets/reading.js" defer></script>
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
@@ -17,6 +19,13 @@
 <p><strong>Your decision.</strong> A treasury team has two fixed obligations, each promising HK$100 million once. One matures in a year and the other in five years. The CFO asks which is more vulnerable to rising rates. Are you preparing a market-value report or next year’s funding budget?</p>
 </div>
 <h2 id="discount-each-payment-at-its-maturity">Discount each payment at its maturity</h2>
+<figure class="ess-figure" data-essentials-figure="yield-sensitivity">
+<figcaption><strong>Read the yield shock and the price change</strong></figcaption><p>Compare the two quoted maturities. The segments connect the observed scenario rates at one and five years.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Which payment loses more value in the steepening, and which maturity requires funding next year?</p>
+<details><summary>Check your reading</summary><p>The five-year payment loses about HK$7.47 million of present value while the one-year value stays the same. The one-year principal of HK$100 million still falls due next year.</p></details>
+</figure>
+
 <p>Use annual effective spot rates, which price a single payment at its maturity. Assume certain payment and no credit spread. Initially the curve is flat at 4%. A parallel shift raises every spot rate to 5%. In the steepening scenario the one-year rate stays at 4% and the five-year rate rises to 6%.</p>
 <table class="caption-top">
 <thead>
@@ -62,6 +71,12 @@ At maturity the one-year issuer can borrow HK$100 million for another year at ei
 <section aria-label="Practice brief"><h2>Which obligation should treasury flag for the CFO?</h2><details><summary>Compare your recommendation</summary><p>For today’s valuation, the five-year payment moves more under a parallel rate increase. For next year’s funding budget, identify the principal due in one year and the rate available to refinance it. Show those exposures on separate lines.</p></details></section>
 
 <p><strong>Apply the model.</strong> Which instrument loses more value after the same change in yield? <a href="https://kochiuyu.github.io/micro-cases/same-yield-different-duration.html">FIN-21 · Same yield. Same interest-rate risk?</a></p>
+
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="investment"><p><strong>Investment analysis.</strong> Which claim has greater market-value sensitivity to the parallel shock?</p><details><summary>Check your recommendation</summary><p>The five-year claim falls about HK$3.84 million, compared with HK$0.92 million for the one-year claim.</p></details></div>
+<div data-professional-route="credit"><p><strong>Credit and banking.</strong> Which payment should the credit officer flag for next year’s refinancing review?</p><details><summary>Check your recommendation</summary><p>The one-year payment creates the HK$100 million funding requirement next year. The five-year payment creates the larger mark-to-market move.</p></details></div>
+<div data-professional-route="treasury"><p><strong>Corporate treasury.</strong> What two numbers should the CFO see after the curve steepens?</p><details><summary>Check your recommendation</summary><p>Show the five-year present-value decline of about HK$7.47 million and next year’s principal repayment of HK$100 million as separate exposures.</p></details></div>
+</section>
 <p><strong>Teaching source.</strong> This new fixed-income application extends the dated-cash-flow and monetary-transmission lessons. All rates and repayment schedules are illustrative.</p>
 <p><a href="long-run-valuation.html">Previous · Long-run valuation</a> · <a href="../curriculum.html">Return to the course map</a></p>
 </main>

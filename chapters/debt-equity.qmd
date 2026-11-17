@@ -6,11 +6,25 @@ sectionname: Chapters
 kicker: Chapter 14 · Debt and equity
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A company can invest 20 today for a certain additional 30 next year. Its existing shareholders can supply the 20. Should the board expect them to agree?
 :::
 
 ## Follow the senior claim
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="debt-waterfall">
+<figcaption><strong>Trace who receives the extra cash</strong></figcaption><p>Each stacked bar allocates the firm’s cash at maturity. The second plot subtracts the initial cost of the project from the shareholders’ gain.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Why would existing shareholders turn down a project that increases firm value by 10?</p>
+<details><summary>Check your reading</summary><p>The weak-state increase goes to old debt and the strong-state increase goes to equity. Each claim gains 15 on average, but shareholders pay 20 to fund the project. Their net gain is −5.</p></details>
+</figure>
+```
+
 
 The company already owes 100 at maturity. Its existing assets pay 60 or 140 with equal probability. Assume risk-neutral valuation, zero interest, no taxes, and no bankruptcy costs. Creditors receive the smaller of available assets and the debt claim. Shareholders receive the residual.
 

@@ -6,11 +6,25 @@ sectionname: Chapters
 kicker: Chapter 19
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A platform has 120 qualified one-loan applicants and lenders willing to fund 80 loans. It earns 60 per funded loan and spends 20 screening each qualified application. Should it pay 300 to attract another 20 applicants or another 20 units of lending capacity?
 :::
 
 ## Which side limits funded loans?
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="platform-matches">
+<figcaption><strong>Find the side that limits lending</strong></figcaption><p>The first panel shows funded loans as available lending capacity rises. The second deducts screening and campaign costs under the stated assumptions.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Why does recruiting borrowers lower contribution at the starting point?</p>
+<details><summary>Check your reading</summary><p>With 80 lending slots, there are already enough applicants. The campaign adds screening and acquisition costs while funding zero additional loans. Recruiting lenders raises contribution from 2,400 to 3,300.</p></details>
+</figure>
+```
+
 
 With identical loan sizes, a funded match requires one applicant and one unit of capacity. Baseline contribution is 80 × 60 − 120 × 20 = **2,400**. More applicants leave matches at 80. Screening costs grow by 400 and the campaign costs 300. Contribution falls to 1,700.
 

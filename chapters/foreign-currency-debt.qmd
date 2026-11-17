@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: Chapter 29
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** The importer financed its baseline US$1 million invoice with a dollar loan. At maturity it has the US$300,000 customer receipt and HK$2 million in unrestricted cash. How much of the loan must its bank renew?
 :::
@@ -18,6 +21,17 @@ If the bank renews 500,000, the importer buys 200,000 dollars and spends HK$1.56
 
 ## Can a forward close the funding gap?
 
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="rollover-gap">
+<figcaption><strong>Read the cash shortfall at maturity</strong></figcaption><p>Above zero, the importer needs additional HK-dollar funding. Below zero, it has cash left after repayment. Each line holds the exchange quote fixed.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> At renewal of US$400,000, how much would the forward reduce the shortfall?</p>
+<details><summary>Check your reading</summary><p>It reduces the gap from HK$355,000 at 7.85 to HK$343,000 at 7.81. Treasury still needs HK$343,000 by maturity.</p></details>
+</figure>
+```
+
+
 **Would a forward at 7.81 for the required US$300,000 eliminate the deficit in the stressed scenario?**
 
 <details><summary>Work through the decision</summary><p>It fixes the HK-dollar payment at 2.343 million, leaving a deficit of 343,000. Treasury must also arrange funding or accelerate collections. A foreign lender cutting exposure can transmit a broader capital outflow into a single firm’s maturity schedule. To interpret a country’s aggregate flow, distinguish repayment of old claims from issuance of new ones.</p></details>
@@ -28,6 +42,15 @@ If the bank renews 500,000, the importer buys 200,000 dollars and spends HK$1.56
 ```
 
 **Apply the model.** Where will the cash to repay principal come from at maturity? [FIN-30 · Affordable interest. A repayable principal?](https://kochiuyu.github.io/micro-cases/interest-paid-principal-due.html)
+
+
+
+```{=html}
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="credit"><p><strong>Credit and banking.</strong> How much renewal would restore full coverage with a spot rate of 7.85 and no new cash?</p><details><summary>Check your recommendation</summary><p>Treasury needs roughly US$445,223 of renewal. The remaining principal can be covered by the US$300,000 receipt plus dollars purchased with HK$2 million.</p></details></div>
+<div data-professional-route="treasury"><p><strong>Corporate treasury.</strong> If the bank renews US$400,000 and the remaining dollars are bought at 7.81, what should you arrange by maturity?</p><details><summary>Check your recommendation</summary><p>Arrange HK$343,000 of additional funding, earlier collections, or enough extra renewal to eliminate the same gap.</p></details></div>
+</section>
+```
 
 **Teaching source.** Week 10 on capital flows, with a new illustrative funding schedule.
 

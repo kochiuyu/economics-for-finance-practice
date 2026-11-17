@@ -53,6 +53,17 @@ Suppose buyers can verify quality with a certificate. A good-car owner pays the 
 
 ## Screen borrowers with a menu of loans
 
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="loan-screening">
+<figcaption><strong>Read the contract each borrower prefers</strong></figcaption><p>Compare the borrower’s payoff from each contract with the payoff from staying out.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Which contract does each type choose? Does the lender recover the advance from both?</p>
+<details><summary>Check your reading</summary><p>The safe type chooses secured at 20 versus an outside option of 15. The risky type chooses unsecured at 30 versus 27.5 under secured. The lender receives 105 from the safe type and expects 101.25 from the risky type, each above the advance of 100.</p></details>
+</figure>
+```
+
+
 Suppose two equally common types each need a loan of 100. Safe borrowers always generate 125 and have an outside option worth 15. Risky borrowers generate 175 with probability 0.75 and zero otherwise. Their outside option is zero. Both are risk neutral and have illiquid collateral worth 100 that can be pledged. A failed unsecured project leaves nothing for the lender. Ignore funding costs and assume collateral can be seized without cost.
 
 At a uniform unsecured repayment of **115**, a safe borrower keeps 10 and declines. A risky borrower expects 0.75 × (175 − 115) = 45 and accepts. The lender expects to collect 86.25 on a loan of 100. Raising the repayment to cover losses can reinforce the selection problem.
@@ -82,6 +93,15 @@ A dealer also faces a selected group. A trader with favorable private informatio
 ```
 
 **Apply the model.** What makes a quality signal cheaper for a high-quality seller to send? [ECO-13 · A promise of quality. Costly for whom?](https://kochiuyu.github.io/micro-cases/promise-costs.html)
+
+
+
+```{=html}
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="credit"><p><strong>Credit and banking.</strong> Would both borrowers take the intended contract if the secured repayment increased from 105 to 111?</p><details><summary>Check your recommendation</summary><p>The safe borrower would keep 14, below the outside option of 15, and decline. The risky borrower still prefers unsecured.</p></details></div>
+<div data-professional-route="fintech"><p><strong>Markets and fintech.</strong> At an accepted offer of 60, what information has the seller’s decision conveyed?</p><details><summary>Check your recommendation</summary><p>The seller has a poor car under the model. Compare this selection effect with the information a dealer gets from trade direction.</p></details></div>
+</section>
+```
 
 **Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.
 

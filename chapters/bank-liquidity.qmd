@@ -83,6 +83,14 @@ Suppose a bank serves depositors in arrival order. If others wait, loans mature 
 ```
 
 
+
+
+```{=html}
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="credit"><p><strong>Credit and banking.</strong> What would your escalation note say at HK$60 million of withdrawal requests?</p><details><summary>Check your recommendation</summary><p>The bank can meet today’s requests but has about HK$3.33 million of negative equity at maturity values. Report the equity problem separately from the later cash limit.</p></details></div>
+</section>
+```
+
 **Teaching source.** Week 4 introduces strategic withdrawals. The balance sheet, sale prices, and interactive stress test are illustrative.
 
 ```{=html}

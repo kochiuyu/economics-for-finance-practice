@@ -67,6 +67,13 @@ With a fee of 6, selling yields 94 after the fee, above the owner’s reservatio
 </p>
 </details>
 <h2 id="screen-borrowers-with-a-menu-of-loans">Screen borrowers with a menu of loans</h2>
+<figure class="ess-figure" data-essentials-figure="loan-screening">
+<figcaption><strong>Read the contract each borrower prefers</strong></figcaption><p>Compare the borrower’s payoff from each contract with the payoff from staying out.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> Which contract does each type choose? Does the lender recover the advance from both?</p>
+<details><summary>Check your reading</summary><p>The safe type chooses secured at 20 versus an outside option of 15. The risky type chooses unsecured at 30 versus 27.5 under secured. The lender receives 105 from the safe type and expects 101.25 from the risky type, each above the advance of 100.</p></details>
+</figure>
+
 <p>Suppose two equally common types each need a loan of 100. Safe borrowers always generate 125 and have an outside option worth 15. Risky borrowers generate 175 with probability 0.75 and zero otherwise. Their outside option is zero. Both are risk neutral and have illiquid collateral worth 100 that can be pledged. A failed unsecured project leaves nothing for the lender. Ignore funding costs and assume collateral can be seized without cost.</p>
 <p>At a uniform unsecured repayment of <strong>115</strong>, a safe borrower keeps 10 and declines. A risky borrower expects 0.75 × (175 − 115) = 45 and accepts. The lender expects to collect 86.25 on a loan of 100. Raising the repayment to cover losses can reinforce the selection problem.</p>
 <table class="caption-top">
@@ -107,6 +114,11 @@ The safe borrower keeps 20 under the secured loan, above the outside option of 1
 <section aria-label="Practice brief"><h2>What should a lender check before applying an average loss rate to a new offer?</h2><details><summary>Compare your recommendation</summary><p>Estimate who will accept the proposed terms. In the car example, offering 60 attracts owners of cars worth only 20 to the buyer. For a loan, use the expected loss among likely acceptances and test how the applicant mix shifts when terms change.</p></details></section>
 
 <p><strong>Apply the model.</strong> What makes a quality signal cheaper for a high-quality seller to send? <a href="https://kochiuyu.github.io/micro-cases/promise-costs.html">ECO-13 · A promise of quality. Costly for whom?</a></p>
+
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="credit"><p><strong>Credit and banking.</strong> Would both borrowers take the intended contract if the secured repayment increased from 105 to 111?</p><details><summary>Check your recommendation</summary><p>The safe borrower would keep 14, below the outside option of 15, and decline. The risky borrower still prefers unsecured.</p></details></div>
+<div data-professional-route="fintech"><p><strong>Markets and fintech.</strong> At an accepted offer of 60, what information has the seller’s decision conveyed?</p><details><summary>Check your recommendation</summary><p>The seller has a poor car under the model. Compare this selection effect with the information a dealer gets from trade direction.</p></details></div>
+</section>
 <p><strong>Teaching source.</strong> The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The verification-fee and loan-screening calculations are new exercises drawing on the same lecture.</p>
 <nav class="route-nav" aria-label="Essentials chapter navigation">
 <strong>Essentials 6 of 12</strong>

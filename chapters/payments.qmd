@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: Chapter 20
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** A merchant sells goods for HK$100,000. Service A settles in bank money today with a 1.5% fee. Service B charges 1% and delivers a redeemable digital balance in 30 days. Which offer has higher value today?
 :::
@@ -17,6 +20,17 @@ A delivers **HK$98,500** today. Assume the merchant values cash at simple annual
 Suppose that in 1% of cases the redemption pays only 90% of the balance, and otherwise pays in full. Expected redemption becomes 99,000 × 0.999 = HK$98,901. Discounting gives **HK$98,408.96**. A risk-neutral merchant using this forecast prefers A. A merchant with payroll due tomorrow must also check whether it can borrow against the balance.
 
 ## How much redemption risk erases the fee saving?
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="payment-value">
+<figcaption><strong>Read when the cheaper fee stops paying</strong></figcaption><p>The merchant receives HK$98,500 from A today. B promises HK$99,000 on day 30 and can lose 10% of that balance if redemption falls short. The graph discounts B to today.</p><ol class="professional-timeline"><li><strong>Today</strong>A settles in bank money. B leaves no settlement cash available today.</li><li><strong>Day 30</strong>B redeems at par or delivers a smaller amount under the loss scenario.</li></ol>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> How much redemption risk erases B’s advantage? What if payroll is due tomorrow?</p>
+<details><summary>Check your reading</summary><p>A probability of about 0.076% is enough under these assumptions. Even at zero redemption risk, B gains only HK$7.46 in present value. Additional payroll funding costs above that amount would favor A.</p></details>
+</figure>
+```
+
 
 **How likely can the 10% redemption loss be before A becomes preferable?**
 

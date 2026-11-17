@@ -126,6 +126,14 @@ return {rows:[['Annual interest',money(interest*1e6)],['Coverage',cover.toFixed(
 <section id="practice-brief" aria-label="Practice brief"><h2>What if only half the loan resets and earnings fall to HK$5.4 million?</h2><details><summary>Check your application</summary><p>At a 5% reference rate, rates of 7% and 5% on equal halves imply HK$3 million in annual interest. Coverage is 1.80×, which falls short of 2.00×.</p></details><p><strong>Transfer to a Micro Case.</strong> Move from an interest coverage test to a cash repayment test. What else would the lender need to verify? <a href="https://kochiuyu.github.io/micro-cases/interest-paid-principal-due.html">Affordable interest. A repayable principal?</a></p></section>
 ```
 
+
+
+```{=html}
+<section class="professional-practice" aria-label="Professional route practice"><h2>Apply the graph in practice</h2>
+<div data-professional-route="credit"><p><strong>Credit and banking.</strong> With full repricing, compare a move from 3% to 5% in the reference rate with a later EBIT decline to HK$5.4 million. Which event first breaches the covenant?</p><details><summary>Check your recommendation</summary><p>The reset alone lowers coverage to about 1.71× at HK$6 million EBIT. After the earnings decline the borrower needs another HK$1.6 million of EBIT to get to 2.0× at the same rate.</p></details></div>
+</section>
+```
+
 **Teaching source.** Week 9 develops monetary and fiscal transmission using IS–LM and IS–MP. Loan terms, the coverage threshold, and EBIT scenarios are illustrative.
 
 ```{=html}

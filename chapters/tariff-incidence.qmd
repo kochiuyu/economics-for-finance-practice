@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: Chapter 26
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 <link rel="stylesheet" href="../assets/lab-comparison.css">
 <script src="../assets/lab-comparison.js" defer></script>
 
@@ -18,6 +21,17 @@ kicker: Chapter 26
 <div id="worked-example"></div>
 
 ## Trace the duty through the supplier quote and customer price
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="tariff-burden">
+<figcaption><strong>Trace the burden of the duty</strong></figcaption><p>Read the floating bars as increments. Together they add up to the duty per unit still sold.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> How much of the US$9.60 duty does the importer absorb?</p>
+<details><summary>Check your reading</summary><p>The importer absorbs US$1.60 through a reduced margin. The supplier accepts US$4 less and the customer pays US$4 more.</p></details>
+</figure>
+```
+
 
 Before the duty the US$1 million invoice leaves US$25 per unit before other costs. If the supplier holds at 100 and the customer price stays 125, duty of 10 reduces the importer’s unit margin to 15. Legal responsibility to remit the duty does not specify how prices adjust.
 
@@ -42,6 +56,12 @@ Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.6
 <details><summary>Compare your recommendation</summary><p class="scenario-call"></p></details>
 <noscript>Enable JavaScript to change scenarios. The worked example below explains the decision.</noscript>
 
+<figure class="ess-figure" data-essentials-figure="supplier-switch">
+<figcaption><strong>Read the order volume that pays for switching</strong></figcaption><p>The horizontal line is the selected qualification fee. The sloping line shows gross savings. The two dots show confirmed volume and volume including possible repeat orders.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> At the starting fee, does the first shipment justify switching? What if repeat orders take volume to 12,000?</p>
+<details><summary>Check your reading</summary><p>The first 10,000 units fall short. Cumulative volume first covers the fee at 11,539 whole units. At 12,000 units net savings reach US$1,200 if the repeats occur at the same terms.</p></details>
+</figure>
 <details class="lab-comparison"><summary>Compare scenarios</summary>
 <button type="button">Keep for comparison</button>
 <p role="status">Change a setting to compare with the starting scenario, or keep your own.</p>

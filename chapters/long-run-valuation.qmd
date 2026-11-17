@@ -6,6 +6,9 @@ sectionname: Chapters
 kicker: Chapter 22 · Productivity and valuation
 ---
 
+<link rel="stylesheet" href="../assets/essentials-figures.css">
+<script src="../assets/essentials-figures.js" defer></script>
+
 ::: {.decision}
 **Your decision.** An analyst raises a mature supplier’s perpetual nominal cash-flow growth forecast from 3% to 5%. The justification is a new machine that will increase output per worker by 10% next year. Would you approve the higher terminal value?
 :::
@@ -29,6 +32,17 @@ At the end of year five, assume year-six free cash flow is HK$100 million and th
 Holding the first cash flow fixed isolates sensitivity to growth. Moving from 3% to 5% adds roughly HK$908 million today. A valuation of the whole firm would also include the first five years of cash flows.
 
 ## Make growth pay for itself
+
+
+```{=html}
+<figure class="ess-figure" data-essentials-figure="terminal-growth">
+<figcaption><strong>Separate a productivity gain from perpetual growth</strong></figcaption><p>The first panel follows output after installation. The second holds the discount rate at 8% and compares fixed year-six free cash flow with free cash flow after reinvestment.</p>
+<div class="ess-chart"></div>
+<p><strong>Read the graph.</strong> At 5% growth, how much year-five terminal value remains after accounting for reinvestment?</p>
+<details><summary>Check your reading</summary><p>It is about HK$2,778 million, up about HK$778 million from the 3% case. Keeping free cash flow fixed would instead imply a gain of about HK$1,333 million.</p></details>
+</figure>
+```
+
 
 Suppose instead that year-six after-tax operating profit is fixed at HK$125 million. Each dollar reinvested earns a sustained 15% annual return. In steady state, growing at 3% requires reinvesting 3/15 = 20% of profit. That leaves HK$100 million of free cash flow, as above. **At 5% growth, can the analyst still distribute HK$100 million?**
 
