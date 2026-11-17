@@ -1,34 +1,11 @@
 ---
-title: Should the importer change suppliers?
-summary: Compare a tariff concession with qualification of a duty-free supplier under an uncertain repeat order.
+title: "Two suppliers. One factory?"
+summary: "Does splitting orders across distributors protect the buyer if both depend on one factory?"
 base: ..
 sectionname: Cases
-kicker: Case seminar · U.S.–China trade
+kicker: Micro Cases · OPS-05
 ---
 
-The original course assigned *The U.S.–China Trade War* and asked which firms bear tariff costs and how firms and governments might respond. The figures below are an independent procurement exercise. The tariff applies in a hypothetical destination market. [Published case, HBS 719034](https://store.hbr.org/product/the-u-s-china-trade-war/719034)
+Use the exhibits in [OPS-05 · Two suppliers. One factory?](https://kochiuyu.github.io/micro-cases/shared-factory.html) to defend your decision.
 
-::: {.decision}
-**Your decision.** An importer must source 10,000 units now. A second order of the same size is possible. Should it qualify a new supplier today or keep the incumbent for both orders? Qualification is available only before the first order.
-:::
-
-| Per unit, US dollars | Incumbent | Alternative |
-| --- | ---: | ---: |
-| Invoice price | 96 | 103 |
-| Hypothetical duty | 9.60 | 0 |
-| Landed cost | 105.60 | 103 |
-| One-time qualification, US dollars | 0 | 30,000 |
-
-Customer prices, quality, freight, and payment dates are identical across suppliers. Ignore discounting. With one shipment the alternative costs 4,000 more. With two shipments its savings are 20,000 × 2.60 − 30,000 = 22,000.
-
-## Price the option to diversify supply
-
-**At what probability of a second order would you switch now? What if the tariff expires after the first shipment?**
-
-<details><summary>Resolve the procurement vote</summary><p>If the tariff survives, switching adds expected savings of −4,000 + 26,000p. The switch pays above p = 2/13, about 15.4%. At 50% the expected gain is 9,000. If the duty expires and the incumbent keeps its US$96 quote, the alternative costs 7 more per unit on the second order. Expected savings become −4,000 − 70,000p. Keep the incumbent under those terms.</p></details>
-
-## Explain the policy risk
-
-The importer initially paid US$100 per unit before the hypothetical duty. The concession to 96 shifts part of the burden upstream. Comparing quotes at the same destination and on the same delivery terms isolates procurement cost. To assess economy-wide welfare, also estimate lost trades, tariff revenue, and effects on other producers and customers. The importer’s gain from switching alone cannot establish the national welfare effect.
-
-[Reconstruct tariff incidence](../chapters/tariff-incidence.html) · [Size the resulting currency hedge](../chapters/currency-hedging.html)
+[Browse the case assignments](micro-cases.html)

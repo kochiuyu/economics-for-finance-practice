@@ -20,7 +20,7 @@ Follow twelve decisions in order. Each lesson includes a worked example and link
 
 [Find a Micro Case by chapter](cases/micro-cases.html) for additional classroom decisions.
 
-**Case seminars.** [Decide whether to commit to an electric-car launch](cases/maruti-suzuki.html), [Allocate scarce stock in Hong Kong](cases/hktvmall.html) or [choose which borrower to finance during a shutdown](cases/global-shutdown.html). [Evaluate a lending guarantee](cases/dianrong.html) or [compare suppliers under a tariff](cases/trade-war.html).
+**Case seminars.** All five assignments use our [Micro Cases teaching guide](cases/micro-cases.html).
 
 ## Professional reading routes
 
@@ -61,7 +61,7 @@ All 29 subject chapters are available. The two evidence workshops culminate in a
 ## Part IV. Banks, platforms, and public policy
 
 - [17. Banks, liquidity, and runs](chapters/bank-liquidity.html)
-- [18. Public goods, externalities, and corporate responses](chapters/externalities.html) · [HKTVmall case](cases/hktvmall.html)
+- [18. Public goods, externalities, and corporate responses](chapters/externalities.html) · [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html)
 - [19. Platform participation, reputation, and lending](chapters/lending-platforms.html)
 - [20. Payments, settlement, and digital money](chapters/payments.html)
 
@@ -86,4 +86,4 @@ All 29 subject chapters are available. The two evidence workshops culminate in a
 - [31. From co-movement to a defensible claim](chapters/causal-evidence.html)
 - [Capstone · Shenzhen housing and IPOs](cases/shenzhen-evidence.html)
 
-[See the original syllabus and the five assigned cases](original-course/index.html)
+[See the original syllabus and historical seminar topics](original-course/index.html)

@@ -6,7 +6,15 @@ sectionname: Cases
 kicker: Companion case collection
 ---
 
-The original CUHK syllabus assigned [five case seminars](../original-course/index.html#cases). For additional practice, choose a chapter below, open its Micro Case, and use the question to connect the decision back to the model. [Browse the full Micro Cases collection](https://kochiuyu.github.io/micro-cases/index.html)
+All case assignments use our Micro Cases collection. Choose a seminar below or find an application by chapter. [Browse the collection](https://kochiuyu.github.io/micro-cases/index.html)
+
+## Five case seminars
+
+- [FIN-22 · Commit now. Pay for the option to wait?](https://kochiuyu.github.io/micro-cases/pay-for-time-to-decide.html) — What information would make paying the reservation fee worthwhile?
+- [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html) — How should the organiser allocate 100 books when the price is capped?
+- [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html) — How many deliveries can the marketplace match within each district and time window?
+- [FIN-03 · The biggest order, the smallest cash balance](https://kochiuyu.github.io/micro-cases/cash-flow.html) — Which payment terms preserve the workshop’s cash buffer?
+- [OPS-05 · Two suppliers. One factory?](https://kochiuyu.github.io/micro-cases/shared-factory.html) — Does splitting orders across distributors protect the buyer if both depend on one factory?
 
 ## Markets and pricing
 

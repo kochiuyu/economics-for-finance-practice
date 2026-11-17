@@ -1,44 +1,11 @@
 ---
-title: Should the automaker commit before policy is known?
-summary: Compare the value of deterring entry with the value of waiting for evidence about electric-car demand.
+title: "Commit now. Pay for the option to wait?"
+summary: "What information would make paying the reservation fee worthwhile?"
 base: ..
 sectionname: Cases
-kicker: Case seminar · Maruti Suzuki
+kicker: Micro Cases · FIN-22
 ---
 
-The original CUHK course assigned Veena Keshav Pailwar’s *Should Maruti Suzuki Invest in Electric Cars?* The classroom question was whether the automaker should enter now or wait, given rivals’ decisions and policy uncertainty. The exercise below uses a fictional manufacturer and independently constructed payoffs. Every figure needed for the decision appears here. [Published case, W18345](https://store.hbr.org/product/should-maruti-suzuki-invest-in-electric-cars/W18345)
+Use the exhibits in [FIN-22 · Commit now. Pay for the option to wait?](https://kochiuyu.github.io/micro-cases/pay-for-time-to-decide.html) to defend your decision.
 
-::: {.decision}
-**Your decision.** Approve an irreversible electric-car launch today or wait for a policy announcement? Waiting reveals demand but gives a rival the first opportunity to launch. Give the board a recommendation and the probability at which you would reverse it.
-:::
-
-## What the board knows today
-
-Call the two states **strong demand** and **weak demand**. The probability of strong demand is 60%. All figures are incremental net present values in the same illustrative units. A firm that stays out earns zero. If a firm commits early it must produce in either state. After the announcement, any uncommitted firm observes the state and earlier launch decisions. Both firms have the same state-contingent payoffs.
-
-| Outcome for a launching firm | Strong demand | Weak demand |
-| --- | ---: | ---: |
-| Sole producer | 12 | −6 |
-| Both produce | 4 | −9 |
-
-## If you launch today
-
-After strong demand is revealed, the rival can earn 4 by joining or zero by staying out. It joins. After weak demand, joining would lose 9, so it stays out. Your payoff is therefore **4 in the strong state and −6 in the weak state**. Early entry cannot deter a rival when the market is large enough to support two firms.
-
-## If you wait
-
-The rival chooses first after the announcement, and you can respond. In the strong state it anticipates that you will enter after it launches. Its resulting payoff of 4 exceeds zero, so it launches and you follow. In the weak state even a sole producer loses 6. Both stay out. **Write down the expected payoff of waiting before comparing it with early entry.**
-
-<details><summary>Resolve the board decision</summary>
-<p>At a 60% chance of strong demand, launching now yields 0.6 × 4 + 0.4 × (−6) = 0. Waiting yields 0.6 × 4 + 0.4 × 0 = 2.4. For any strong-demand probability p below one, waiting gains 6(1 − p). Both choices yield 4 at p = 1. Under these terms there is no interior probability at which early entry becomes better.</p></details>
-
-## Negotiate an exclusive contract
-
-An alternative early launch includes exclusive distribution. The rival cannot sell in either state. The contract costs 2 up front in present-value units. If you decline, the original waiting option remains available. **Does the contract change your vote at 60%? What about at 50%?**
-
-<details><summary>Find the probability that changes the vote</summary>
-<p>With exclusivity the expected payoff is 12p − 6(1 − p) − 2 = 18p − 8. Waiting yields 4p. Exclusivity wins when 14p exceeds 8, or p exceeds 4/7, about 57.1%. At 60%, exclusive entry yields 2.8 against 2.4 from waiting. At 50%, it yields 1 against 2. The board’s advantage at 60% is only 0.4, so validating the demand probability and the scope of the exclusive rights matters.</p></details>
-
-**Board memo.** State who moves when, what the rival can observe, and whether it can profit after your launch. Recommend waiting under the ordinary terms. At the stated 60% probability, approve exclusive entry only on the stated enforceable terms and cost.
-
-[Return to strategic entry](../chapters/strategic-entry.html) · [Explore the original course cases](../original-course/index.html#cases)
+[Browse the case assignments](micro-cases.html)

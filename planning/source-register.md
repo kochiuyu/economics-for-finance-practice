@@ -1,5 +1,7 @@
 # Source register
 
+**Current case assignments.** All public assignments use [our Micro Cases](../cases/micro-cases.qmd). Earlier case references below document the teaching archive and previous editions.
+
 The teaching archive is the 2023–24 CUHK FINA 6282 folder maintained by Chiu Yu Ko. File references below identify source material for future editors.
 
 | Site content | Teaching source | Editorial treatment |

@@ -1,107 +1,18 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Allocate a scarce supply · Economics for Finance Practice</title>
-<meta name="description" content="A Hong Kong retailer must choose how quickly to procure stock, how much to charge, and how to allocate a limited supply.">
+<title>A price cap. Which shortage remains? · Economics for Finance Practice</title>
+<meta name="description" content="How should the organiser allocate 100 books when the price is capped?">
 <link rel="stylesheet" href="../assets/course.css">
-<script src="../assets/shortage.js" defer=""></script>
+
 </head>
 <body class="">
 <a href="#main" class="skip">Skip to content</a>
 <header class="mast"><div class="bar"><a class="brand" href="../index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Economics for Finance Practice</a>
 <nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../index.html#activities">Activities</a><a href="../original-course/index.html">Course record</a></nav></div></header>
 <main id="main" class="frame" tabindex="-1">
-<div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Cases</div><header class="pagehead"><span class="kicker">Case seminar · HKTVmall</span><h1>Allocate a scarce supply</h1><p class="dek">A Hong Kong retailer must choose how quickly to procure stock, how much to charge, and how to allocate a limited supply.</p></header>
-<h2 id="the-historical-decision">The historical decision</h2>
-<p>The original CUHK course assigned <em>HKTVmall: Responding to Shortages during the COVID-19 Pandemic</em>, by Chiu Yu Ko, Nouri Najjar, and Adam Fremeth. The pandemic disrupted supplies of personal protective equipment and prices on the platform rose. The class examined whether the company should make supplies, buy them, or wait, and how its response would affect both profitability and access. <a href="https://www.iveypublishing.ca/s/product/hktvmall-responding-to-shortages-during-the-covid19-pandemic/01t5c00000CBbBDAA1">Ivey case W33330</a></p>
-<h2 id="your-procurement-decision">Your procurement decision</h2>
-<div class="decision">
-<p><strong>You run an independent retailer.</strong> Choose a supply contract, selling price, and allocation rule. You want to reach at least <strong>25 priority households</strong> and earn a positive contribution. What would you do if that access target were relaxed?</p>
-</div>
-<p>All figures below are invented for this exercise. A pack serves one household. The retailer pays for the entire order. Unsold stock has zero salvage value. Contribution equals sales revenue less procurement cost, before overhead.</p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Contract</th>
-<th style="text-align: right;">Packs</th>
-<th style="text-align: right;">Cost per pack</th>
-<th style="text-align: right;">Total cost</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Immediate delivery</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;">HK$42</td>
-<td style="text-align: right;">HK$4,200</td>
-</tr>
-<tr class="even">
-<td>Later delivery</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">HK$30</td>
-<td style="text-align: right;">HK$2,400</td>
-</tr>
-</tbody>
-</table>
-<p>Some households cannot wait and some cannot afford the higher price. The table gives eligible buyers at the time the packs arrive. A lottery gives every eligible household an equal chance. Under priority first, serve eligible priority households before other buyers and release all remaining packs immediately.</p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Delivery and price</th>
-<th style="text-align: right;">Priority households</th>
-<th style="text-align: right;">Other households</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Immediate · HK$50</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">90</td>
-</tr>
-<tr class="even">
-<td>Immediate · HK$70</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">70</td>
-</tr>
-<tr class="odd">
-<td>Later · HK$50</td>
-<td style="text-align: right;">14</td>
-<td style="text-align: right;">90</td>
-</tr>
-<tr class="even">
-<td>Later · HK$70</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">70</td>
-</tr>
-</tbody>
-</table>
-<section class="panel" aria-labelledby="policy-title"><h2 id="policy-title">Compare your policy</h2><div class="controls">
-<label>Supply contract<select id="delivery"><option value="now">Immediate delivery</option><option value="later">Later delivery</option></select></label>
-<label>Price per pack<select id="price"><option value="50">HK$50</option><option value="70">HK$70</option></select></label>
-<label>Allocation rule<select id="allocation"><option value="lottery">Equal lottery</option><option value="priority">Priority first</option></select></label></div>
-<div class="metrics"><div class="metric"><span>Packs sold</span><b id="sold">100</b></div><div class="metric"><span>Expected priority reach</span><b id="reach">25</b></div><div class="metric"><span>Contribution</span><b id="profit">HK$800</b></div></div><p id="policy-result" class="status" aria-live="polite">The lottery reaches 25 priority households on average. Individual outcomes vary.</p>
-</section>
-<h2 id="defend-your-choice">Defend your choice</h2>
-<p>First compare allocation rules while holding price and delivery fixed. Next try the cheaper supplier. Finally, change the price and see who still qualifies to buy. Which change affects contribution? Which affects access? Is the target an expected outcome or a minimum you promise to deliver?</p>
-<details>
-<summary>
-Work through the access target
-</summary>
-<p>
-At HK$50 with immediate delivery, 120 households want 100 packs. A lottery reaches 100 × 30/120 = <strong>25 priority households on average</strong>. Priority first serves <strong>all 30</strong> with the same HK$800 contribution (100 × 50 − 4,200). Choose priority first if you promise to serve at least 25. The posted price alone does not determine who gets access.
-</p>
-</details>
-<details>
-<summary>
-Compare the most profitable policy
-</summary>
-<p>
-With later delivery at HK$70, only 74 households still buy. Contribution is 74 × 70 − 2,400 = <strong>HK$2,780</strong>, the highest of the four price and timing combinations. Both rules reach only four priority households. If the guaranteed access target is 25, immediate delivery at HK$50 with priority first sacrifices HK$1,980 of contribution and reaches 26 more priority households.
-</p>
-</details>
-<p>A scarce pack is rival and excludable. Providing one can still benefit people beyond its buyer. If a retailer wishes to count those spillovers, it needs a defensible estimate of their size. The exercise reports financial contribution and access separately so that readers can state which objective drives their recommendation.</p>
-<p><a href="../original-course/index.html#cases">See where the case fits in the course</a></p>
-<p><a href="../chapters/rationing.html">Compare welfare under a lottery and a queue</a> · <a href="../chapters/externalities.html">Evaluate a waste-reduction policy</a></p>
+<div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Cases</div><header class="pagehead"><span class="kicker">Micro Cases · ECO-19</span><h1>A price cap. Which shortage remains?</h1><p class="dek">How should the organiser allocate 100 books when the price is capped?</p></header>
+<p>Use the exhibits in <a href="https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html">ECO-19 · A price cap. Which shortage remains?</a> to defend your decision.</p><p><a href="micro-cases.html">Browse the case assignments</a></p>
 </main>
 <footer><div class="foot"><span>Economics for Finance Practice <span aria-hidden="true">/</span> Chiu Yu Ko</span><a href="https://github.com/kochiuyu/economics-for-finance-practice">Project on GitHub ↗</a></div></footer>
 

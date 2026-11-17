@@ -24,4 +24,4 @@ Suppose the exporter agrees to 96 and the importer sells at 129. Duty is now 9.6
 
 **Teaching source.** Week 10 and the trade-war case. All duties and prices are hypothetical.
 
-[Work the trade seminar](../cases/trade-war.html) · [Hedge the baseline invoice](currency-hedging.html)
+[OPS-05 · Two suppliers. One factory?](https://kochiuyu.github.io/micro-cases/shared-factory.html) · [Hedge the baseline invoice](currency-hedging.html)

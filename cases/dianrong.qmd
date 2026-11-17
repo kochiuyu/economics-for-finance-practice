@@ -1,34 +1,11 @@
 ---
-title: Should the lending platform guarantee repayment?
-summary: Decide whether taking credit risk earns enough extra fee income to justify the funding and capital required.
+title: "One hundred couriers. One hundred matches?"
+summary: "How many deliveries can the marketplace match within each district and time window?"
 base: ..
 sectionname: Cases
-kicker: Case seminar · Dianrong
+kicker: Micro Cases · ECO-05
 ---
 
-The original course assigned *Dianrong: Marketplace Lending, Blockchain, and “The New Finance” in China*. Students considered expansion along the lending value chain and how to finance it. The following independent exercise uses a fictional platform. [Published case, HBS 218043](https://store.hbr.org/product/dianrong-marketplace-lending-blockchain-and-the-new-finance-in-china/218043)
+Use the exhibits in [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html) to defend your decision.
 
-::: {.decision}
-**Your decision.** Keep a fee-only platform or guarantee lenders against principal losses? A guarantee attracts lenders, but your platform must now finance the losses it promises to cover.
-:::
-
-| Per cohort, illustrative units | Fee only | Guarantee |
-| --- | ---: | ---: |
-| Funded loans | 80 | 100 |
-| Fee per funded loan | 60 | 90 |
-| Screening and operating costs | 2,400 | 3,000 |
-| Cost of maintaining committed capital | 0 | 500 |
-
-Each loan has principal of 1,000. If it defaults, recovery is 40% of principal. Under the guarantee the platform pays the remaining 600. Under fee-only lending the lender bears that loss. Ignore discounting and assume all stated fees are collected.
-
-## Vote before reviewing the credit forecast
-
-Fee-only contribution is 80 × 60 − 2,400 = 2,400. Before credit losses the guarantee earns 100 × 90 − 3,000 − 500 = 5,500. **How many defaults would consume the entire incremental contribution?**
-
-<details><summary>Set the expansion threshold</summary><p>The guarantee adds 3,100 before losses. At five defaults, it pays 3,000 and earns 2,500, just 100 more than fee only. Six defaults reduce contribution to 1,900. The break-even expected default rate is 3,100 / (100 × 600) = 5.17%. At 4% expected defaults, guarantee contribution is 3,100. At 8% it is 700.</p></details>
-
-## Fund the promise
-
-Suppose only 4,000 in cash is available when claims fall due. Eight defaults require 4,800 in payouts. An 800 liquidity shortfall can arise even though fees over the cohort leave positive contribution. A board approval should therefore specify both the expected default rate and the cash available in a correlated default episode. Compare loss rates by origination cohort and verify the timing of recoveries before relying on the threshold.
-
-[Return to platform participation](../chapters/lending-platforms.html)
+[Browse the case assignments](micro-cases.html)

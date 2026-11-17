@@ -1,5 +1,7 @@
 # Economics for Finance Practice
 
+**Current case assignments.** All public assignments use [our Micro Cases](../cases/micro-cases.qmd). Earlier case references below document the teaching archive and previous editions.
+
 ## Plan for a public course website
 
 **Purpose.** Preserve Chiu Yu Ko’s 2023–24 CUHK course for the part-time Master of Finance and create a resource that a reader can use independently. Keep the course title. Use the home page to pose the kinds of questions the course answers. Put the institution, course code FINA 6282, teaching dates, and original sequence on a permanent **Original course** page.

@@ -37,7 +37,7 @@ Assume customers pay on shipment. Cash receipts are **HK$7,600** at A and **HK$8
 
 A firm can lose demand while the economy faces a supply disruption. Ask which bottleneck binds at the firm, what other sectors are reporting, and whether prices adjust within the period. A fall in total output is compatible with more than one mix of shocks. The case asks you to choose what to finance when both shocks occur together.
 
-[Work the global shutdown case](../cases/global-shutdown.html)
+[FIN-03 · The biggest order, the smallest cash balance](https://kochiuyu.github.io/micro-cases/cash-flow.html)
 
 **Teaching source.** Weeks 8–9 introduce aggregate demand, supply, and adjustment. The paired order books are new illustrative exhibits.
 

@@ -25,17 +25,9 @@ The archive contains ten numbered lecture sources. The dated outline marked trad
 | 9 | Keynesian macroeconomics and the business cycle | Chapters 23–24 on fluctuations and policy transmission |
 | 10 | Trade and exchange rates | Chapters 26–29 on trade, foreign exchange, and cross-border finance |
 
-## Five assigned cases {#cases}
+## Historical seminar topics {#cases}
 
-| Published case | Question addressed in class |
-| --- | --- |
-| [Should Maruti Suzuki Invest in Electric Cars?](https://store.hbr.org/product/should-maruti-suzuki-invest-in-electric-cars/W18345) | Should the automaker enter now or wait? Which rivals and policy choices belong in its entry game? [Work the public exercise](../cases/maruti-suzuki.html) |
-| [HKTVmall: Responding to Shortages during the COVID-19 Pandemic](https://www.iveypublishing.ca/s/product/hktvmall-responding-to-shortages-during-the-covid19-pandemic/01t5c00000CBbBDAA1) | How should a retailer procure, price, and allocate scarce supplies? [Try the public exercise](../cases/hktvmall.html) |
-| [Dianrong: Marketplace Lending, Blockchain, and “The New Finance” in China](https://store.hbr.org/product/dianrong-marketplace-lending-blockchain-and-the-new-finance-in-china/218043) | How far should the lending platform expand across the value chain, and how should it fund expansion? [Work the public exercise](../cases/dianrong.html) |
-| [COVID-19: The Global Shutdown](https://store.hbr.org/product/covid-19-the-global-shutdown/320108) | How did demand, supply, and policy responses interact across economies? [Try the public credit exercise](../cases/global-shutdown.html) |
-| [The U.S.–China Trade War](https://store.hbr.org/product/the-u-s-china-trade-war/719034) | Which firms bear the costs of tariffs, and how might firms and governments respond? [Work the public exercise](../cases/trade-war.html) |
-
-The public edition also links to [additional Micro Cases by chapter](../cases/micro-cases.html).
+The original syllabus covered automotive entry, shortages, marketplace lending, the global shutdown, and trade policy. The public edition assigns five seminars from our Micro Cases collection. [View assignments](../cases/micro-cases.html)
 
 ## Assessment
 

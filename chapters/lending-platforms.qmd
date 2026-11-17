@@ -26,4 +26,4 @@ Attracting lenders raises matches to 100 without expanding the application pool.
 
 **Teaching source.** Week 7 on networks and reputation.
 
-[Make the Dianrong expansion decision](../cases/dianrong.html)
+[ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html)

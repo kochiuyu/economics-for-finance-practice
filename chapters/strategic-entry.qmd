@@ -44,4 +44,4 @@ Suppose the early tooling slot costs 3. Your net payoff from committing is 8 −
 
 **Teaching source.** Week 4 introduces simultaneous games, best responses, and backward induction. The tooling payoffs are illustrative.
 
-[Apply the model to the Maruti Suzuki seminar](../cases/maruti-suzuki.html) · [Review costs and capacity](costs-capacity.html)
+[FIN-22 · Commit now. Pay for the option to wait?](https://kochiuyu.github.io/micro-cases/pay-for-time-to-decide.html) · [Review costs and capacity](costs-capacity.html)

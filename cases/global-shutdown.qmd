@@ -1,48 +1,11 @@
 ---
-title: "Which borrower needs a bridge?"
-summary: "A shutdown cuts sales at two businesses. Allocate a temporary credit line after tracing cash receipts, costs, and the limits of reopening."
+title: "The biggest order, the smallest cash balance"
+summary: "Which payment terms preserve the workshop’s cash buffer?"
 base: ..
 sectionname: Cases
-kicker: "Case seminar · The global shutdown"
+kicker: Micro Cases · FIN-03
 ---
 
-## The original decision
+Use the exhibits in [FIN-03 · The biggest order, the smallest cash balance](https://kochiuyu.github.io/micro-cases/cash-flow.html) to defend your decision.
 
-The CUHK course assigned Laura Alfaro and Sarah Jeong’s *COVID-19: The Global Shutdown*. It asked students to compare demand, supply, and policy responses across economies. In April 2020, the IMF forecast a 3% contraction in global output for 2020 under its baseline assumptions. That was the information available to decision-makers at the time. The exercise below uses independently invented firm accounts. [Published case, HBS 320-108](https://store.hbr.org/product/covid-19-the-global-shutdown/320108) · [IMF, April 2020 World Economic Outlook](https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/World-Economic-Outlook-April-2020-The-Great-Lockdown-49306)
-
-::: {.decision}
-**Your decision.** Two suppliers each ask for a HK$100,000 one-month credit line. The bank can fund only one. Which borrower could repay from operations at the end of next month, and what evidence would make you change your decision?
-:::
-
-## Reconstruct this month’s shortfall
-
-Amounts are HK$ thousands. Cash receipts include amounts collected this month. Payments include payroll and suppliers. Assume no other cash, receivables collection, or financing. The bank can disburse the exact amount needed, up to 100. No interest or fees are due in this exercise.
-
-| This month | Event caterer | Medical packaging supplier |
-| --- | ---: | ---: |
-| Opening cash | 40 | 40 |
-| Receipts | 80 | 120 |
-| Required payments | 200 | 240 |
-| Cash before financing | −80 | −80 |
-
-Both need an immediate draw of **80** to finish the month at zero. For the caterer, customer cancellations leave staff and kitchens idle. For the packaging supplier, signed orders exceed production because a machine part has failed to arrive. A matching cash deficit can conceal two different reasons to expect repayment.
-
-## Test next month’s repayment
-
-| Next-month forecast | Caterer, bookings stay weak | Packaging, part arrives | Packaging, part delayed |
-| --- | ---: | ---: | ---: |
-| Cash receipts | 150 | 300 | 165 |
-| Cash operating payments | 140 | 190 | 165 |
-| Cash available for principal | 10 | 110 | 0 |
-
-**Make a conditional offer.** Choose the borrower, the draw, and one document you would request before authorizing it. Then decide whether a further 20 of undrawn credit would solve a one-month delay.
-
-<details><summary>Compare the credit decisions</summary>
-<p>The caterer can repay 10 of 80, leaving a shortfall of 70. The packaging supplier can repay 80 and retain 30 if the part arrives, production resumes, and customers pay on time. Request a confirmed delivery date and verify the purchase orders and collection schedule. If the part is delayed, operations generate no cash for principal. Drawing another 20 adds debt. The lender would need a credible later recovery and a different maturity, or another source of repayment.</p>
-</details>
-
-<details><summary>Which policy would change the caterer’s result?</summary>
-<p>A one-off grant of 70 received next month would close its calculated repayment gap. A loan guarantee can reduce the lender’s exposure to default while leaving the caterer’s operating cash shortfall intact. Reopening may allow bookings to recover, but permission to operate alone supplies no orders. Test actual advance bookings and cancellation terms before changing the receipts forecast.</p>
-</details>
-
-[Return to the demand and supply lesson](../chapters/business-cycle-shocks.html) · [Continue to policy transmission](../chapters/policy-transmission.html)
+[Browse the case assignments](micro-cases.html)

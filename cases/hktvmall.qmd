@@ -1,60 +1,11 @@
 ---
-title: Allocate a scarce supply
-summary: A Hong Kong retailer must choose how quickly to procure stock, how much to charge, and how to allocate a limited supply.
+title: "A price cap. Which shortage remains?"
+summary: "How should the organiser allocate 100 books when the price is capped?"
 base: ..
 sectionname: Cases
-kicker: Case seminar · HKTVmall
-activity: shortage
+kicker: Micro Cases · ECO-19
 ---
 
-## The historical decision
+Use the exhibits in [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html) to defend your decision.
 
-The original CUHK course assigned *HKTVmall: Responding to Shortages during the COVID-19 Pandemic*, by Chiu Yu Ko, Nouri Najjar, and Adam Fremeth. The pandemic disrupted supplies of personal protective equipment and prices on the platform rose. The class examined whether the company should make supplies, buy them, or wait, and how its response would affect both profitability and access. [Ivey case W33330](https://www.iveypublishing.ca/s/product/hktvmall-responding-to-shortages-during-the-covid19-pandemic/01t5c00000CBbBDAA1)
-
-## Your procurement decision
-
-::: {.decision}
-**You run an independent retailer.** Choose a supply contract, selling price, and allocation rule. You want to reach at least **25 priority households** and earn a positive contribution. What would you do if that access target were relaxed?
-:::
-
-All figures below are invented for this exercise. A pack serves one household. The retailer pays for the entire order. Unsold stock has zero salvage value. Contribution equals sales revenue less procurement cost, before overhead.
-
-| Contract | Packs | Cost per pack | Total cost |
-| --- | ---: | ---: | ---: |
-| Immediate delivery | 100 | HK$42 | HK$4,200 |
-| Later delivery | 80 | HK$30 | HK$2,400 |
-
-Some households cannot wait and some cannot afford the higher price. The table gives eligible buyers at the time the packs arrive. A lottery gives every eligible household an equal chance. Under priority first, serve eligible priority households before other buyers and release all remaining packs immediately.
-
-| Delivery and price | Priority households | Other households |
-| --- | ---: | ---: |
-| Immediate · HK$50 | 30 | 90 |
-| Immediate · HK$70 | 10 | 70 |
-| Later · HK$50 | 14 | 90 |
-| Later · HK$70 | 4 | 70 |
-
-```{=html}
-<section class="panel" aria-labelledby="policy-title"><h2 id="policy-title">Compare your policy</h2><div class="controls">
-<label>Supply contract<select id="delivery"><option value="now">Immediate delivery</option><option value="later">Later delivery</option></select></label>
-<label>Price per pack<select id="price"><option value="50">HK$50</option><option value="70">HK$70</option></select></label>
-<label>Allocation rule<select id="allocation"><option value="lottery">Equal lottery</option><option value="priority">Priority first</option></select></label></div>
-<div class="metrics"><div class="metric"><span>Packs sold</span><b id="sold">100</b></div><div class="metric"><span>Expected priority reach</span><b id="reach">25</b></div><div class="metric"><span>Contribution</span><b id="profit">HK$800</b></div></div><p id="policy-result" class="status" aria-live="polite">The lottery reaches 25 priority households on average. Individual outcomes vary.</p>
-</section>
-```
-
-## Defend your choice
-
-First compare allocation rules while holding price and delivery fixed. Next try the cheaper supplier. Finally, change the price and see who still qualifies to buy. Which change affects contribution? Which affects access? Is the target an expected outcome or a minimum you promise to deliver?
-
-<details><summary>Work through the access target</summary>
-<p>At HK$50 with immediate delivery, 120 households want 100 packs. A lottery reaches 100 × 30/120 = <strong>25 priority households on average</strong>. Priority first serves <strong>all 30</strong> with the same HK$800 contribution (100 × 50 − 4,200). Choose priority first if you promise to serve at least 25. The posted price alone does not determine who gets access.</p>
-</details>
-<details><summary>Compare the most profitable policy</summary>
-<p>With later delivery at HK$70, only 74 households still buy. Contribution is 74 × 70 − 2,400 = <strong>HK$2,780</strong>, the highest of the four price and timing combinations. Both rules reach only four priority households. If the guaranteed access target is 25, immediate delivery at HK$50 with priority first sacrifices HK$1,980 of contribution and reaches 26 more priority households.</p>
-</details>
-
-A scarce pack is rival and excludable. Providing one can still benefit people beyond its buyer. If a retailer wishes to count those spillovers, it needs a defensible estimate of their size. The exercise reports financial contribution and access separately so that readers can state which objective drives their recommendation.
-
-[See where the case fits in the course](../original-course/index.html#cases)
-
-[Compare welfare under a lottery and a queue](../chapters/rationing.html) · [Evaluate a waste-reduction policy](../chapters/externalities.html)
+[Browse the case assignments](micro-cases.html)
