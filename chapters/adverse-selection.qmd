@@ -1,0 +1,44 @@
+---
+title: Who accepts the offer?
+summary: A buyer who raises an offer may change the quality of what comes to market. Work out which sellers accept and what their cars are worth.
+base: ..
+sectionname: Chapters
+kicker: Chapter 12 · Adverse selection
+---
+
+::: {.decision}
+**Your decision.** You can inspect the number of cars for sale, but only their owners know their quality. Would you offer 60 for any car that turns up?
+:::
+
+## Price a known car first
+
+Half the owners have a good car and half have a poor car. Each owner can keep the car and receive the value in the middle column. Buyers compete and pay the expected value to them of the cars actually offered. All values are in the same illustrative units.
+
+| Car quality | Value if owner keeps it | Value to a buyer |
+| --- | ---: | ---: |
+| Good | 90 | 100 |
+| Poor | 10 | 20 |
+
+With observable quality, competition takes the good-car price to 100 and the poor-car price to 20. Both kinds trade. Each transfer creates 10 units of surplus, measured as the buyer's valuation less the owner's value of keeping the car.
+
+## Make an offer when quality is private
+
+Across all cars, the average buyer valuation is (100 + 20) / 2 = **60**. Before paying 60, check which owners will accept. A good-car owner can keep a car worth 90. A poor-car owner can give up a car worth 10 and receive 60. Every accepting seller has a poor car, so a buyer paying 60 expects an asset worth **20** and loses **40**.
+
+The price affects participation, and participation determines the quality buyers receive. At a competitive price of 20, poor-car owners sell, good-car owners keep their cars, and buyers break even. The 10 units of potential surplus from each good-car trade go unrealized.
+
+## Change an assumption
+
+Suppose buyers can verify quality with a certificate. A good-car owner pays the verification fee and then sells for 100. **Would that owner pay a fee of 6? What about 12?** Assume the test perfectly distinguishes quality, every buyer trusts it, and the owner can always keep the car.
+
+<details><summary>Check the owner's decision</summary>
+<p>With a fee of 6, selling yields 94 after the fee, above the owner's reservation value of 90. With a fee of 12, selling yields 88, so the owner keeps the car. The private gain from verification is at most 10. Raising the price of certification can therefore cause good cars to disappear from the market again.</p>
+</details>
+
+## Take the reasoning to a trading desk
+
+A dealer also faces a selected group. A trader with favorable private information is more likely to buy. A trader with unfavorable information is more likely to sell. The dealer can use the direction of an order to revise the value at which the trade would break even. The next lesson puts a number on that revision.
+
+[Quote the next trade →](dealer-pricing.html)
+
+**Teaching source.** The good-car and poor-car valuations come from the original Week 5 contract-theory lecture. The certification calculation is a new exercise for this edition.

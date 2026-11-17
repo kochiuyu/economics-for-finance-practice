@@ -1,0 +1,21 @@
+project:
+  type: default
+  output-dir: docs
+  render:
+    - index.qmd
+    - curriculum.qmd
+    - chapters/*.qmd
+    - cases/*.qmd
+    - original-course/*.qmd
+  resources:
+    - assets/
+lang: en
+format:
+  html:
+    template: layout/course.html
+    theme: none
+    minimal: true
+    section-divs: false
+    toc: false
+    anchor-sections: false
+    html-math-method: mathml

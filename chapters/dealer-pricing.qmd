@@ -1,0 +1,64 @@
+---
+title: Quote the next trade
+summary: A dealer sees a buy order but cannot see who placed it. Use the direction of trade to update the asset value and quote again.
+base: ..
+sectionname: Chapters
+kicker: Chapter 15 · Market microstructure
+activity: dealer
+---
+
+::: {.decision}
+**Your decision.** A security pays 0 or 1 at the end of trading. The two outcomes are equally likely. Half the traders know the payoff. After one buy, what bid and ask should you post for the next order?
+:::
+
+A dealer **buys at the bid** when a trader sells and **sells at the ask** when a trader buys. An informed trader always buys when the payoff is 1 and sells when it is 0. Each uninformed trader is equally likely to buy or sell. Trader types are independently drawn across orders and independent of the payoff. Competition makes the risk-neutral dealer break even on each side. There are no inventory or processing costs in this exercise.
+
+```{=html}
+<section class="panel" aria-labelledby="desk-title" id="desk">
+<h2 id="desk-title">The trading desk</h2>
+<p>Choose an incoming order. The desk executes at the posted price and updates the quotes for the following trader.</p>
+<div class="controls"><label for="informed">Informed traders · <output id="share" for="informed">50%</output><input type="range" id="informed" min="0" max="90" step="10" value="50"></label></div>
+<div class="metrics"><div class="metric"><span>Bid · dealer buys</span><b id="bid">0.25</b></div><div class="metric"><span>Ask · dealer sells</span><b id="ask">0.75</b></div><div class="metric"><span>Probability of high value</span><b id="posterior">50.0%</b></div></div>
+<div class="buttons"><button type="button" id="buy">Buy order</button><button type="button" id="sell">Sell order</button><button type="button" class="ghost" id="undo" disabled>Undo</button><button type="button" class="ghost" id="reset">Reset orders</button></div>
+<p id="trade-status" class="status" aria-live="polite">Opening quotes. Try a buy order first.</p><p class="trail" id="history">Order history · No trades yet</p>
+<noscript><p>The worked example below follows the same desk through a buy and a sell.</p></noscript>
+</section>
+```
+
+## Why does a buy carry information?
+
+Imagine 100 possible first trades. The high and low states each account for 50. Within each state, 25 traders are informed and 25 are uninformed. The table gives expected counts, so half units are meaningful.
+
+| True payoff | Informed buys | Uninformed buys | All buys | All sells |
+| --- | ---: | ---: | ---: | ---: |
+| 1 (high) | 25 | 12.5 | 37.5 | 12.5 |
+| 0 (low) | 0 | 12.5 | 12.5 | 37.5 |
+| **Total** | **25** | **25** | **50** | **50** |
+
+Of the 50 buys, 37.5 occur in the high state. A dealer selling into the first buy therefore delivers an asset with expected payoff 37.5/50 = **0.75**. This is the opening ask. A dealer buying into a sell receives an asset with expected payoff 12.5/50 = **0.25**, the opening bid.
+
+## Work out the second quote
+
+After the buy, the probability of the high state is **0.75**. A further buy is three times as likely if the payoff is high, so prior odds of 3 to 1 become 9 to 1. A sell supplies the opposite evidence and returns the odds to 1 to 1.
+
+| Orders already observed | Belief that payoff is 1 | Bid for next sell | Ask for next buy |
+| --- | ---: | ---: | ---: |
+| None | 0.50 | 0.25 | 0.75 |
+| Buy | 0.75 | 0.50 | 0.90 |
+| Buy, then sell | 0.50 | 0.25 | 0.75 |
+
+The first buyer pays **0.75**. The **0.90** ask applies to a subsequent buy. That timing distinction is what allows a reader to reconstruct the desk's trade history.
+
+<details><summary>Derive the quotes for any informed-trader share</summary>
+<p>Write <i>p</i> for the current probability of the high payoff and <i>α</i> for the informed share. A buy has probability <i>h</i> = (1 + α)/2 in the high state and <i>l</i> = (1 − α)/2 in the low state. Bayes’ rule gives the ask as <strong>ph / [ph + (1 − p)l]</strong>. For a sell, interchange <i>h</i> and <i>l</i>. The bid is <strong>pl / [pl + (1 − p)h]</strong>. The quote on the executed side becomes the next belief because the end payoff is either 0 or 1.</p>
+</details>
+
+## Test the mechanism
+
+Set the informed share to zero and try two buys. Each order is now equally likely in either state. Both quotes stay at **0.50**. Restore the share to 50% and compare a buy followed by a sell with two consecutive buys. Which history would persuade you more that the asset is valuable?
+
+An actual desk may also charge for inventory risk or processing. To assess whether asymmetric information helps explain a spread, look at whether order direction predicts subsequent changes in value and whether the changes persist.
+
+**Teaching source.** The sequential-trading example comes from Week 6 of the original course. The model follows Lawrence Glosten and Paul Milgrom (1985). [Article and bibliographic details](https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders)
+
+[Review adverse selection](adverse-selection.html) · [Open the course map](../curriculum.html)

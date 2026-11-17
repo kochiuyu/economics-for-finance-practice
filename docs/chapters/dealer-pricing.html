@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quote the next trade · Economics for Finance Practice</title>
+<meta name="description" content="A dealer sees a buy order but cannot see who placed it. Use the direction of trade to update the asset value and quote again.">
+<link rel="stylesheet" href="../assets/course.css">
+<script src="../assets/dealer.js" defer=""></script>
+</head>
+<body class="">
+<a href="#main" class="skip">Skip to content</a>
+<header class="mast"><div class="bar"><a class="brand" href="../index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Economics for Finance Practice</a>
+<nav aria-label="Course navigation"><a href="../curriculum.html">Course map</a><a href="../index.html#activities">Activities</a><a href="../original-course/index.html">Course record</a></nav></div></header>
+<main id="main" class="frame" tabindex="-1">
+<div class="crumb"><a href="../index.html">Home</a><span aria-hidden="true"> / </span>Chapters</div><header class="pagehead"><span class="kicker">Chapter 15 · Market microstructure</span><h1>Quote the next trade</h1><p class="dek">A dealer sees a buy order but cannot see who placed it. Use the direction of trade to update the asset value and quote again.</p></header>
+<div class="decision">
+<p><strong>Your decision.</strong> A security pays 0 or 1 at the end of trading. The two outcomes are equally likely. Half the traders know the payoff. After one buy, what bid and ask should you post for the next order?</p>
+</div>
+<p>A dealer <strong>buys at the bid</strong> when a trader sells and <strong>sells at the ask</strong> when a trader buys. An informed trader always buys when the payoff is 1 and sells when it is 0. Each uninformed trader is equally likely to buy or sell. Trader types are independently drawn across orders and independent of the payoff. Competition makes the risk-neutral dealer break even on each side. There are no inventory or processing costs in this exercise.</p>
+<section class="panel" aria-labelledby="desk-title" id="desk">
+<h2 id="desk-title">The trading desk</h2>
+<p>Choose an incoming order. The desk executes at the posted price and updates the quotes for the following trader.</p>
+<div class="controls"><label for="informed">Informed traders · <output id="share" for="informed">50%</output><input type="range" id="informed" min="0" max="90" step="10" value="50"></label></div>
+<div class="metrics"><div class="metric"><span>Bid · dealer buys</span><b id="bid">0.25</b></div><div class="metric"><span>Ask · dealer sells</span><b id="ask">0.75</b></div><div class="metric"><span>Probability of high value</span><b id="posterior">50.0%</b></div></div>
+<div class="buttons"><button type="button" id="buy">Buy order</button><button type="button" id="sell">Sell order</button><button type="button" class="ghost" id="undo" disabled="">Undo</button><button type="button" class="ghost" id="reset">Reset orders</button></div>
+<p id="trade-status" class="status" aria-live="polite">Opening quotes. Try a buy order first.</p><p class="trail" id="history">Order history · No trades yet</p>
+<noscript><p>The worked example below follows the same desk through a buy and a sell.</p></noscript>
+</section>
+<h2 id="why-does-a-buy-carry-information">Why does a buy carry information?</h2>
+<p>Imagine 100 possible first trades. The high and low states each account for 50. Within each state, 25 traders are informed and 25 are uninformed. The table gives expected counts, so half units are meaningful.</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>True payoff</th>
+<th style="text-align: right;">Informed buys</th>
+<th style="text-align: right;">Uninformed buys</th>
+<th style="text-align: right;">All buys</th>
+<th style="text-align: right;">All sells</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 (high)</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right;">37.5</td>
+<td style="text-align: right;">12.5</td>
+</tr>
+<tr class="even">
+<td>0 (low)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right;">37.5</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>25</strong></td>
+<td style="text-align: right;"><strong>25</strong></td>
+<td style="text-align: right;"><strong>50</strong></td>
+<td style="text-align: right;"><strong>50</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Of the 50 buys, 37.5 occur in the high state. A dealer selling into the first buy therefore delivers an asset with expected payoff 37.5/50 = <strong>0.75</strong>. This is the opening ask. A dealer buying into a sell receives an asset with expected payoff 12.5/50 = <strong>0.25</strong>, the opening bid.</p>
+<h2 id="work-out-the-second-quote">Work out the second quote</h2>
+<p>After the buy, the probability of the high state is <strong>0.75</strong>. A further buy is three times as likely if the payoff is high, so prior odds of 3 to 1 become 9 to 1. A sell supplies the opposite evidence and returns the odds to 1 to 1.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Orders already observed</th>
+<th style="text-align: right;">Belief that payoff is 1</th>
+<th style="text-align: right;">Bid for next sell</th>
+<th style="text-align: right;">Ask for next buy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>None</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td>Buy</td>
+<td style="text-align: right;">0.75</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.90</td>
+</tr>
+<tr class="odd">
+<td>Buy, then sell</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+</tbody>
+</table>
+<p>The first buyer pays <strong>0.75</strong>. The <strong>0.90</strong> ask applies to a subsequent buy. That timing distinction is what allows a reader to reconstruct the desk’s trade history.</p>
+<details>
+<summary>
+Derive the quotes for any informed-trader share
+</summary>
+<p>
+Write <i>p</i> for the current probability of the high payoff and <i>α</i> for the informed share. A buy has probability <i>h</i> = (1 + α)/2 in the high state and <i>l</i> = (1 − α)/2 in the low state. Bayes’ rule gives the ask as <strong>ph / [ph + (1 − p)l]</strong>. For a sell, interchange <i>h</i> and <i>l</i>. The bid is <strong>pl / [pl + (1 − p)h]</strong>. The quote on the executed side becomes the next belief because the end payoff is either 0 or 1.
+</p>
+</details>
+<h2 id="test-the-mechanism">Test the mechanism</h2>
+<p>Set the informed share to zero and try two buys. Each order is now equally likely in either state. Both quotes stay at <strong>0.50</strong>. Restore the share to 50% and compare a buy followed by a sell with two consecutive buys. Which history would persuade you more that the asset is valuable?</p>
+<p>An actual desk may also charge for inventory risk or processing. To assess whether asymmetric information helps explain a spread, look at whether order direction predicts subsequent changes in value and whether the changes persist.</p>
+<p><strong>Teaching source.</strong> The sequential-trading example comes from Week 6 of the original course. The model follows Lawrence Glosten and Paul Milgrom (1985). <a href="https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders">Article and bibliographic details</a></p>
+<p><a href="adverse-selection.html">Review adverse selection</a> · <a href="../curriculum.html">Open the course map</a></p>
+</main>
+<footer><div class="foot"><span>Economics for Finance Practice <span aria-hidden="true">/</span> Chiu Yu Ko</span><a href="https://github.com/kochiuyu/economics-for-finance-practice">Project on GitHub ↗</a></div></footer>
+
+</body></html>

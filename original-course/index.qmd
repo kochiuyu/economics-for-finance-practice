@@ -1,0 +1,53 @@
+---
+title: The original course
+summary: Economics for Finance Practice was a required course for part-time Master of Finance students at The Chinese University of Hong Kong.
+base: ..
+sectionname: Course record
+kicker: CUHK Business School · FINA 6282
+---
+
+**Instructor:** Chiu Yu Ko. **Teaching term:** second trimester, December 2023 to March 2024. The January 2024 outline described a course spanning microeconomics, macroeconomics, and applications to finance. Students used models in quizzes, group case discussions, and a cumulative examination.
+
+## From the lectures to the public chapters
+
+The archive contains ten numbered lecture sources. The dated outline marked trade and additional finance topics as time-permitting. The table records the topics prepared and where the public edition develops them. [Explore the full chapter map](../curriculum.html)
+
+| Lecture | Topic in the teaching archive | Public edition |
+| ---: | --- | --- |
+| 1 | Markets and financial markets | Chapters 1 and 4, with market efficiency revisited in 10 |
+| 2 | Foundations of the market mechanism | Chapters 2–4 and the formal microeconomics notes |
+| 3 | Uncertainty and intertemporal choice | Chapters 5–7 and 9 on saving, risk, valuation, and beta |
+| 4 | Game theory | Chapters 11 and 17 on strategic entry and bank runs |
+| 5 | Contract theory | Chapters 12–13 and IPO signaling in 16. [Adverse-selection lesson](../chapters/adverse-selection.html) |
+| 6 | Public goods, externalities, and sequential trading | Chapters 15 and 18. [Dealer-pricing lab](../chapters/dealer-pricing.html) |
+| 7 | Information, technology, and network effects | Chapters 19–20 on lending platforms and payments |
+| 8 | Classical macroeconomics and economic growth | Chapters 21–23 on measurement, growth, and aggregate shocks |
+| 9 | Keynesian macroeconomics and the business cycle | Chapters 23–24 on fluctuations and policy transmission |
+| 10 | Trade and exchange rates | Chapters 26–29 on trade, foreign exchange, and cross-border finance |
+
+## Five assigned cases {#cases}
+
+| Published case | Question addressed in class |
+| --- | --- |
+| [Should Maruti Suzuki Invest in Electric Cars?](https://store.hbr.org/product/should-maruti-suzuki-invest-in-electric-cars/W18345) | Should the automaker enter now or wait? Which rivals and policy choices belong in its entry game? |
+| [HKTVmall: Responding to Shortages during the COVID-19 Pandemic](https://www.iveypublishing.ca/s/product/hktvmall-responding-to-shortages-during-the-covid19-pandemic/01t5c00000CBbBDAA1) | How should a retailer procure, price, and allocate scarce supplies? [Try the public exercise](../cases/hktvmall.html) |
+| [Dianrong: Marketplace Lending, Blockchain, and “The New Finance” in China](https://store.hbr.org/product/dianrong-marketplace-lending-blockchain-and-the-new-finance-in-china/218043) | How far should the lending platform expand across the value chain, and how should it fund expansion? |
+| [COVID-19: The Global Shutdown](https://store.hbr.org/product/covid-19-the-global-shutdown/320108) | How did demand, supply, and policy responses interact across economies? |
+| [The U.S.–China Trade War](https://store.hbr.org/product/the-u-s-china-trade-war/719034) | Which firms bear the costs of tariffs, and how might firms and governments respond? |
+
+## Assessment
+
+| Component | Weight | Format |
+| --- | ---: | --- |
+| Participation | 5% | Contribution to class discussion |
+| Quizzes | 20% | Two multiple-choice quizzes |
+| Group project | 30% | Case report, presentation, and discussion |
+| Final exam | 45% | Cumulative examination with multiple-choice questions and an applied micro case |
+
+The final exam used a Hong Kong waste-charging scenario. A separate sample exercise asked students to interpret co-movement in Shenzhen property prices and IPO activity. The public edition uses that second exercise as the starting point for its planned evidence workshops and capstone.
+
+## About this edition
+
+The 2024 syllabus, numbered lecture files, and case question pack establish the original course record. Earlier drafts contain additional portfolio and behavioral material. The public edition expands these into dedicated chapters. Its interactive exercises and illustrative datasets are identified on the relevant pages.
+
+[Read the source register on GitHub](https://github.com/kochiuyu/economics-for-finance-practice/blob/main/planning/source-register.md)
