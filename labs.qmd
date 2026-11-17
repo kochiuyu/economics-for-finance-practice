@@ -1,0 +1,11 @@
+---
+title: Finance labs
+summary: Choose a model and test how its results change when you vary an assumption.
+base: .
+sectionname: Labs
+kicker: Interactive learning
+---
+
+```{=html}
+<div class="lab-grid"><a class="tile" href="chapters/state-prices.html#mix-title"><h3>Move a payoff between recession and expansion</h3><p>Two claims have the same average payoff. Recover their prices by building portfolios that reproduce their payments.</p><span class="tile-link">Open lab →</span></a><a class="tile" href="chapters/portfolio-choice.html#portfolio-lab"><h3>Find the lowest-volatility portfolio</h3><p>Vary the weights of two risky funds and find the allocation with the lowest volatility.</p><span class="tile-link">Open lab →</span></a><a class="tile" href="chapters/dealer-pricing.html#desk"><h3>Quote the next trade</h3><p>A dealer sees a buy order but cannot see who placed it. Use the direction of trade to update the asset value and quote again.</p><span class="tile-link">Open lab →</span></a><a class="tile" href="chapters/bank-liquidity.html#bank-title"><h3>Stress-test a bank’s liquidity</h3><p>Use a small balance sheet to find the withdrawal that exhausts equity and the larger withdrawal that exhausts cash.</p><span class="tile-link">Open lab →</span></a></div>
+```

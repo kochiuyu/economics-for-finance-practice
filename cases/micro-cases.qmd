@@ -1,6 +1,7 @@
 ---
 title: Micro Cases by chapter
 summary: Choose a short business decision to discuss after a finance chapter.
+kind: case-guide
 base: ..
 sectionname: Cases
 kicker: Companion case collection
@@ -8,55 +9,57 @@ kicker: Companion case collection
 
 All case assignments use our Micro Cases collection. Choose a seminar below or find an application by chapter. [Browse the collection](https://kochiuyu.github.io/micro-cases/index.html)
 
-## Five case seminars
+[Five seminar assignments](#seminars) · [Cases by chapter](#markets-and-pricing)
 
-- [FIN-22 · Commit now. Pay for the option to wait?](https://kochiuyu.github.io/micro-cases/pay-for-time-to-decide.html) — What information would make paying the reservation fee worthwhile?
-- [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html) — How should the organiser allocate 100 books when the price is capped?
-- [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html) — How many deliveries can the marketplace match within each district and time window?
-- [FIN-03 · The biggest order, the smallest cash balance](https://kochiuyu.github.io/micro-cases/cash-flow.html) — Which payment terms preserve the workshop’s cash buffer?
-- [OPS-05 · Two suppliers. One factory?](https://kochiuyu.github.io/micro-cases/shared-factory.html) — Does splitting orders across distributors protect the buyer if both depend on one factory?
+## Five case seminars {#seminars}
+
+- [Commit now. Pay for the option to wait? (FIN-22)](https://kochiuyu.github.io/micro-cases/pay-for-time-to-decide.html) — What information would make paying the reservation fee worthwhile?
+- [A price cap. Which shortage remains? (ECO-19)](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html) — How should the organiser allocate 100 books when the price is capped?
+- [One hundred couriers. One hundred matches? (ECO-05)](https://kochiuyu.github.io/micro-cases/local-matches.html) — How many deliveries can the marketplace match within each district and time window?
+- [The biggest order, the smallest cash balance (FIN-03)](https://kochiuyu.github.io/micro-cases/cash-flow.html) — Which payment terms preserve the workshop’s cash buffer?
+- [Two suppliers. One factory? (OPS-05)](https://kochiuyu.github.io/micro-cases/shared-factory.html) — Does splitting orders across distributors protect the buyer if both depend on one factory?
 
 ## Markets and pricing
 
 | Chapter | Micro Case | Discussion question |
 | --- | --- | --- |
-| [2. demand elasticity](../chapters/demand-elasticity.html) | [ECO-04 · Fewer sales. A worse price?](https://kochiuyu.github.io/micro-cases/fewer-jobs.html) | When does a lower sales volume still justify the new price? |
-| [3. costs capacity](../chapters/costs-capacity.html) | [ECO-11 · A profitable day. One more hour?](https://kochiuyu.github.io/micro-cases/one-more-hour.html) | Which costs and receipts change if the business stays open one more hour? |
-| [4. rationing](../chapters/rationing.html) | [ECO-19 · A price cap. Which shortage remains?](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html) | Who receives the scarce units when a price ceiling binds? |
+| [2. demand elasticity](../chapters/demand-elasticity.html) | [Fewer sales. A worse price? (ECO-04)](https://kochiuyu.github.io/micro-cases/fewer-jobs.html) | When does a lower sales volume still justify the new price? |
+| [3. costs capacity](../chapters/costs-capacity.html) | [A profitable day. One more hour? (ECO-11)](https://kochiuyu.github.io/micro-cases/one-more-hour.html) | Which costs and receipts change if the business stays open one more hour? |
+| [4. rationing](../chapters/rationing.html) | [A price cap. Which shortage remains? (ECO-19)](https://kochiuyu.github.io/micro-cases/price-cap-shortage-remains.html) | Who receives the scarce units when a price ceiling binds? |
 
 ## Investment and risk
 
 | Chapter | Micro Case | Discussion question |
 | --- | --- | --- |
-| [5. project appraisal](../chapters/project-appraisal.html) | [FIN-08 · Back sooner. Worth more?](https://kochiuyu.github.io/micro-cases/back-sooner.html) | Would the project with the faster payback also win on present value? |
-| [6. risk insurance](../chapters/risk-insurance.html) | [FIN-24 · A lower premium. How much risk stays here?](https://kochiuyu.github.io/micro-cases/lower-premium-repeated-deductible.html) | How much loss does the buyer retain through repeated deductibles? |
-| [8. portfolio choice](../chapters/portfolio-choice.html) | [FIN-16 · Two income streams. One bad month?](https://kochiuyu.github.io/micro-cases/cash-moves-together.html) | How much protection does a second income stream provide in a bad month? |
-| [9. market risk](../chapters/market-risk.html) | [FIN-15 · One company. One hurdle rate?](https://kochiuyu.github.io/micro-cases/one-company-one-hurdle.html) | Which risks justify using different hurdle rates across projects? |
-| [10. behavioral finance](../chapters/behavioral-finance.html) | [ECO-29 · The default stays. Is it the preferred choice?](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html) | What evidence would distinguish a preference from the effect of a default? |
+| [5. project appraisal](../chapters/project-appraisal.html) | [Back sooner. Worth more? (FIN-08)](https://kochiuyu.github.io/micro-cases/back-sooner.html) | Would the project with the faster payback also win on present value? |
+| [6. risk insurance](../chapters/risk-insurance.html) | [A lower premium. How much risk stays here? (FIN-24)](https://kochiuyu.github.io/micro-cases/lower-premium-repeated-deductible.html) | How much loss does the buyer retain through repeated deductibles? |
+| [8. portfolio choice](../chapters/portfolio-choice.html) | [Two income streams. One bad month? (FIN-16)](https://kochiuyu.github.io/micro-cases/cash-moves-together.html) | How much protection does a second income stream provide in a bad month? |
+| [9. market risk](../chapters/market-risk.html) | [One company. One hurdle rate? (FIN-15)](https://kochiuyu.github.io/micro-cases/one-company-one-hurdle.html) | Which risks justify using different hurdle rates across projects? |
+| [10. behavioral finance](../chapters/behavioral-finance.html) | [The default stays. Is it the preferred choice? (ECO-29)](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html) | What evidence would distinguish a preference from the effect of a default? |
 
 ## Strategy and contracts
 
 | Chapter | Micro Case | Discussion question |
 | --- | --- | --- |
-| [11. strategic entry](../chapters/strategic-entry.html) | [ECO-17 · We will launch if you do.](https://kochiuyu.github.io/micro-cases/ready-only-if-both-are-ready.html) | Which commitment would make it profitable for the other party to launch? |
-| [12. adverse selection](../chapters/adverse-selection.html) | [ECO-13 · A promise of quality. Costly for whom?](https://kochiuyu.github.io/micro-cases/promise-costs.html) | What makes a quality signal cheaper for a high-quality seller to send? |
-| [13. borrower incentives](../chapters/borrower-incentives.html) | [ECO-10 · Covered damage. Unchanged behaviour?](https://kochiuyu.github.io/micro-cases/covered-damage.html) | Which action becomes harder to induce after damage is covered? |
-| [14. debt equity](../chapters/debt-equity.html) | [FIN-29 · The same ownership. The same exit proceeds?](https://kochiuyu.github.io/micro-cases/same-ownership-different-exit.html) | How do contractual priorities change the proceeds from an exit? |
-| [16. ipo auctions](../chapters/ipo-auctions.html) | [ECO-12 · The highest estimate. The best bid?](https://kochiuyu.github.io/micro-cases/winning-is-information.html) | What information about the asset does winning the bid reveal? |
+| [11. strategic entry](../chapters/strategic-entry.html) | [We will launch if you do. (ECO-17)](https://kochiuyu.github.io/micro-cases/ready-only-if-both-are-ready.html) | Which commitment would make it profitable for the other party to launch? |
+| [12. adverse selection](../chapters/adverse-selection.html) | [A promise of quality. Costly for whom? (ECO-13)](https://kochiuyu.github.io/micro-cases/promise-costs.html) | What makes a quality signal cheaper for a high-quality seller to send? |
+| [13. borrower incentives](../chapters/borrower-incentives.html) | [Covered damage. Unchanged behaviour? (ECO-10)](https://kochiuyu.github.io/micro-cases/covered-damage.html) | Which action becomes harder to induce after damage is covered? |
+| [14. debt equity](../chapters/debt-equity.html) | [The same ownership. The same exit proceeds? (FIN-29)](https://kochiuyu.github.io/micro-cases/same-ownership-different-exit.html) | How do contractual priorities change the proceeds from an exit? |
+| [16. ipo auctions](../chapters/ipo-auctions.html) | [The highest estimate. The best bid? (ECO-12)](https://kochiuyu.github.io/micro-cases/winning-is-information.html) | What information about the asset does winning the bid reveal? |
 
 ## Banks, policy, and platforms
 
 | Chapter | Micro Case | Discussion question |
 | --- | --- | --- |
-| [17. bank liquidity](../chapters/bank-liquidity.html) | [FIN-09 · One bank. Two kinds of safety.](https://kochiuyu.github.io/micro-cases/protected-and-available.html) | When can a protected balance still leave the depositor short of cash? |
-| [18. externalities](../chapters/externalities.html) | [ECO-30 · A better private deal. A cost outside the contract?](https://kochiuyu.github.io/micro-cases/outside-the-quiet-deal.html) | Which cost falls on someone outside the agreement? |
-| [19. lending platforms](../chapters/lending-platforms.html) | [ECO-05 · One hundred couriers. One hundred matches?](https://kochiuyu.github.io/micro-cases/local-matches.html) | Does adding participants create more completed matches? |
+| [17. bank liquidity](../chapters/bank-liquidity.html) | [One bank. Two kinds of safety. (FIN-09)](https://kochiuyu.github.io/micro-cases/protected-and-available.html) | When can a protected balance still leave the depositor short of cash? |
+| [18. externalities](../chapters/externalities.html) | [A better private deal. A cost outside the contract? (ECO-30)](https://kochiuyu.github.io/micro-cases/outside-the-quiet-deal.html) | Which cost falls on someone outside the agreement? |
+| [19. lending platforms](../chapters/lending-platforms.html) | [One hundred couriers. One hundred matches? (ECO-05)](https://kochiuyu.github.io/micro-cases/local-matches.html) | Does adding participants create more completed matches? |
 
 ## Valuation and treasury
 
 | Chapter | Micro Case | Discussion question |
 | --- | --- | --- |
-| [22. long run valuation](../chapters/long-run-valuation.html) | [FIN-26 · Cash flows continue. How much is the ending worth?](https://kochiuyu.github.io/micro-cases/cash-flows-continue-ending-worth.html) | How much of the valuation depends on cash flows beyond the explicit forecast? |
-| [25. yield curves](../chapters/yield-curves.html) | [FIN-21 · Same yield. Same interest-rate risk?](https://kochiuyu.github.io/micro-cases/same-yield-different-duration.html) | Which instrument loses more value after the same change in yield? |
-| [27. currency hedging](../chapters/currency-hedging.html) | [FIN-04 · The invoice is not the exposure](https://kochiuyu.github.io/micro-cases/invoice-exposure.html) | Which receipts and payments offset the invoice before a hedge is sized? |
-| [29. foreign currency debt](../chapters/foreign-currency-debt.html) | [FIN-30 · Affordable interest. A repayable principal?](https://kochiuyu.github.io/micro-cases/interest-paid-principal-due.html) | Where will the cash to repay principal come from at maturity? |
+| [22. long run valuation](../chapters/long-run-valuation.html) | [Cash flows continue. How much is the ending worth? (FIN-26)](https://kochiuyu.github.io/micro-cases/cash-flows-continue-ending-worth.html) | How much of the valuation depends on cash flows beyond the explicit forecast? |
+| [25. yield curves](../chapters/yield-curves.html) | [Same yield. Same interest-rate risk? (FIN-21)](https://kochiuyu.github.io/micro-cases/same-yield-different-duration.html) | Which instrument loses more value after the same change in yield? |
+| [27. currency hedging](../chapters/currency-hedging.html) | [The invoice is not the exposure (FIN-04)](https://kochiuyu.github.io/micro-cases/invoice-exposure.html) | Which receipts and payments offset the invoice before a hedge is sized? |
+| [29. foreign currency debt](../chapters/foreign-currency-debt.html) | [Affordable interest. A repayable principal? (FIN-30)](https://kochiuyu.github.io/micro-cases/interest-paid-principal-due.html) | Where will the cash to repay principal come from at maturity? |

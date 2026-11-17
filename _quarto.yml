@@ -4,6 +4,7 @@ project:
   render:
     - index.qmd
     - curriculum.qmd
+    - labs.qmd
     - chapters/*.qmd
     - cases/*.qmd
     - original-course/*.qmd

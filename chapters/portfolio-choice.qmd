@@ -20,7 +20,7 @@ Assume the funds’ returns are uncorrelated. Investing 10% in equities and 90% 
 Compare the same 50/50 allocation at three correlations. Its expected return stays at 6%. Watch what happens to volatility and to the equity weight that minimizes it.
 
 ```{=html}
-<section class="panel" aria-label="Two-fund portfolio lab"><div class="controls"><label>Equity weight (%)<input id="weight" type="range" min="-100" max="200" value="50" step="1"></label><label>Return correlation<select id="corr"><option>-0.5</option><option selected>0</option><option>0.8</option></select></label><label>Portfolio constraint<select id="limit"><option value="long">Long only</option><option value="short">Allow short sales</option></select></label></div><p id="mix" role="status"></p></section>
+<section id="portfolio-lab" class="panel" aria-label="Two-fund portfolio lab"><div class="controls"><label>Equity weight (%)<input id="weight" type="range" min="-100" max="200" value="50" step="1"></label><label>Return correlation<select id="corr"><option>-0.5</option><option selected>0</option><option>0.8</option></select></label><label>Portfolio constraint<select id="limit"><option value="long">Long only</option><option value="short">Allow short sales</option></select></label></div><p id="mix" role="status"></p></section>
 ```
 
 For equity weight w, the bond weight is 1 − w. Portfolio variance equals the two weighted variance terms above plus **2w(1 − w) × 0.20 × 0.10 × correlation**. A positive covariance increases risk for a long-only mix. At 50/50, volatility rises from 8.66% at correlation −0.5 to 11.18% at zero and 14.32% at 0.8.
