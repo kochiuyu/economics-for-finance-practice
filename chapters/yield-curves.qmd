@@ -1,0 +1,41 @@
+---
+title: Which debt is exposed to a rate increase?
+summary: Reprice two repayment schedules under different yield curves and identify the cash the borrower must actually refinance.
+base: ..
+sectionname: Chapters
+kicker: Chapter 25 · Fixed income
+---
+
+::: {.decision}
+**Your decision.** A treasury team has two fixed obligations, each promising HK$100 million once. One matures in a year and the other in five years. The CFO asks which is more vulnerable to rising rates. Are you preparing a market-value report or next year’s funding budget?
+:::
+
+## Discount each payment at its maturity
+
+Use annual effective spot rates, which price a single payment at its maturity. Assume certain payment and no credit spread. Initially the curve is flat at 4%. A parallel shift raises every spot rate to 5%. In the steepening scenario the one-year rate stays at 4% and the five-year rate rises to 6%.
+
+| Scenario | One-year obligation today | Five-year obligation today |
+| --- | ---: | ---: |
+| Flat at 4% | HK$96.15m | HK$82.19m |
+| Parallel rise to 5% | HK$95.24m | HK$78.35m |
+| Steepening to 4% and 6% | HK$96.15m | HK$74.73m |
+
+The five-year price under steepening is 100 / 1.06⁵. A portfolio with several payments needs a rate for each payment date. A change in a single headline rate cannot determine its exact price change under a twist in the curve.
+
+## Use duration for a quick check
+
+A zero-coupon claim has Macaulay duration equal to its maturity. Its modified duration at a 4% annual yield is maturity / 1.04. For the five-year claim, that gives 4.81. A one-percentage-point parallel increase predicts about a **4.81% price fall**. Exact repricing gives 78.35 / 82.19 − 1 ≈ **−4.67%**. Duration uses the slope at the starting yield. Curvature explains the approximation error. The one-year claim has much less price sensitivity because its payment arrives sooner.
+
+## Build next year’s funding budget
+
+Assume each obligation stays outstanding until maturity. There are no coupons. A rise in market yields reduces the value of each liability today, but the issuer still owes the contracted HK$100 million at maturity. The five-year issuer needs no principal refinancing next year. The one-year issuer must repay or roll over the full HK$100 million.
+
+<details><summary>Compare two renewal offers</summary>
+<p>At maturity the one-year issuer can borrow HK$100 million for another year at either 4% or 6% in two hypothetical funding scenarios. The following year’s interest bill is HK$4 million or HK$6 million. This HK$2 million difference is a future cash cost. Today’s price change in the old liability is a separate calculation. Today’s spot rates alone do not tell us which renewal offer will be available a year from now.</p>
+</details>
+
+**Committee answer.** Flag the five-year claim for market-value sensitivity and the one-year claim for near-term funding risk. For an actual issuer, request the maturity ladder, floating-rate reset dates, available cash, and the spread lenders would charge at renewal.
+
+**Teaching source.** This new fixed-income application extends the dated-cash-flow and monetary-transmission lessons. All rates and repayment schedules are illustrative.
+
+[Previous · Long-run valuation](long-run-valuation.html) · [Return to the course map](../curriculum.html)

@@ -26,9 +26,9 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 
 | Route | Chapter sequence |
 | --- | --- |
-| Investment analysis | [5](chapters/project-appraisal.html) → [6](chapters/risk-insurance.html) → [7](chapters/state-prices.html) → [8](chapters/portfolio-choice.html) → [9](chapters/market-risk.html) → 10 → 22 → 25 |
-| Credit and banking | [12](chapters/adverse-selection.html) → 13 → 14 → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → 25 → 29 |
-| Corporate treasury in Hong Kong | 3 → [5](chapters/project-appraisal.html) → 25 → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
+| Investment analysis | [5](chapters/project-appraisal.html) → [6](chapters/risk-insurance.html) → [7](chapters/state-prices.html) → [8](chapters/portfolio-choice.html) → [9](chapters/market-risk.html) → [10](chapters/behavioral-finance.html) → [22](chapters/long-run-valuation.html) → [25](chapters/yield-curves.html) |
+| Credit and banking | [12](chapters/adverse-selection.html) → 13 → 14 → [17](chapters/bank-liquidity.html) → [24](chapters/policy-transmission.html) → [25](chapters/yield-curves.html) → 29 |
+| Corporate treasury in Hong Kong | 3 → [5](chapters/project-appraisal.html) → [25](chapters/yield-curves.html) → 26 → 27 → [28](chapters/hong-kong-exchange-rate.html) → 29 |
 | Markets and fintech | [1](chapters/market-prices.html) → [12](chapters/adverse-selection.html) → [15](chapters/dealer-pricing.html) → 16 → 19 → 20 |
 
 ## Part I. Markets, firms, and prices
@@ -45,7 +45,7 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 - [7. State prices and the value of insurance in a downturn](chapters/state-prices.html)
 - [8. Diversification and portfolio choice](chapters/portfolio-choice.html)
 - [9. Which risks command a premium?](chapters/market-risk.html)
-- 10. Behavioral finance and limits to arbitrage
+- [10. Behavioral finance and limits to arbitrage](chapters/behavioral-finance.html)
 
 ## Part III. Strategy, information, and financial contracts
 
@@ -66,10 +66,10 @@ Linked chapters are available. The remaining chapters and workshops are planned.
 ## Part V. Macroeconomics and fixed income
 
 - [21. Reading growth, prices, and real returns](chapters/real-returns.html)
-- 22. Productivity and long-run valuation
+- [22. Productivity and long-run valuation](chapters/long-run-valuation.html)
 - [23. Business cycles, demand, and supply shocks](chapters/business-cycle-shocks.html)
 - [24. Monetary and fiscal transmission](chapters/policy-transmission.html)
-- 25. Yield curves, duration, and refinancing
+- [25. Yield curves, duration, and refinancing](chapters/yield-curves.html)
 
 ## Part VI. Trade, currencies, and international finance
 

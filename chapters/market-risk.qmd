@@ -45,4 +45,4 @@ Imagine a two-factor model under which A’s market loading is still 0.4 and its
 
 **Teaching source.** Week 3 introduces consumption-based pricing and market beta. The comparison and four-observation worksheet are new illustrations.
 
-[Return to portfolio choice](portfolio-choice.html) · [Explore the course map](../curriculum.html)
+[Return to portfolio choice](portfolio-choice.html) · [Next · Behavioral finance](behavioral-finance.html) · [Explore the course map](../curriculum.html)

@@ -16,5 +16,7 @@ The teaching archive is the 2023–24 CUHK FINA 6282 folder maintained by Chiu Y
 | Measurement, shocks, and policy (21, 23–24) | Weeks 8–9 on national accounts, inflation, AD–AS, and IS–MP | Illustrative price index, matched firms, and borrower coverage scenarios. |
 | Hong Kong exchange-rate regimes (28) | Week 10 on fixed regimes and capital mobility, HKMA description of the LERS | Official mechanism identified on page. Invoice, funding terms, and floating counterfactual are illustrative. |
 | Global shutdown seminar | Alfaro and Jeong, HBS 320-108, original case assignment and IMF April 2020 outlook | Separates the dated IMF forecast from new fictional bridge-loan scenarios. |
+| Investment route (8-10) | Earlier combined slides and outline, Week 3 on risk pricing | New portfolio allocation lab, beta worksheet, purchase-history comparison, and collateral stress exercise. All numerical exhibits are illustrative. |
+| Growth and fixed income (22, 25) | Week 8 on growth, dated cash flows in Week 3, policy transmission in Week 9 | New supplier terminal-value audit and two-maturity repricing and refinancing exercises. |
 
 The public project includes independently written pages and links to publisher records. The full case texts, teaching notes, private keys to assessments, and other instructors' materials remain in the teaching archive.
