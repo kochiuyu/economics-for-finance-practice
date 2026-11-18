@@ -1,7 +1,16 @@
 (() => {
   const openRoute = () => {
     const target = document.getElementById(location.hash.slice(1));
-    if (target instanceof HTMLDetailsElement) target.open = true;
+    if (!target) return;
+    if (target instanceof HTMLDetailsElement) {
+      target.open = true;
+      return;
+    }
+    const parent = target.closest('details');
+    if (parent && !parent.open) {
+      parent.open = true;
+      requestAnimationFrame(() => target.scrollIntoView());
+    }
   };
   openRoute();
   window.addEventListener('hashchange', openRoute);
@@ -45,6 +54,14 @@
       const full = active.id === 'full-course';
       top.append(active.dataset.routeName+' · '+(full ? 'Step ' : 'Lesson ')+(i+1)+' of '+steps.length,
         anchor(full ? 'View full sequence' : 'View route',mapURL));
+      function routeSection(suffix) {
+        const url = new URL(mapURL);
+        url.hash = active.id+'-'+suffix;
+        return url;
+      }
+      if (map.getElementById(active.id+'-overview')) top.append(anchor('Route overview',routeSection('overview')));
+      const hasTakeaways = map.getElementById(active.id+'-takeaways');
+      if (hasTakeaways) top.append(anchor('Route takeaways',routeSection('takeaways')));
       const bottom = document.createElement('nav');
       bottom.className = 'route-nav';
       bottom.setAttribute('aria-label','Continue reading');
@@ -55,6 +72,11 @@
         const a = anchor(label+' · '+step.textContent,new URL(step.getAttribute('href'),mapURL));
         a.rel = rel;
         links.append(a);
+      }
+      if (i === steps.length-1 && hasTakeaways) {
+        const takeaway = anchor('Next · Route takeaways',routeSection('takeaways'));
+        takeaway.rel = 'next';
+        links.append(takeaway);
       }
       links.append(anchor('Return to '+active.dataset.routeName,mapURL));
       bottom.append(links);
