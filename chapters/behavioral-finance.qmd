@@ -53,7 +53,9 @@ The two decisions answer different questions. A preference for realizing gains c
 <section aria-label="Practice brief"><h2>What belongs on the sale ticket when either share raises the cash?</h2><details><summary>Compare your recommendation</summary><p>With identical prospects and no tax effects, either sale raises HK$100. If losses can offset gains immediately, selling B in the original account improves today’s tax cash flow by HK$12 relative to selling A. Verify the offset before relying on it.</p></details></section>
 ```
 
-**Apply the model.** What evidence would distinguish a preference from the effect of a default? [ECO-29 · The default stays. Is it the preferred choice?](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html)
+**Apply the model.** Should the sale change when only the original purchase prices are swapped, and when does a higher sale cost change the answer? [FIN-46 · Which share would you sell?](https://kochiuyu.github.io/micro-cases/which-share-would-you-sell.html)
+
+**Optional comparison.** What evidence would distinguish a preference from the effect of a default? [ECO-29 · The default stays. Is it the preferred choice?](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html)
 
 
 <details class="full-course-detail"><summary>Size a trade from the collateral buffer</summary><p>In the lesson’s convergence trade, the interim loss is 10 per pair. If a collateral buffer of 6 is dedicated to this trade and quantities are divisible, it supports at most 0.6 pairs against that stress scenario before fees. If only whole pairs trade, the buffer is insufficient even for one pair. Use the broker’s actual margin rules before sizing an order.</p></details>

@@ -7,7 +7,7 @@ sectionname: Cases
 kicker: Companion case collection
 ---
 
-Use the discussion question as your assignment. Give your recommendation, cite one fact from the case, and name the assumption that would change your call. All assignments use our Micro Cases collection. Choose a seminar below or find a practice case for any of the 29 chapters. [Browse the collection](https://kochiuyu.github.io/micro-cases/index.html)
+Use the discussion question as your assignment. Give your recommendation, cite one fact from the case, and name the assumption that would change your call. All assignments use our Micro Cases collection. Choose a seminar below or find a practice case for any of the 29 chapters. Where a chapter has an optional comparison, start with its main assignment. [Browse the collection](https://kochiuyu.github.io/micro-cases/index.html)
 
 ```{=html}
 <nav class="section-links" aria-label="Case assignments">
@@ -44,7 +44,8 @@ Use the discussion question as your assignment. Give your recommendation, cite o
 | [7. Why is a recession payoff worth more? (extension)](../chapters/state-prices.html) | [The same forecast. A dearer option? (FIN-45)](https://kochiuyu.github.io/micro-cases/same-forecast-dearer-option.html) | Can an option become more valuable without a higher expected stock payoff? |
 | [8. How much should you put in each fund?](../chapters/portfolio-choice.html) | [Two income streams. One bad month? (FIN-16)](https://kochiuyu.github.io/micro-cases/cash-moves-together.html) | How much protection does a second income stream provide in a bad month? |
 | [9. Which risks command a premium?](../chapters/market-risk.html) | [One company. One hurdle rate? (FIN-15)](https://kochiuyu.github.io/micro-cases/one-company-one-hurdle.html) | Which risks justify using different hurdle rates across projects? |
-| [10. Which holding would you sell?](../chapters/behavioral-finance.html) | [The default stays. Is it the preferred choice? (ECO-29)](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html) | What evidence would distinguish a preference from the effect of a default? |
+| [10. Which holding would you sell?](../chapters/behavioral-finance.html) | [Which share would you sell? (FIN-46)](https://kochiuyu.github.io/micro-cases/which-share-would-you-sell.html) | Should the sale change when only the original purchase prices are swapped, and when does a higher sale cost change the answer? |
+| [10. Which holding would you sell? (optional comparison)](../chapters/behavioral-finance.html) | [The default stays. Is it the preferred choice? (ECO-29)](https://kochiuyu.github.io/micro-cases/still-enrolled-still-preferred.html) | What evidence would distinguish a preference from the effect of a default? |
 
 ## Strategy and contracts
 | Chapter | Micro Case | Discussion question |
@@ -52,7 +53,8 @@ Use the discussion question as your assignment. Give your recommendation, cite o
 | [11. When is moving first worth paying for?](../chapters/strategic-entry.html) | [We will launch if you do. (ECO-17)](https://kochiuyu.github.io/micro-cases/ready-only-if-both-are-ready.html) | Which commitment would make it profitable for the other party to launch? |
 | [12. Who accepts the offer?](../chapters/adverse-selection.html) | [A promise of quality. Costly for whom? (ECO-13)](https://kochiuyu.github.io/micro-cases/promise-costs.html) | What makes a quality signal cheaper for a high-quality seller to send? |
 | [13. How much can the lender safely promise itself?](../chapters/borrower-incentives.html) | [Covered damage. Unchanged behaviour? (ECO-10)](https://kochiuyu.github.io/micro-cases/covered-damage.html) | Which action becomes harder to induce after damage is covered? |
-| [14. Why would shareholders reject a valuable project?](../chapters/debt-equity.html) | [The same ownership. The same exit proceeds? (FIN-29)](https://kochiuyu.github.io/micro-cases/same-ownership-different-exit.html) | How do contractual priorities change the proceeds from an exit? |
+| [14. Why would shareholders reject a valuable project?](../chapters/debt-equity.html) | [Who funds the rescue investment? (FIN-48)](https://kochiuyu.github.io/micro-cases/who-funds-the-rescue-investment.html) | How much of the upgrade cost must the bank cover for both sides to prefer investing? |
+| [14. Why would shareholders reject a valuable project? (optional comparison)](../chapters/debt-equity.html) | [The same ownership. The same exit proceeds? (FIN-29)](https://kochiuyu.github.io/micro-cases/same-ownership-different-exit.html) | How do contractual priorities change the proceeds from an exit? |
 | [15. Quote the next trade](../chapters/dealer-pricing.html) | [A buy order. A higher quote? (FIN-42)](https://kochiuyu.github.io/micro-cases/a-buy-order-a-higher-quote.html) | How should an incoming buy order change the dealer’s next quote? |
 | [16. What is a share worth conditional on receiving it?](../chapters/ipo-auctions.html) | [The highest estimate. The best bid? (ECO-12)](https://kochiuyu.github.io/micro-cases/winning-is-information.html) | What information about the asset does winning the bid reveal? |
 
@@ -61,7 +63,8 @@ Use the discussion question as your assignment. Give your recommendation, cite o
 | --- | --- | --- |
 | [17. Can the bank meet withdrawals?](../chapters/bank-liquidity.html) | [One bank. Two kinds of safety. (FIN-09)](https://kochiuyu.github.io/micro-cases/protected-and-available.html) | When can a protected balance still leave the depositor short of cash? |
 | [18. Who benefits when a firm reduces waste?](../chapters/externalities.html) | [A better private deal. A cost outside the contract? (ECO-30)](https://kochiuyu.github.io/micro-cases/outside-the-quiet-deal.html) | Which cost falls on someone outside the agreement? |
-| [19. Which side of the lending platform needs a subsidy?](../chapters/lending-platforms.html) | [One hundred couriers. One hundred matches? (ECO-05)](https://kochiuyu.github.io/micro-cases/local-matches.html) | Does adding participants create more completed matches? |
+| [19. Which side of the lending platform needs a subsidy?](../chapters/lending-platforms.html) | [Who gets the lending subsidy? (FIN-47)](https://kochiuyu.github.io/micro-cases/who-gets-the-lending-subsidy.html) | Which campaign adds more contribution after screening and acquisition costs, and how many short-term slots have to be ready to fund? |
+| [19. Which side of the lending platform needs a subsidy? (optional comparison)](../chapters/lending-platforms.html) | [One hundred couriers. One hundred matches? (ECO-05)](https://kochiuyu.github.io/micro-cases/local-matches.html) | Does adding participants create more completed matches? |
 | [20. Which payment actually leaves more cash?](../chapters/payments.html) | [The customer paid. Can we make payroll? (FIN-43)](https://kochiuyu.github.io/micro-cases/customer-paid-can-we-make-payroll.html) | Which payment receipts will be usable before the merchant’s deadline? |
 
 ## Valuation and treasury
