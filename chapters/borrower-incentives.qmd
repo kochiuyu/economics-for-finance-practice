@@ -118,7 +118,7 @@ return {rows:[['Borrower payoff with effort',high.toFixed(2)],['Borrower payoff 
   refresh();
 })();
 </script>
-<section id="practice-brief" aria-label="Practice brief"><h2>What if effort costs 12 instead of 9?</h2><details><summary>Check your application</summary><p>The borrower must retain more than 12 ÷ 0.3 = 40 on success to strictly prefer effort. That requires repayment below 100, while covering the advance requires repayment of at least 100.</p></details><p><strong>Transfer to a Micro Case.</strong> Which action becomes harder to induce once a loss is covered? <a href="https://kochiuyu.github.io/micro-cases/covered-damage.html">Covered damage. Unchanged behaviour?</a></p></section>
+<section id="practice-brief" aria-label="Practice brief"><h2>What if effort costs 12 instead of 9?</h2><details><summary>Check your application</summary><p>The borrower must retain more than 12 ÷ 0.3 = 40 on success to strictly prefer effort. That requires repayment below 100, while covering the advance requires repayment of at least 100.</p></details><p><strong>Apply the model.</strong> Which repayment gives the borrower a reason to do the extra work while still letting the lender break even? <a href="https://kochiuyu.github.io/micro-cases/tougher-loan-collect-less.html">FIN-49 · When does a tougher loan collect less?</a></p><p><strong>Optional comparison.</strong> Which action becomes harder to induce once a loss is covered? <a href="https://kochiuyu.github.io/micro-cases/covered-damage.html">Covered damage. Unchanged behaviour?</a></p></section>
 ```
 
 

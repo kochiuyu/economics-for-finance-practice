@@ -57,7 +57,9 @@ The allocation-weighted value is (100 × 80 + 25 × 120) / 125 = **88**. A risk-
 <section aria-label="Practice brief"><h2>What evidence would you request before submitting an IPO order?</h2><details><summary>Compare your recommendation</summary><p>Decline at 95 under the stated allocation rule. The desk expects to receive four times as many shares in a weak deal as in a strong one. That makes 88 the break-even offer price if the fills stay fixed. To reconsider at 95, ask whether comparable strong deals filled at least 60 shares for every 100 filled in weak deals. Exactly 60 covers the expected loss before fees.</p></details></section>
 ```
 
-**Apply the model.** What information about the asset does winning the bid reveal? [ECO-12 · The highest estimate. The best bid?](https://kochiuyu.github.io/micro-cases/winning-is-information.html)
+**Apply the model.** How does the number of shares actually allotted change the break-even offer price? [FIN-50 · Is a big IPO allocation good news?](https://kochiuyu.github.io/micro-cases/big-ipo-allocation-good-news.html)
+
+**Optional comparison.** What information about the asset does winning the bid reveal? [ECO-12 · The highest estimate. The best bid?](https://kochiuyu.github.io/micro-cases/winning-is-information.html)
 
 
 <details class="full-course-detail"><summary>Map the required strong-issue allocation at a different offer price</summary><p>With 100 shares in the weak outcome, equal outcome probabilities, and price P between 80 and 120, break-even requires strong-issue allocation of at least 100(P − 80) ÷ (120 − P). At a price of 90 this is 33⅓ shares, so 34 whole shares are needed for a positive result. Treat the allocation as an assumption that may move with the price.</p></details>

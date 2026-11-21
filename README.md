@@ -4,7 +4,7 @@ A self-paced public course by Chiu Yu Ko, developed from FINA 6282 at The Chines
 
 ## Public course edition
 
-The course assigns five seminars and 33 applications spanning all 29 chapters from [our Micro Cases collection](https://kochiuyu.github.io/micro-cases/index.html). See the [case teaching guide](cases/micro-cases.qmd). Develop future case readings in the Micro Cases repository and link to their published pages.
+The course assigns five seminars and 35 applications spanning all 29 chapters from [our Micro Cases collection](https://kochiuyu.github.io/micro-cases/index.html). See the [case teaching guide](cases/micro-cases.qmd). Develop future case readings in the Micro Cases repository and link to their published pages.
 
 The curriculum includes 29 chapters, two evidence workshops and the Shenzhen evidence memo.
 
