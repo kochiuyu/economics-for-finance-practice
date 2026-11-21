@@ -93,6 +93,12 @@ In the consumption model from the lecture, marginal utility is high when consump
 </section>
 ```
 
+## Apply it to a Micro Case
+
+Why can two equally likely payouts have different market values? [FIN-41 · Protection when the portfolio falls](https://kochiuyu.github.io/micro-cases/protection-when-the-portfolio-falls.html)
+
+Can an option become more valuable without a higher expected stock payoff? [FIN-45 · The same forecast. A dearer option?](https://kochiuyu.github.io/micro-cases/same-forecast-dearer-option.html)
+
 **Teaching source.** Week 3 derives the consumption-based asset-pricing equation. The two traded securities and the replication exercise are new.
 
 ```{=html}

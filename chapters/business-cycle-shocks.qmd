@@ -62,6 +62,10 @@ A firm can lose demand while the economy faces a supply disruption. Ask which bo
 
 <details class="full-course-detail"><summary>Identify a second shock when prices barely move</summary><p>Combine a fall in demand with a loss of supply. Both reduce equilibrium quantity, but they push the price in opposite directions. Little price movement is therefore consistent with a sharp shipment decline. Compare cancellations and new orders with usable machine hours, inventory, and delivery delays before financing a sales campaign or new capacity.</p></details>
 
+## Apply it to a Micro Case
+
+Does the evidence point to weak demand or a supply constraint? [ECO-43 · The shelves are empty. Where did sales go?](https://kochiuyu.github.io/micro-cases/empty-shelves-where-did-sales-go.html)
+
 **Teaching source.** Weeks 8–9 introduce aggregate demand, supply, and adjustment. The paired order books are new illustrative exhibits.
 
 ```{=html}

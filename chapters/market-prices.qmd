@@ -65,6 +65,10 @@ Suppose reported earnings rose from HK$8 to HK$9 per share. If the market expect
 
 <details class="full-course-detail"><summary>How much of the move can a rate change explain?</summary><p>Use yesterday’s HK$110 expected payment in both valuations first. At an 8% required return, it would be worth HK$101.85. A price of HK$105 at that same rate implies HK$113.40 of expected payment. This gives one decomposition, conditional on using 8% as the new required return. Use a comparable claim with similar risk and maturity to defend that assumption.</p></details>
 
+## Apply it to a Micro Case
+
+How much of the share-price move can the contract actually explain? [ECO-41 · The shares jumped. What changed?](https://kochiuyu.github.io/micro-cases/shares-jumped-what-changed.html)
+
 **Teaching source.** Week 1 develops market clearing, financial institutions, and the efficient-market hypothesis. The results-day calculations are illustrative.
 
 ```{=html}

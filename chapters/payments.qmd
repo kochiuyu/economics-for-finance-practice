@@ -44,6 +44,10 @@ Suppose that in 1% of cases the redemption pays only 90% of the balance, and oth
 
 <details class="full-course-detail"><summary>Put payroll and settlement on the same cash schedule</summary><p>An expected settlement value helps rank the options only after the merchant can meet tomorrow’s payroll. Record bank cash available on the payroll date, the amount the bank will advance against the balance, and fees and interest on the bridge. Convert only the incremental bridge cost to today’s value and deduct it from the delayed option when comparing the two.</p></details>
 
+## Apply it to a Micro Case
+
+Which payment receipts will be usable before the merchant’s deadline? [FIN-43 · The customer paid. Can we make payroll?](https://kochiuyu.github.io/micro-cases/customer-paid-can-we-make-payroll.html)
+
 **Teaching source.** Week 7 on payments and transaction incentives.
 
 [Return to platform participation](lending-platforms.html)

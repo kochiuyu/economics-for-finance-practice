@@ -123,6 +123,10 @@ return {rows:[['Confirmed-order savings after fee',usd(saving)],['Savings if rep
 
 <details class="full-course-detail"><summary>State the volume assumption behind a per-unit burden</summary><p>The US$9.60 split applies to a unit still sold at the new prices. Multiply by the new sales quantity to estimate the associated cash flows. Separately account for units that no longer sell and the margins each party would have earned on them. That distinguishes the per-unit incidence from the change in total profit.</p></details>
 
+## Apply it to a Micro Case
+
+Which sourcing offer leaves more contribution after tariffs, quantity changes and qualification costs? [ECO-45 · A tariff discount. On how many units?](https://kochiuyu.github.io/micro-cases/tariff-discount-how-many-units.html)
+
 **Teaching source.** Week 10 and the trade-war case. All duties and prices are hypothetical.
 
 [Hedge the baseline invoice](currency-hedging.html)

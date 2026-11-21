@@ -101,6 +101,10 @@ An actual desk may also charge for inventory risk or processing. To assess wheth
 </section>
 ```
 
+## Apply it to a Micro Case
+
+How should an incoming buy order change the dealer’s next quote? [FIN-42 · A buy order. A higher quote?](https://kochiuyu.github.io/micro-cases/a-buy-order-a-higher-quote.html)
+
 **Teaching source.** The sequential-trading example comes from Week 6 of the original course. The model follows Lawrence Glosten and Paul Milgrom (1985). [Article and bibliographic details](https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders)
 
 ```{=html}

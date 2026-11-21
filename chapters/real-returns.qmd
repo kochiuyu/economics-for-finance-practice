@@ -59,6 +59,10 @@ GDP measures domestic value added over a period. A year-end stock of inventories
 
 <details class="full-course-detail"><summary>Translate a real return target into a deposit quote</summary><p>To deliver 2% real growth with 6% inflation, the account must turn HK$1 into enough cash to buy 1.02 times the original basket. The nominal gross return is 1.02 × 1.06 = 1.0812. A quote of 8.12% meets the target in this scenario. Repeat the calculation for the inflation rate you would stress, using the spending basket that matters to the depositor.</p></details>
 
+## Apply it to a Micro Case
+
+Which price index supports a claim that retail sales volume increased? [ECO-42 · Record takings. More sold?](https://kochiuyu.github.io/micro-cases/record-takings-more-sold.html)
+
 **Teaching source.** Week 8 introduces national accounts, inflation, and the Fisher relation. Sales, deposit, and price series in this example are illustrative.
 
 ```{=html}
